@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (bermuda)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link rel="self" href="http://swfiua.github.io/80days/categories/bermuda.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 29 Jun 2015 19:49:30 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>D Bermuda Pi</title><link>http://swfiua.github.io/80days/posts/d-bermuda-pi.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (bermuda)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link rel="self" href="http://swfiua.github.io/80days/categories/bermuda.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 29 Jun 2015 21:23:35 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>D Bermuda Pi</title><link>http://swfiua.github.io/80days/posts/d-bermuda-pi.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -42,7 +42,7 @@ so much innovation and change in current times.&lt;/p&gt;
 &lt;p&gt;Throughout my life technological change has created a lot of wonderful
 things.  At the same time, humanity and social systems are struggling
 to keep pace with this change.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://swfiua.github.io/80days/posts/d-bermuda-pi.html"&gt;STEAM&lt;/a&gt; adds the Arts into STEM.  Making the Bermuda (\pi) a STEAM
+&lt;p&gt;&lt;a href="http://swfiua.github.io/80days/posts/d-bermuda-pi.html"&gt;STEAM&lt;/a&gt; adds the Arts into STEM.  Making the Bermuda $\pi$ a STEAM
 powered event seems a natural choice, as the event can then embrace
 Bermudian culture in general.&lt;/p&gt;
 &lt;p&gt;At the same time, a hurricane can be viewed as a giant steam engine.
@@ -369,7 +369,7 @@ number by and leave it unchanged.&lt;/p&gt;
 &lt;p&gt;And there is 0.  The special number you can add to anything and leave it unchanged.&lt;/p&gt;
 &lt;p&gt;The equation is known as &lt;a href="https://en.wikipedia.org/wiki/Euler%27s_identity"&gt;Euler's identity&lt;/a&gt;:&lt;/p&gt;
 $$ e^{i\pi} + 1 = 0 $$&lt;p&gt;As this would be the first Bermuda $\pi$ it would:&lt;/p&gt;
-&lt;h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$"&gt;Bermuda $\pi$ Number 1 = $-e^{i\pi}$&lt;a class="anchor-link" href="http://swfiua.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make in number one, every year.&lt;/p&gt;
+&lt;h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$"&gt;Bermuda $\pi$ Number 1 = $-e^{i\pi}$&lt;a class="anchor-link" href="http://swfiua.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make it number one, every year.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
