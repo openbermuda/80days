@@ -9,14 +9,6 @@
   <lastmod>2015-06-29</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/angular-django-python-80days.xml</loc>
-  <lastmod>2015-04-15</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/angular-javascript-django-80days.xml</loc>
-  <lastmod>2015-04-15</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://swfiua.github.io/80days/categories/angular.xml</loc>
   <lastmod>2015-06-29</lastmod>
  </sitemap>
@@ -27,14 +19,6 @@
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/awesome.xml</loc>
   <lastmod>2015-06-29</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/bermuda-bus-ottawa-sufc.xml</loc>
-  <lastmod>2015-04-15</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/bermuda-music-awesome.xml</loc>
-  <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/bermuda.xml</loc>
@@ -53,10 +37,6 @@
   <lastmod>2015-06-29</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/django-python.xml</loc>
-  <lastmod>2015-04-15</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://swfiua.github.io/80days/categories/django.xml</loc>
   <lastmod>2015-06-29</lastmod>
  </sitemap>
@@ -67,10 +47,6 @@
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/ferry.xml</loc>
   <lastmod>2015-06-29</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/football-sufc-blades.xml</loc>
-  <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/football.xml</loc>
@@ -89,24 +65,12 @@
   <lastmod>2015-06-29</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/javascript-angular-django.xml</loc>
-  <lastmod>2015-04-15</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://swfiua.github.io/80days/categories/javascript.xml</loc>
   <lastmod>2015-06-29</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/kindling-python-github.xml</loc>
-  <lastmod>2015-04-15</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://swfiua.github.io/80days/categories/kindling.xml</loc>
   <lastmod>2015-06-29</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/linux-raspberry-pi-chewstick.xml</loc>
-  <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/linux.xml</loc>
@@ -133,10 +97,6 @@
   <lastmod>2015-06-29</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/python-montreal.xml</loc>
-  <lastmod>2015-04-15</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://swfiua.github.io/80days/categories/python.xml</loc>
   <lastmod>2015-06-29</lastmod>
  </sitemap>
@@ -147,10 +107,6 @@
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/spittal-pond.xml</loc>
   <lastmod>2015-06-29</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://swfiua.github.io/80days/categories/sufc-football-bermuda.xml</loc>
-  <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/sufc-sens.xml</loc>
