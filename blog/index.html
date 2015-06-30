@@ -463,6 +463,94 @@ better than it is found.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Around-the-world-in-80-days">Around the world in 80 days<a class="anchor-link" href="../posts/d-bermuda-pi.html#Around-the-world-in-80-days">¶</a>
+</h4>
+<p>This blog started as a blog for an idea to create an *Around the world
+in 80 days* idea, to run little competitions where people get miles
+(or kilometers) for activities.  The idea is to see how far round the
+world you can get in 80 days, with fun twists along the way.
+One idea was to do an <em>Around Bermuda on Bermuda Bus and Ferry</em>
+competition.  I learnt a lot on the project, but never quite got it
+out of the door.  But that is another story.</p>
+<p>There is a version still limping along on heroku: <a href="https://tonzone80days.herokuapp.com/">https://tonzone80days.herokuapp.com/</a></p>
+<p>Kudos to heroku.  I have a half build project running there, haven't
+checked it in ages and boom it springs into life.</p>
+<p>There are some other pieces coming together that might make the bus
+thing viable in the near future, just needs a bit of time applied to
+it.</p>
+<p>One thing that I found useful in the project was thinking in an 80 day
+time horizon.  So I was curious about what date is 80 days before 10th
+October 2015, the date for the start of the Bermuda $\pi$.</p>
+<p>Hitting <em>Home</em> on the <a href="https://tonzone80days.herokuapp.com/">https://tonzone80days.herokuapp.com/</a> shows me this:</p>
+<p>Jun 29, 2015 is today's date</p>
+<p>Sep 17, 2015 is 80 days from today</p>
+<p>Apr 10, 2015 was 80 days ago</p>
+<p>So time for a little python.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># lets see what python says</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="n">bermuda_pi_start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+
+<span class="n">eighty_days_before_start</span> <span class="o">=</span> <span class="n">bermuda_pi_start</span> <span class="o">+</span> <span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=-</span><span class="mi">80</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">eighty_days_before_start</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2015-07-22
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">So</span> <span class="n">things</span> <span class="n">need</span> <span class="n">to</span> <span class="n">get</span> <span class="n">started</span> <span class="n">on</span> <span class="n">July</span> <span class="mi">22</span><span class="n">nd</span> <span class="mi">2015</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$2015^{{10}^2}$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="What's-this-*Number-$-e^{i\pi}$-thing-about?">What's this *Number $-e^{i\pi}$ thing about?<a class="anchor-link" href="../posts/d-bermuda-pi.html#What's-this-*Number-%24-e%5E%7Bi%5Cpi%7D%24-thing-about?">¶</a>
 </h4>
 <p>There is a wonderful equation in mathematics that links some of the key
