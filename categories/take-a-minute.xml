@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (take a minute)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/take-a-minute.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sixty-seven Minutes</title><link>http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (take a minute)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/take-a-minute.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:56:54 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sixty-seven Minutes</title><link>http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -55,6 +55,20 @@ freedom, justice and democracy.  They say:&lt;/p&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;There are others planning events, I will try to post details here.&lt;/p&gt;
 &lt;p&gt;I am thinking of going to different events and doing &lt;em&gt;sixty-seven minutes of pi&lt;/em&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Mandela often spoke of Ubuntu:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Ubuntu does not mean that people should not enrich themselves. The
+question therefore is: Are you going to do so in order to enable the
+community around you to be able to improve?&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
