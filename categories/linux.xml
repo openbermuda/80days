@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (linux)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://swfiua.github.io/80days/categories/linux.xml"></atom:link><language>en</language><lastBuildDate>Wed, 01 Jul 2015 21:23:13 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pi Day at Chewstick</title><link>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (linux)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/linux.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pi Day at Chewstick</title><link>http://openbermuda.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
 &lt;p&gt;March 14th has become known as &lt;a class="reference external" href="http://www.piday.org/"&gt;Pi Day&lt;/a&gt;, on account of the fact that
 the first three digits of the mathematical constant pi.&lt;/p&gt;
 &lt;p&gt;This year it is extra special, since the next two digits are 15, which
@@ -11,7 +11,7 @@ is hosting a &lt;a class="reference external" href="http://www.raspberrypi.org/p
 charger. We will be making videos of people performing, playing games
 etc, so bring your camera, SD card, instruments to contribute your
 content as we build a Raspberry Pi media centre.&lt;/p&gt;
-&lt;img alt="../galleries/RaspberryPi/raspberry.jpg" src="http://swfiua.github.io/80days/galleries/RaspberryPi/raspberry.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;img alt="../galleries/RaspberryPi/raspberry.jpg" src="http://openbermuda.github.io/80days/galleries/RaspberryPi/raspberry.jpg" style="width: 400px; height: 300px;"&gt;
 &lt;p&gt;We will also have a retro games console running on a pi.&lt;/p&gt;
 &lt;p&gt;The plan is to start the event at 9:26:53am and run with it until
 9:26:53pm.&lt;/p&gt;
@@ -20,7 +20,7 @@ to host the operating system.&lt;/p&gt;
 &lt;p&gt;I have one pi running the &lt;a class="reference external" href="http://kodi.tv/"&gt;Kodi&lt;/a&gt; media centre that I hope to add some
 &lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt; and Bermuda content to.  The image below shows Kodi
 displaying the Bermuda weather.&lt;/p&gt;
-&lt;img alt="../galleries/RaspberryPi/weather_pi.jpg" src="http://swfiua.github.io/80days/galleries/RaspberryPi/weather_pi.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;img alt="../galleries/RaspberryPi/weather_pi.jpg" src="http://openbermuda.github.io/80days/galleries/RaspberryPi/weather_pi.jpg" style="width: 400px; height: 300px;"&gt;
 &lt;p&gt;I have another pi running a retro games console and a third running
 the &lt;a class="reference external" href="http://www.raspbian.org/"&gt;Raspian&lt;/a&gt; operating system.&lt;/p&gt;
 &lt;p&gt;There is no need to bring anything but yourself to the event, but if
@@ -34,7 +34,7 @@ bring them along too.&lt;/p&gt;
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>chewstick</category><category>linux</category><category>raspberry pi</category><guid>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</guid><pubDate>Thu, 12 Mar 2015 15:14:01 GMT</pubDate></item><item><title>I met Bill's Gates and got the t-shirt</title><link>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Those who know me probably think that Bill Gates is not exactly on my
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>chewstick</category><category>linux</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/pi-day-at-chewstick.html</guid><pubDate>Thu, 12 Mar 2015 15:14:01 GMT</pubDate></item><item><title>I met Bill's Gates and got the t-shirt</title><link>http://openbermuda.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Those who know me probably think that Bill Gates is not exactly on my
 top ten list of people I would like to meet.&lt;/p&gt;
 &lt;p&gt;I've been an free and open software enthusiast for longer than I care
 to remember.  Let's just say that over the years Bill hasn't exactly
@@ -76,10 +76,10 @@ been some alcohol involved, so details are a little blurry.  But the
 gist was he was founder member of "BFBC".  The F is along the same
 lines as the f in swfiua.  So it was "Bill's F* Boat Club".&lt;/p&gt;
 &lt;p&gt;Clearly, this was my chance to be photographed with the man himself:&lt;/p&gt;
-&lt;img alt="../galleries/Gates/Me%20with%20Bill's%20Gates.jpg" src="http://swfiua.github.io/80days/galleries/Gates/Me%20with%20Bill's%20Gates.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;img alt="../galleries/Gates/Me%20with%20Bill's%20Gates.jpg" src="http://openbermuda.github.io/80days/galleries/Gates/Me%20with%20Bill's%20Gates.jpg" style="width: 300px; height: 400px;"&gt;
 &lt;p&gt;I can report that Bill was a fine upstanding character and was even
 kind enough to give me one of his t-shirts:&lt;/p&gt;
-&lt;img alt="../galleries/Gates/i_got_the_t_shirt.jpg" src="http://swfiua.github.io/80days/galleries/Gates/i_got_the_t_shirt.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;img alt="../galleries/Gates/i_got_the_t_shirt.jpg" src="http://openbermuda.github.io/80days/galleries/Gates/i_got_the_t_shirt.jpg" style="width: 300px; height: 400px;"&gt;
 &lt;p&gt;Now in case you haven't heard Bermuda has been chosen as the venue for
 the &lt;a class="reference external" href="http://www.americascup.com/en/news/131_Bermuda-is-the-home-of-the-2017-America-s-Cup.html"&gt;2017 America's Cup&lt;/a&gt;.  There is quite a bit of excitement about
 the island due to this.  Maybe BFBC will enter the race :)&lt;/p&gt;
@@ -88,7 +88,7 @@ birthdays.&lt;/p&gt;
 &lt;p&gt;I have been on a bit of a Springsteen kick that last week or so,
 something to do with starting to learn some tunes from my "Bruce
 Springsteen easy guitar":&lt;/p&gt;
-&lt;img alt="../galleries/Springsteen/Springsteen.jpg" src="http://swfiua.github.io/80days/galleries/Springsteen/Springsteen.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;img alt="../galleries/Springsteen/Springsteen.jpg" src="http://openbermuda.github.io/80days/galleries/Springsteen/Springsteen.jpg" style="width: 300px; height: 400px;"&gt;
 &lt;p&gt;Ace girl asked Uncle if he would play some.  And in light of the giant
 killings in the FA Cup and with the hope of more to come from the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Red
 and White Wizards&lt;/a&gt; it was appropriate that he should choose &lt;a class="reference external" href="https://www.youtube.com/watch?v=6vQpW9XRiyM"&gt;Glory Days&lt;/a&gt;.&lt;/p&gt;
@@ -99,7 +99,7 @@ and White Wizards&lt;/a&gt; it was appropriate that he should choose &lt;a class
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>linux</category><category>music</category><guid>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</guid><pubDate>Sun, 25 Jan 2015 22:22:58 GMT</pubDate></item><item><title>Adventures in distro land..</title><link>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;We had a friend over the other evening.  I have a home full of half
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>linux</category><category>music</category><guid>http://openbermuda.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</guid><pubDate>Sun, 25 Jan 2015 22:22:58 GMT</pubDate></item><item><title>Adventures in distro land..</title><link>http://openbermuda.github.io/80days/posts/adventures-in-distro-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;We had a friend over the other evening.  I have a home full of half
 working tech.  Stuff that really could do something, given enough
 time.&lt;/p&gt;
 &lt;p&gt;A lot of my techy stuff has been neglected for a few years, so it is
@@ -158,4 +158,4 @@ I learnt back in the day still applies.  It led me through the install
 with just enough information to make an informed decision about the
 questions.  It guided pretty well, hinting which way I should go.&lt;/p&gt;
 &lt;p&gt;As of now I am yet to actually get it serving up the music, so this
-will most likely not be the last distro related posting.&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</guid><pubDate>Tue, 16 Dec 2014 00:19:11 GMT</pubDate></item></channel></rss>
+will most likely not be the last distro related posting.&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://openbermuda.github.io/80days/posts/adventures-in-distro-land.html</guid><pubDate>Tue, 16 Dec 2014 00:19:11 GMT</pubDate></item></channel></rss>

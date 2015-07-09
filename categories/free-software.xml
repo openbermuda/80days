@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (free software)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://swfiua.github.io/80days/categories/free-software.xml"></atom:link><language>en</language><lastBuildDate>Wed, 01 Jul 2015 21:23:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Future proof your organisation with free software</title><link>http://swfiua.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago I was hoping to be able to listen to a Bermuda
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (free software)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/free-software.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Future proof your organisation with free software</title><link>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago I was hoping to be able to listen to a Bermuda
 Parliament debate via the Hansard site.&lt;/p&gt;
 &lt;p&gt;I was actually unable to find a stream for the debates.  Further
 enquiries revealed it does exist, but the streaming uses Microsoft's
@@ -13,7 +13,7 @@ I will be using government as an example, but you could substitute
 &lt;ul class="simple"&gt;
 &lt;li&gt;Government has a problem to solve, in this case streaming recordings
 of parliamentary debates.&lt;/li&gt;
-&lt;li&gt;Government hires a consultant &lt;a class="footnote-reference" href="http://swfiua.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id2" id="id1"&gt;[1]&lt;/a&gt;  to implement a solution:&lt;ul&gt;
+&lt;li&gt;Government hires a consultant &lt;a class="footnote-reference" href="http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id2" id="id1"&gt;[1]&lt;/a&gt;  to implement a solution:&lt;ul&gt;
 &lt;li&gt;the consultant chooses the technology stack&lt;/li&gt;
 &lt;li&gt;government workers lack time, resources and skills to understand the
 choices the consultant is making.  This problem is exacerbated by
@@ -117,7 +117,7 @@ their ancient Flash technology.&lt;/p&gt;
 &lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="http://swfiua.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;I say &lt;em&gt;consultant&lt;/em&gt; but it could be any vendor offering a solution.&lt;/p&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;I say &lt;em&gt;consultant&lt;/em&gt; but it could be any vendor offering a solution.&lt;/p&gt;
 &lt;p&gt;I don't mean to bash consultants, there are some excellent ones out
 there, I am planning to be one myself.&lt;/p&gt;
 &lt;p&gt;Consultant's work pattern should be to come to an organisation,
@@ -132,4 +132,4 @@ themselves.&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>.NET</category><category>free software</category><category>moonlight</category><category>silverlight</category><guid>http://swfiua.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</guid><pubDate>Wed, 01 Jul 2015 20:52:03 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>.NET</category><category>free software</category><category>moonlight</category><category>silverlight</category><guid>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</guid><pubDate>Wed, 01 Jul 2015 20:52:03 GMT</pubDate></item></channel></rss>
