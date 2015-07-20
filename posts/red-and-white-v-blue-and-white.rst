@@ -102,7 +102,7 @@ the game was not decided by this bizarre incident.
 I read today that the Cleveland coach was very unhappy with his sides
 behaviour, perhaps he will follow Wenger's example and ask for the
 game to be replayed.  However, that might not be possible given the
-busy summer cricket schedule here in Bermuda, with Cup Match [#1] less than
+busy summer cricket schedule here in Bermuda, with Cup Match [1] less than
 two weeks away this might not be an option.
 
 Today's Royal Gazette has a full page `editorial`_ on the game.  There
@@ -114,5 +114,5 @@ It is never dull following the Red and White wizards.
 
 .. _stripped of the cup: http://www.royalgazette.com/article/20150720/SPORT02/150729960   
 
-.. [#1] Cup match is a two day game between the Red and Blue of
+.. [1] Cup match is a two day game between the Red and Blue of
         Somerset and the dark and light blue of St Georges.  
