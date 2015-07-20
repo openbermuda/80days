@@ -5,48 +5,12 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://openbermuda.github.io/80days/2014/11/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
-  <loc>http://openbermuda.github.io/80days/2014/12/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
   <loc>http://openbermuda.github.io/80days/2014/index.html</loc>
   <lastmod>2015-07-19</lastmod>
  </url>
  <url>
-  <loc>http://openbermuda.github.io/80days/2015/01/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
-  <loc>http://openbermuda.github.io/80days/2015/02/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
-  <loc>http://openbermuda.github.io/80days/2015/03/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
-  <loc>http://openbermuda.github.io/80days/2015/04/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
-  <loc>http://openbermuda.github.io/80days/2015/05/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
-  <loc>http://openbermuda.github.io/80days/2015/06/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
-  <loc>http://openbermuda.github.io/80days/2015/07/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
- </url>
- <url>
   <loc>http://openbermuda.github.io/80days/2015/index.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/archive.html</loc>
@@ -54,175 +18,179 @@
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/blog/index-1.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/blog/index-2.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/blog/index-3.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/blog/index.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/67.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/80days.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/angular.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/art.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/awesome.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/bermuda.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/blades.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/bus.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
+ </url>
+ <url>
+  <loc>http://openbermuda.github.io/80days/categories/cat_bermuda-cricket-blades.html</loc>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/chewstick.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/django.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/education.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/ferry.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/football.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/free-software.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/gardening.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/github.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/giving.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/hackathon.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/index.html</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/javascript.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/kindling.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/linux.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/mandela.html</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/montreal.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/moonlight.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/music.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/net.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/open-source.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/ottawa.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/pi.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/pycon.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/python.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/raspberry-pi.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/silverlight.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/spittal-pond.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/sufc-sens.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/sufc.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/take-a-minute.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/categories/transit.html</loc>
-  <lastmod>2015-07-19</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/galleries/Bermuda/index.html</loc>
@@ -329,6 +297,10 @@
   <lastmod>2015-07-09</lastmod>
  </url>
  <url>
+  <loc>http://openbermuda.github.io/80days/posts/cricket.html</loc>
+  <lastmod>2015-07-20</lastmod>
+ </url>
+ <url>
   <loc>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</loc>
   <lastmod>2015-07-09</lastmod>
  </url>
@@ -393,6 +365,10 @@
   <lastmod>2015-07-09</lastmod>
  </url>
  <url>
+  <loc>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</loc>
+  <lastmod>2015-07-20</lastmod>
+ </url>
+ <url>
   <loc>http://openbermuda.github.io/80days/posts/references.html</loc>
   <lastmod>2015-07-09</lastmod>
  </url>
@@ -402,7 +378,7 @@
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-20</lastmod>
  </url>
  <url>
   <loc>http://openbermuda.github.io/80days/posts/star-trek-universal-translator.html</loc>
