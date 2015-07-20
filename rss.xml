@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://openbermuda.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 20 Jul 2015 22:11:33 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Red and White v Blue and White</title><link>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last Saturday there was a big cricket match at Lord's.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 20 Jul 2015 22:14:12 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Red and White v Blue and White</title><link>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last Saturday there was a big cricket match at Lord's.&lt;/p&gt;
 &lt;p&gt;Not the Lord's where England were falling apart as the Aussies were
 dominating the second test, but Lord's in St David's, Bermuda.&lt;/p&gt;
 &lt;p&gt;Bailey's Bay were playing Cleveland County in what is known as the
@@ -8,7 +8,7 @@ Eastern Counties.&lt;/p&gt;
 are blue and white.&lt;/p&gt;
 &lt;p&gt;I come from Sheffield, UK, a city divided between the blue and white
 of the Owls and the red and white of the Mighty Blades.  I follow the
-Blades, so it was natural for me to be cheering for Bailley's Bay.&lt;/p&gt;
+Blades, so it was natural for me to be cheering for Bailey's Bay.&lt;/p&gt;
 &lt;p&gt;We had a slow start to the day and it was a long (for Bermuda) ride on
 the moped to St David's, so we didn't get to the ground until just
 before lunch.&lt;/p&gt;
