@@ -6,6 +6,7 @@
 .. link: 
 .. description: A day at Lord's
 .. type: text
+
 Last Saturday there was a big cricket match at Lord's.
 
 Not the Lord's where England were falling apart as the Aussies were
@@ -37,7 +38,7 @@ The game was nicely poised, with Cleveland batting first and on about
 80 runs for 4 wickets at lunch.
 
 After lunch the Bay bowlers dominated and Cleveland were bowled out
-for 127 in 45 overs.
+for 127 in 49.3 overs.
 
 .. image:: ../galleries/EasternCounties/20150718_151601.jpg
    :width:  400
@@ -84,8 +85,8 @@ The batsmen were finding it difficult to get into any sort of rhythm
 and first ball after the break a wicket fell.
 
 After this wickets fell steadily, but Bay always looked like they
-would make it.  Until, at 7:20pm, with the scores tied and Bay with
-just 2 wickets remaining the umpires declared the game over.
+would make it.  Until, after 30 overs, with the scores tied and Bay
+with just 2 wickets remaining the umpires declared the game over.
 
 With the scores tied, Cleveland, as holders, were declared winners.
 
