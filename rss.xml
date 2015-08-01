@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" href="http://openbermuda.github.io/80days/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 21 Jul 2015 00:01:10 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Red and White v Blue and White</title><link>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last Saturday there was a big cricket match at Lord's.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://openbermuda.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 01 Aug 2015 23:32:20 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The raspberry pi super computer</title><link>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The raspberry pi 2 comes with around 6 times the processing power of
+the original pi.&lt;/p&gt;
+&lt;p&gt;It is still fairly low powered, but it is interesting to compare the
+pi with some older computers that were considered powerful in their
+day.&lt;/p&gt;
+&lt;p&gt;The pi comes with an ARM 7, quad-core processor.  It also has a
+Broadcom graphics processor that can potentially be used for compute
+intensive work.&lt;/p&gt;
+&lt;p&gt;It also comes with 1GB of memory.&lt;/p&gt;
+&lt;p&gt;For disk storage the nornal approach is to use a micro SD card.  There
+are 16GB cards that give 45MB/s read/write capability.&lt;/p&gt;
+&lt;p&gt;For less than $1000 you can get 20 pi's, with fast SD cards.  The
+result is a machine with 80 cores, 16GB of memory and 320GB of disk,
+with a combined bandwidth of 900MB/s read and write.&lt;/p&gt;
+&lt;p&gt;These things are low power, so a 20 pi machine would require just 100
+watts of power.&lt;/p&gt;
+&lt;p&gt;It is reasonable to assume that more powerful devices will be
+available in he future.&lt;/p&gt;
+&lt;p&gt;In short, computing power is becoming very, very cheap.&lt;/p&gt;
+&lt;div class="section" id="cray-xmp"&gt;
+&lt;h2&gt;Cray-XMP&lt;/h2&gt;
+&lt;p&gt;To give some indication of how cheap compute power has become, this
+&lt;a class="reference external" href="http://vk5tu.livejournal.com/50955.html"&gt;comparison to a Cray-XMP&lt;/a&gt; shows that the older Pi B+ has very
+similar compute power to the Cray-XMP.&lt;/p&gt;
+&lt;p&gt;When you compate the inflation adjusted price tags you see how cheap
+compute power has become.&lt;/p&gt;
+&lt;p&gt;The Pi 2 is roughly six times the power of the B+.  Hence 20 of those
+gives you 120 Cray-XMP's.   For $1000.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="renewable-energy"&gt;
+&lt;h2&gt;Renewable energy&lt;/h2&gt;
+&lt;p&gt;One criticism often directed at renewable energy is that sun, wind and
+wave are not reliable.  In order to reliably meet peak demand much
+it is necessary to have much more capacity than is needed on average.&lt;/p&gt;
+&lt;p&gt;One way to mitigate this cost is to have uses for the spare capacity.&lt;/p&gt;
+&lt;p&gt;One possible use is to have a compute farm to mop up spare capacity.
+This works particularly well if you have long running computations
+that can be used to mop up spare compute cycles.&lt;/p&gt;
+&lt;p&gt;Bitcoin mining is one potential application.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>Cray</category><category>Cray-XMP</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</guid><pubDate>Sat, 01 Aug 2015 22:08:09 GMT</pubDate></item><item><title>Rachel Pi OS</title><link>http://openbermuda.github.io/80days/posts/rachel-pi-os.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;p&gt;Write your post here.&lt;/p&gt;</description><guid>http://openbermuda.github.io/80days/posts/rachel-pi-os.html</guid><pubDate>Wed, 29 Jul 2015 23:42:52 GMT</pubDate></item><item><title>Red and White v Blue and White</title><link>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last Saturday there was a big cricket match at Lord's.&lt;/p&gt;
 &lt;p&gt;Not the Lord's where England were falling apart as the Aussies were
 dominating the second test, but Lord's in St David's, Bermuda.&lt;/p&gt;
 &lt;p&gt;Bailey's Bay were playing Cleveland County in what is known as the
@@ -1329,95 +1368,4 @@ is proven ;)&lt;/p&gt;
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</description><category>sufc sens</category><guid>http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item><item><title>Bermuda 3 Bahamas 0</title><link>http://openbermuda.github.io/80days/posts/bermuda-3-bahamas-0.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This afternoon Bermuda were playing Bahamas in a World Cup qualifier.&lt;/p&gt;
-&lt;p&gt;It was the second leg, but Bermuda, led by Nahki Wells, were already
-5-0 win in the Bahamas last Wednesday.&lt;/p&gt;
-&lt;p&gt;This game hadn't been generally broadcast in Bermuda.  But we had seen
-highlights, and the first many of us knew about the game was via a
-banner that was put out on the TV station.&lt;/p&gt;
-&lt;p&gt;As a long suffering supporter of the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Mighty Blades&lt;/a&gt; I have rarely
-been in the position of being able to go to a game, already 5-0 up.  I
-have also never been to a World Cup game before.&lt;/p&gt;
-&lt;p&gt;So today we set off early to the game on the moped.  The game was a
-sell out, parking was likely to be tricky.  In any case, the build up
-to the game would likely be fun.&lt;/p&gt;
-&lt;p&gt;It was cold.  Not Canada cold, but Bermuda cold.  Cloudy and damp,
-windy and looked like it could rain any minute.  The rain held off.&lt;/p&gt;
-&lt;p&gt;The build up to the game was fun too.  Many in the crowd knew one or
-more of the players well.  There was excitement that we would see a
-few goals, and a slight fear that maybe things could unravel.  And
-there were Gombeys :)&lt;/p&gt;
-&lt;p&gt;Bermuda did dominate the game from start to finish.  The goalkeeper,
-Fredrick Hall, was substited at half-time.  I am guessing that he was
-frozen, as the ball boys had all had a lot more work to do.  It was
-a good time to give his back-up a chance to play, and he at least had
-some saves to make.&lt;/p&gt;
-&lt;p&gt;Nahki Wells won a penalty, then crashed the resulting kick against the
-cross-bar.  This was close to half-time, Bermuda had already had 5-6
-really good chances, but the ball didn't want to go in the net.&lt;/p&gt;
-&lt;p&gt;Earlier Wells had been fouled, about 30 yards out and needed treatment
-from the physio.  He was then made to leave the field, and was not
-able to be there for the free-kick that required the treatment.
-Broken rules?&lt;/p&gt;
-&lt;p&gt;Justi Donawa had what looked like a painful injury to his foot, and
-had to be replaced.&lt;/p&gt;
-&lt;p&gt;Second half was more of the same, but Bermuda were increasingly
-getting the feeling that it was going to end 0-0.  The players felt it
-and the crowd too.&lt;/p&gt;
-&lt;p&gt;Then Nahki Wells broke through and this time made no mistake, 1-0.&lt;/p&gt;
-&lt;p&gt;From this point every time Bermuda went forward, and that was
-frequently, they looked like scoring.  The game ended 3-0.  The Gombey
-Warriors will play Guatemala, away on the 8th of June, at home on the
-16th.&lt;/p&gt;
-&lt;p&gt;Two last things.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;This is a very young Bermuda team.  I heard the average age is
-just 21.&lt;/li&gt;
-&lt;li&gt;The Bahamas also have a young team.  They played a good game today,
-the game flowed, there were lots of entertaining moments.  It can't
-have been easy travelling away already 5-0 down.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It was a great afternoon, two teams, refs and the crowd all played
-their part.  Looking forward to the next games.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>football</category><category>sufc</category><guid>http://openbermuda.github.io/80days/posts/bermuda-3-bahamas-0.html</guid><pubDate>Sun, 29 Mar 2015 22:34:42 GMT</pubDate></item><item><title>Pi Day at Chewstick</title><link>http://openbermuda.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
-&lt;p&gt;March 14th has become known as &lt;a class="reference external" href="http://www.piday.org/"&gt;Pi Day&lt;/a&gt;, on account of the fact that
-the first three digits of the mathematical constant pi.&lt;/p&gt;
-&lt;p&gt;This year it is extra special, since the next two digits are 15, which
-corresponds to the year.  After that, the next five digits of pi are
-9:26:53.&lt;/p&gt;
-&lt;p&gt;To mark the occasion &lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt; at the new premises on 81 Front St
-is hosting a &lt;a class="reference external" href="http://www.raspberrypi.org/pi-day-is-around-the-corner/"&gt;Raspberry Pi Day&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A raspberry pi is a $30 computer (Raspberry Pi) that runs off a phone
-charger. We will be making videos of people performing, playing games
-etc, so bring your camera, SD card, instruments to contribute your
-content as we build a Raspberry Pi media centre.&lt;/p&gt;
-&lt;img alt="../galleries/RaspberryPi/raspberry.jpg" src="http://openbermuda.github.io/80days/galleries/RaspberryPi/raspberry.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;We will also have a retro games console running on a pi.&lt;/p&gt;
-&lt;p&gt;The plan is to start the event at 9:26:53am and run with it until
-9:26:53pm.&lt;/p&gt;
-&lt;p&gt;I have three working raspberry pi's and some SD cards that can be used
-to host the operating system.&lt;/p&gt;
-&lt;p&gt;I have one pi running the &lt;a class="reference external" href="http://kodi.tv/"&gt;Kodi&lt;/a&gt; media centre that I hope to add some
-&lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt; and Bermuda content to.  The image below shows Kodi
-displaying the Bermuda weather.&lt;/p&gt;
-&lt;img alt="../galleries/RaspberryPi/weather_pi.jpg" src="http://openbermuda.github.io/80days/galleries/RaspberryPi/weather_pi.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;I have another pi running a retro games console and a third running
-the &lt;a class="reference external" href="http://www.raspbian.org/"&gt;Raspian&lt;/a&gt; operating system.&lt;/p&gt;
-&lt;p&gt;There is no need to bring anything but yourself to the event, but if
-you do have raspberry pi's or related hardware it would be good to
-bring them along too.&lt;/p&gt;
-&lt;p&gt;All going well, we will also have actual pies to eat too :)&lt;/p&gt;
-&lt;p&gt;For more information see this &lt;a class="reference external" href="https://www.facebook.com/events/1563187683958954/"&gt;facebook&lt;/a&gt; posting.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>chewstick</category><category>linux</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/pi-day-at-chewstick.html</guid><pubDate>Thu, 12 Mar 2015 15:14:01 GMT</pubDate></item></channel></rss>
+</description><category>sufc sens</category><guid>http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item></channel></rss>
