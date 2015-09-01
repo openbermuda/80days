@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" href="http://openbermuda.github.io/80days/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 31 Aug 2015 15:08:28 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Erika, Andrew, Danny and Fred</title><link>http://openbermuda.github.io/80days/posts/erika-andrew-danny-and-fred.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The last few weeks the Atlantic hurricane season has got more active.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://openbermuda.github.io/80days/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 01 Sep 2015 01:06:33 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Fred Update</title><link>http://openbermuda.github.io/80days/posts/fred-update.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Fred formed way in the east of the Atlantic.  I believe it was already
+a hurricane going over the Cape Verde islands.  I was shown pictures
+today of seas damaging a pier.  I have not heard too much more about
+damage.&lt;/p&gt;
+&lt;p&gt;Six years ago, Fred formed around the same area a little further
+south, but did not intensify as fast.  It did become a hurricane, then
+dissipated as it curled, for a short while was heading easterly, then
+got pushed back eastward.  By this time it had fallen apart and it
+did not get organised again.&lt;/p&gt;
+&lt;p&gt;Looking at the discussion of Fred, it is likely to be pulled apart in
+the short term.  Then the track forecasts give a range of
+possibilities.&lt;/p&gt;
+&lt;div class="section" id="bermuda-weather"&gt;
+&lt;h2&gt;Bermuda Weather&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif"&gt;http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="wikipedia"&gt;
+&lt;h2&gt;Wikipedia&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29"&gt;https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29"&gt;https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="national-hurricane-centre"&gt;
+&lt;h2&gt;National Hurricane Centre&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif"&gt;http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>2014</category><category>2015</category><category>fred</category><category>hurricane</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/fred-update.html</guid><pubDate>Tue, 01 Sep 2015 00:41:56 GMT</pubDate></item><item><title>Erika, Andrew, Danny and Fred</title><link>http://openbermuda.github.io/80days/posts/erika-andrew-danny-and-fred.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The last few weeks the Atlantic hurricane season has got more active.&lt;/p&gt;
 &lt;p&gt;Danny never really got started, was blown apart by sheer, but no doubt
 spawned a lot of thunderstorms.&lt;/p&gt;
 &lt;p&gt;Flooding from Erika has resulted in numerous deaths in Domincan
@@ -1336,90 +1360,4 @@ education and it is reaping rewards.&lt;/p&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;p&gt;Another wonderful conference that has, as always, generated a lot of
 exciting ideas for me to pursue.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>montreal</category><category>pycon</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/pycon-2015.html</guid><pubDate>Tue, 14 Apr 2015 13:31:56 GMT</pubDate></item><item><title>Blades and Sens results correlated?</title><link>http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;I have felt for a while that when the Blades win, the Sens also seem
-to do better.  When the Blades lose, the Sens don't do so well.&lt;/p&gt;
-&lt;p&gt;My guess is this is mostly just perspective, but I follow both teams.
-Blades, or Sheffield United, are hoping to get a place in the League 1
-play-offs.  The Sens, or Ottawa Senators, are trying to get into the
-Stanley Playoffs.&lt;/p&gt;
-&lt;p&gt;If you'd asked me at the start of the year, I would have thought being
-about where we are was a distinct possibility.  I still felt we might
-push into the top two.  That would get us up to the Championship
-automatically.&lt;/p&gt;
-&lt;p&gt;The Sens on the other hand appeared to be going nowhere.  Until the
-inevitable sacking of the coach to be replaced by Dave Cameron, who
-was the assistant up to that point.  And for a while nothing changed,
-but then a new goalie was brought in, due to injuries.  Since then
-they have been on a run.&lt;/p&gt;
-&lt;p&gt;The last few games have been just like watching the Blades.  The
-Blades never (well almost never) do it the easy way.  So it is always
-a season of maybe, just waiting for the point where it all unravels.&lt;/p&gt;
-&lt;p&gt;But this Sens run has been different.  They are already way beyond
-what anyone could have hoped for a few months back.  But now they are
-tantalisingly close to a playoffs, with a team that is playing well
-and having fun.  But like the Blades, they've been doing it the hard
-way.  3-0 leads disappearing, coming from behind to go on and win in
-over-time.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Getting-some-data"&gt;Getting some data&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html#Getting-some-data"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;So, there has been a lot going on and my guess is that anything
-that might be in the data will be better explained by major changes such
-as of coaching staff or players.&lt;/p&gt;
-&lt;p&gt;So first problem, getting the data.  I am planning to just get this season's results for both teams and extract the days when they both played, then take a look at how the results lined up.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Yesterday's-games"&gt;Yesterday's games&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html#Yesterday's-games"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The mighty Blades had a key game against local rivals Doncaster.  As
-per usual, they did things the hard way, coming from behind twice to
-end up winners 3-2.&lt;/p&gt;
-&lt;p&gt;That is two big wins over local rivals in a matter of days.  The
-Blades are now firmly in the playoff positions, one more win from the
-last three games might be all that is needed.&lt;/p&gt;
-&lt;p&gt;Another local side, Chesterfield, are looming large.  It feels like
-they will play a part in the rest of our season.  I grew up on the
-Chesterfield side of Sheffield, almost equidistant from the two
-grounds.&lt;/p&gt;
-&lt;p&gt;Meanwhile, the Senators were at home to the Pittsburgh Penguins last
-night, in what really was a must win game.&lt;/p&gt;
-&lt;p&gt;It was also fan appreciation night.  Within 10 seconds of the start
-they were 1-0 down.  By 5 minutes in they were 2-0 down and by the end
-of the first period it was 3-0.  Oh dear.  Sid Crosby on form and the
-young Sens not firing.&lt;/p&gt;
-&lt;p&gt;Second period was a different story.  Sens put the Penguins under
-pressure, but nothing finding the net, until 5 minutes from the end of
-the period.  Pageau managed to sneak one in off one of the Penguin's
-skates.&lt;/p&gt;
-&lt;p&gt;30 seconds into the third period they got a second.  Two minutes from
-time they equalised and then Mark Stone fired in the winner in
-overtime.&lt;/p&gt;
-&lt;p&gt;Now that is what I call a fan appreciation night.&lt;/p&gt;
-&lt;p&gt;Oh, and Blades and Sens both win on the same night, so that hypothesis
-is proven ;)&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-</description><category>sufc sens</category><guid>http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>montreal</category><category>pycon</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/pycon-2015.html</guid><pubDate>Tue, 14 Apr 2015 13:31:56 GMT</pubDate></item></channel></rss>
