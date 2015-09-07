@@ -1,7 +1,7 @@
 .. title: Census Survey
 .. slug: census-survey
 .. date: 2015-09-03 15:07:57 UTC
-.. tags: 
+.. tags: census, free software, bermuda
 .. category: 
 .. link: 
 .. description: Proposal for government census survey using free software
