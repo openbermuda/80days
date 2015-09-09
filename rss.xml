@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://openbermuda.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 09 Sep 2015 17:34:23 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Computing Hermeneutics: let the source be with you.</title><link>http://openbermuda.github.io/80days/posts/computing-hermeneutics.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Someone asked me recently to explain the difference between coding and
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://openbermuda.github.io/80days/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 09 Sep 2015 17:44:55 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Computing Hermeneutics: let the source be with you.</title><link>http://openbermuda.github.io/80days/posts/computing-hermeneutics.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Someone asked me recently to explain the difference between coding and
 programmes, using a suitable analogy.&lt;/p&gt;
 &lt;p&gt;I am not good at short answers, so here is a longer one.&lt;/p&gt;
 &lt;p&gt;The difference between the source code and the programme has changed
@@ -35,7 +35,7 @@ known as the programme.&lt;/p&gt;
 devices such as the Bombes, designed by Alan Turing to crack the
 Enigma codes.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Programming&lt;/em&gt; the Bombes involved manyally setting dials and using
-wires with plugs enter settings for plug boards.&lt;/p&gt;
+wires to enter settings on plug boards.&lt;/p&gt;
 &lt;p&gt;With these devices, the source code and the programme were essentially
 the same thing: the physical settings of the wheels, dials and
 plug-board.&lt;/p&gt;
@@ -68,7 +68,7 @@ challenge in itself.&lt;/p&gt;
 computer actually understands.&lt;/p&gt;
 &lt;p&gt;Special programmes, called &lt;em&gt;assemblers&lt;/em&gt; were used to translate from
 this assembly language that was easier for humans to produce to the
-machine language that the computers understand.&lt;/p&gt;
+machine language that the computers understood.&lt;/p&gt;
 &lt;p&gt;The task of programming was still very challenging, but by now the
 version of the code that the computer understood and was able to use
 was different to that the programmer writes.&lt;/p&gt;
@@ -155,9 +155,9 @@ but also with other computer programmers.&lt;/p&gt;
 reading, maintaining and developing existing code, rather than writing
 new code.&lt;/p&gt;
 &lt;p&gt;There is a strong incentive for programmers to write clear code that
-is easy for others to follow:  the most person most likely to read
-your code is yourself.  Maybe six hours later, six days, six months or
-even six years in the future.&lt;/p&gt;
+is easy for others to follow: the person most likely to read your code
+is yourself.  Maybe six hours later, six days, six months or even six
+years in the future.&lt;/p&gt;
 &lt;p&gt;Great languages not only make it easier to express what you want the
 computer to do but also make it easier to write readable code.&lt;/p&gt;
 &lt;p&gt;Truly great languages make it harder to write code that looks like it

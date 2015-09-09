@@ -56,7 +56,7 @@ devices such as the Bombes, designed by Alan Turing to crack the
 Enigma codes.
 
 *Programming* the Bombes involved manyally setting dials and using
-wires with plugs enter settings for plug boards.
+wires to enter settings on plug boards.
 
 With these devices, the source code and the programme were essentially
 the same thing: the physical settings of the wheels, dials and
@@ -100,7 +100,7 @@ computer actually understands.
 
 Special programmes, called *assemblers* were used to translate from
 this assembly language that was easier for humans to produce to the
-machine language that the computers understand.
+machine language that the computers understood.
 
 The task of programming was still very challenging, but by now the
 version of the code that the computer understood and was able to use
@@ -217,9 +217,9 @@ reading, maintaining and developing existing code, rather than writing
 new code.
 
 There is a strong incentive for programmers to write clear code that
-is easy for others to follow:  the most person most likely to read
-your code is yourself.  Maybe six hours later, six days, six months or
-even six years in the future.
+is easy for others to follow: the person most likely to read your code
+is yourself.  Maybe six hours later, six days, six months or even six
+years in the future.
 
 Great languages not only make it easier to express what you want the
 computer to do but also make it easier to write readable code.
