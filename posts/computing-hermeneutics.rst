@@ -1,4 +1,4 @@
-.. title: Computing Hermeneutics
+.. title: Computing Hermeneutics: let the source be with you.
 .. slug: computing-hermeneutics
 .. date: 2015-09-09 13:15:28 UTC
 .. tags: 
