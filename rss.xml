@@ -1,5 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" href="http://openbermuda.github.io/80days/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 09 Sep 2015 13:07:17 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Mountains, Valleys and Bridges</title><link>http://openbermuda.github.io/80days/posts/mountains-valleys-and-bridges.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;div class="section" id="hill-climbing"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://openbermuda.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 09 Sep 2015 17:34:23 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Computing Hermeneutics: let the source be with you.</title><link>http://openbermuda.github.io/80days/posts/computing-hermeneutics.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Someone asked me recently to explain the difference between coding and
+programmes, using a suitable analogy.&lt;/p&gt;
+&lt;p&gt;I am not good at short answers, so here is a longer one.&lt;/p&gt;
+&lt;p&gt;The difference between the source code and the programme has changed
+dramatically over the years.&lt;/p&gt;
+&lt;p&gt;In essence, the problem boils down to humans specifying what a
+computer should do.   We speak different languages, our input/ouput
+devices work differently and our central processing units are
+fundamentally different.&lt;/p&gt;
+&lt;p&gt;In short, computer programming is a bit like writing a document for
+someone to read, but that someone does not speak your language.&lt;/p&gt;
+&lt;p&gt;It takes everything you say literally and has no capacity to "do what
+I mean, not what I say".&lt;/p&gt;
+&lt;p&gt;They can do certain tasks incredibly quickly, like the gifted child
+that can amaze you with music, maths or art.&lt;/p&gt;
+&lt;div class="section" id="coding"&gt;
+&lt;h2&gt;Coding&lt;/h2&gt;
+&lt;p&gt;Coding is the process of writing the instructions for the computer.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code is what the computer programmer creates.  It is the
+human readable version of the computer instructions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="programme"&gt;
+&lt;h2&gt;Programme&lt;/h2&gt;
+&lt;p&gt;The human readable instructions generally need to be converted into
+another form for the computer to understand.  The resulting version is
+known as the programme.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="electro-mechanical-computing"&gt;
+&lt;h2&gt;Electro-Mechanical computing&lt;/h2&gt;
+&lt;p&gt;The computers at dawn of modern computing were electro-mechanical
+devices such as the Bombes, designed by Alan Turing to crack the
+Enigma codes.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Programming&lt;/em&gt; the Bombes involved manyally setting dials and using
+wires with plugs enter settings for plug boards.&lt;/p&gt;
+&lt;p&gt;With these devices, the source code and the programme were essentially
+the same thing: the physical settings of the wheels, dials and
+plug-board.&lt;/p&gt;
+&lt;p&gt;In short, humans learned to speak the same language as the computers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="machine-code"&gt;
+&lt;h2&gt;Machine Code&lt;/h2&gt;
+&lt;p&gt;The first fully electronic computers were programmed with machine
+code, essentially just a stream of numbers.&lt;/p&gt;
+&lt;p&gt;Each operation the computer could do had a numeric code.  Memory
+locations were expressed as numbers as were the input values for
+calculations.&lt;/p&gt;
+&lt;p&gt;Again, the human programmers were having to learn the language the
+computer actually understood.&lt;/p&gt;
+&lt;p&gt;There was some help for humans, the machine code might be written in
+hexadecimal, not the binary that the computer can actually store.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="assembly-language"&gt;
+&lt;h2&gt;Assembly Language&lt;/h2&gt;
+&lt;p&gt;All this was incredibly time consuming.  Skilled machine code
+programmers were a rare breed.  Computers were also quite rare at this
+time, so there were generally enough programmers to go round and they
+were too busy writing machine code to worry about creating and
+learning new languages.&lt;/p&gt;
+&lt;p&gt;Further, getting data into and out of these early computers was a
+challenge in itself.&lt;/p&gt;
+&lt;p&gt;Soon punched cards and computer tape took over these roles.&lt;/p&gt;
+&lt;p&gt;Assembly languages were developed.  These languages used names such as
+&lt;em&gt;add&lt;/em&gt;, &lt;em&gt;mul&lt;/em&gt; and &lt;em&gt;mov&lt;/em&gt; to represent the numeric operations the
+computer actually understands.&lt;/p&gt;
+&lt;p&gt;Special programmes, called &lt;em&gt;assemblers&lt;/em&gt; were used to translate from
+this assembly language that was easier for humans to produce to the
+machine language that the computers understand.&lt;/p&gt;
+&lt;p&gt;The task of programming was still very challenging, but by now the
+version of the code that the computer understood and was able to use
+was different to that the programmer writes.&lt;/p&gt;
+&lt;p&gt;Computers and programmers were still pretty rare species.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="high-level-languages"&gt;
+&lt;h2&gt;High level languages&lt;/h2&gt;
+&lt;p&gt;Once there were assembly languages it was a natural progression to
+higher level languages.&lt;/p&gt;
+&lt;p&gt;These languages had higher level constructs that &lt;em&gt;compilers&lt;/em&gt; could
+translate into assembly language and in turn the &lt;em&gt;assembler&lt;/em&gt; could
+turn into machine code that computers could run.&lt;/p&gt;
+&lt;p&gt;This separation later proved invaluable, since different models of
+computer had different instruction sets and required different
+assembler languages.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bootstrapping"&gt;
+&lt;h2&gt;Bootstrapping&lt;/h2&gt;
+&lt;p&gt;Writing a compiler for a new language is a challenging task.&lt;/p&gt;
+&lt;p&gt;It is common practice to write the compiler in the language that it is
+intended to compile.&lt;/p&gt;
+&lt;p&gt;Now this creates a &lt;em&gt;chicken and egg&lt;/em&gt; situation.&lt;/p&gt;
+&lt;p&gt;How do you compile your compiler, if it is written in a new language?&lt;/p&gt;
+&lt;p&gt;There are a number of solutions to this problem that have been used,
+but all boil down to using some other compiler to pull you up by your
+boot straps.&lt;/p&gt;
+&lt;p&gt;Often these tools implement a subset of the language, but can be used
+to compile the whole compiler including the additional features.&lt;/p&gt;
+&lt;p&gt;Once you have got this far, you can use your newly compiled compiler
+to compile itself.   The language has become &lt;em&gt;self-hosting&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="virtual-machines"&gt;
+&lt;h2&gt;Virtual Machines&lt;/h2&gt;
+&lt;p&gt;The early computers were extremely slow compared to today's
+computers.  Compilers would be written for each specific architecture
+in order to take full advantage of the computer's capabilities.&lt;/p&gt;
+&lt;p&gt;As computers became faster it became feasible to write &lt;em&gt;virtual
+machines&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;These virtual machines would implement a general purpose instruction
+set.  To actually run virtual machine code on a specific computer
+architecture it is necessary to  create an implementation of that
+virtual machine on the specific hardware.&lt;/p&gt;
+&lt;p&gt;The magic of virtual machines is that it separates the problem of
+making a particular machine run fast from the problem of specifying
+what you want it to do.&lt;/p&gt;
+&lt;p&gt;In short, virtual machines promised: &lt;em&gt;write once, run everywhere&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Java and .NET are good examples of virtual machine technology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="interpreted-languages"&gt;
+&lt;h2&gt;Interpreted languages&lt;/h2&gt;
+&lt;p&gt;Compiling code can be time consuming.  The higher level a language is
+the more work the computer has to do to translate the language into
+something it can run.&lt;/p&gt;
+&lt;p&gt;Good compilers will also attempt to optimise code, allowing the
+programmer to specify what the computer should do, but letting the
+compiler figure out an efficient way to do that.&lt;/p&gt;
+&lt;p&gt;Of course, the programmer can help the compiler by using algorithms
+and constructs that they know the compiler will implement
+efficiently.&lt;/p&gt;
+&lt;p&gt;As computers became faster it became possible to do compilation of
+code on the fly.&lt;/p&gt;
+&lt;p&gt;Programmers using compiled languages go through a cycle of&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;writing code&lt;/li&gt;
+&lt;li&gt;compiling the code&lt;/li&gt;
+&lt;li&gt;running the code&lt;/li&gt;
+&lt;li&gt;figuring out why it did not do what they expected&lt;/li&gt;
+&lt;li&gt;rinse and repeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The compile stage can be time consuming and interrupts a programmers
+train of thought.&lt;/p&gt;
+&lt;p&gt;Interpretted languages typically also make use of a virtual machine.
+They compile the code into virtual machine byte codes that can then be
+executed directly.&lt;/p&gt;
+&lt;p&gt;Perl and Python are examples of interpretted languages.  I remember
+when I first discovered Perl, my productivity went up dramatically.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="literate-programming"&gt;
+&lt;h2&gt;Literate Programming&lt;/h2&gt;
+&lt;p&gt;Computer programmes can (and in my view should) be considered as works
+of literature: written works to communicate not just with computers
+but also with other computer programmers.&lt;/p&gt;
+&lt;p&gt;It turns out that most programmers spend the vast majority of time
+reading, maintaining and developing existing code, rather than writing
+new code.&lt;/p&gt;
+&lt;p&gt;There is a strong incentive for programmers to write clear code that
+is easy for others to follow:  the most person most likely to read
+your code is yourself.  Maybe six hours later, six days, six months or
+even six years in the future.&lt;/p&gt;
+&lt;p&gt;Great languages not only make it easier to express what you want the
+computer to do but also make it easier to write readable code.&lt;/p&gt;
+&lt;p&gt;Truly great languages make it harder to write code that looks like it
+does one thing, but really does something else.&lt;/p&gt;
+&lt;p&gt;At the same time, they allow some level of ambiguity.  They work on
+many levels, lika all great literature.&lt;/p&gt;
+&lt;p&gt;For example, a sort algorithm that can sort anything, just so long as
+you tell it how to compare objects.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="open-source"&gt;
+&lt;h2&gt;Open Source&lt;/h2&gt;
+&lt;p&gt;Open source software is software that makes the source code available,
+not just the executable.&lt;/p&gt;
+&lt;p&gt;Why is this important?  Well if you want to understand what the
+software is doing, the best way to do that is to have the work of
+literature that the programmers creating the programme used.&lt;/p&gt;
+&lt;p&gt;Open source software makes these works of literature available to
+you.  It is like having the actual draft for a book.  Not only do you
+get the story, but you get the author's notes.&lt;/p&gt;
+&lt;p&gt;If the programmer is using version control, you get the whole history
+of the book.  All the thoughts, all the experiments that were tried,
+the failures and the successes.&lt;/p&gt;
+&lt;p&gt;Without the source code, you are missing much of the plot.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="free-software"&gt;
+&lt;h2&gt;Free Software&lt;/h2&gt;
+&lt;p&gt;Free software takes this one step further.  Not only does it give you
+the work of literature, but it gives you the freedom to examine it, to
+change it, to write your own story.&lt;/p&gt;
+&lt;p&gt;It gives you the freedom to experiment and explore.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="disassembly"&gt;
+&lt;h2&gt;Disassembly&lt;/h2&gt;
+&lt;p&gt;Disassembly is the reverse of what an &lt;em&gt;assembler&lt;/em&gt; does.&lt;/p&gt;
+&lt;p&gt;Dissassemblers take code that a computer understands and turn it into
+code a human can understand better.&lt;/p&gt;
+&lt;p&gt;Some of them are remarkably good and produce code that an experienced
+programmer can understand well.&lt;/p&gt;
+&lt;p&gt;For example, python bytecodes can be disassembled into very readable
+python code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="code-obfustification"&gt;
+&lt;h2&gt;Code obfustification&lt;/h2&gt;
+&lt;p&gt;Some software is put through an &lt;em&gt;obfustification&lt;/em&gt; process before it is
+released.&lt;/p&gt;
+&lt;p&gt;The meaningful function and variable names that the programmer used
+are replaced with arbitrary labels.  Comments are removed from the
+code.  In short, the goal is to make it hard to discover how the
+programme actually works.&lt;/p&gt;
+&lt;p&gt;Of course, the code can always be disassembled and with enough
+patience and time it is possible to discover how it actually works.&lt;/p&gt;
+&lt;p&gt;However, check the license agreement before you do this, much closed
+source software explicitly forbids disassembly in the license
+agreement.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="project-jypyter"&gt;
+&lt;h2&gt;Project Jypyter&lt;/h2&gt;
+&lt;p&gt;Nowadays there are many, many computer languages.&lt;/p&gt;
+&lt;p&gt;This has created a problem for computer programmers: they are not all
+speaking the same language.&lt;/p&gt;
+&lt;p&gt;What is needed is some sort of Bablefish that allows programmers and
+programmes to communicate with each other.&lt;/p&gt;
+&lt;p&gt;Project Jupyter is one such Bablefish.  It supports over 50 languages
+and allows seamless interaction between those languages.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="it-is-all-about-language-and-communication"&gt;
+&lt;h2&gt;It is all about language and communication&lt;/h2&gt;
+&lt;p&gt;Software is all about communication.  If you are a computer, machine
+code is your friend.&lt;/p&gt;
+&lt;p&gt;If you are human, &lt;em&gt;Use the source, Luke.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;And if the source is not available, maybe you need to read a different book.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://openbermuda.github.io/80days/posts/computing-hermeneutics.html</guid><pubDate>Wed, 09 Sep 2015 13:15:28 GMT</pubDate></item><item><title>Mountains, Valleys and Bridges</title><link>http://openbermuda.github.io/80days/posts/mountains-valleys-and-bridges.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;div class="section" id="hill-climbing"&gt;
 &lt;h2&gt;Hill Climbing&lt;/h2&gt;
 &lt;p&gt;I grew up close to the hills of the Peak District in Derbyshire.&lt;/p&gt;
 &lt;p&gt;The highest point of the Peak District is the summit of Kinder Scout.
@@ -38,7 +268,7 @@ all around.&lt;/p&gt;
 &lt;h2&gt;Following a Ridge&lt;/h2&gt;
 &lt;p&gt;Having toiled to climb a hill you will rightly be satisfied with the
 view you have.&lt;/p&gt;
-&lt;p&gt;Sometimes, when you look across the loand there is a spectactular
+&lt;p&gt;Sometimes, when you look across the land there is a spectactular
 hill, dwarfing the one you have just climbed.  You can only imagine
 how the view might look from there.&lt;/p&gt;
 &lt;p&gt;Often the new summit is easily accessible from where you are, by
@@ -1067,466 +1297,4 @@ themselves.&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>.NET</category><category>free software</category><category>moonlight</category><category>silverlight</category><guid>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</guid><pubDate>Wed, 01 Jul 2015 20:52:03 GMT</pubDate></item><item><title>D Bermuda Pi</title><link>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Bermuda-Pi"&gt;Bermuda Pi&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Pi"&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-$$\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi$$$$Number \; -e^{i\pi}$$
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;The week 10th to 18th October 2015 there is a lot happening in Bermuda.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;TEDx Bermuda on 10th October&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;America's Cup racing 16th-18th October&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The first anniversary of hurricanes Fay and Gonzalo&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This creates a good opportunity to run a number of small events around
-&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Software&lt;/a&gt; and &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Culture&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Science, Technology, Engineering and Mathematics &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEM&lt;/a&gt; is already
-getting a lot of attention.  This is natural in a world where there is
-so much innovation and change in current times.&lt;/p&gt;
-&lt;p&gt;Throughout my life technological change has created a lot of wonderful
-things.  At the same time, humanity and social systems are struggling
-to keep pace with this change.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEAM&lt;/a&gt; adds the Arts into STEM.  Making the Bermuda $\pi$ a STEAM
-powered event seems a natural choice, as the event can then embrace
-Bermudian culture in general.&lt;/p&gt;
-&lt;p&gt;At the same time, a hurricane can be viewed as a giant steam engine.
-Bermuda once ran a steam powered island.  How about bringing this to
-the 21st century:  &lt;em&gt;D Bermuda $\pi$, STEAM powered&lt;/em&gt;.&lt;/p&gt;
-&lt;h5 id="Free-Culture"&gt;Free Culture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Free-Culture"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;People in the free software movement have been dealing with this
-change for some time.  They have developed ways of working with
-technology that not only scale, but also enable people to build
-systems that evolve naturally over time.&lt;/p&gt;
-&lt;p&gt;There is a more general Free Culture movement, publishing artistic
-material under &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Creative Commons&lt;/a&gt; licenses that mirror the free
-software licenses.  Generally, these licenses allow others to build on
-the ideas and use them in their own work, usually with attribution.
-Some licenses do not permit commercial use, but many do.  Authors
-choose a license based on their own values.&lt;/p&gt;
-&lt;h5 id="Weather-and-hurricanes"&gt;Weather and hurricanes&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather-and-hurricanes"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Given the connection with Fay and Gonzalo some events would focus on
-hurricane research in the Bermuda context.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Event-Ideas"&gt;Event Ideas&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Event-Ideas"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;h4 id="A-Pi-conference"&gt;A Pi conference&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#A-Pi-conference"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;Raspberry Pi's&lt;/li&gt;
-&lt;li&gt;Weather data&lt;/li&gt;
-&lt;li&gt;Hurricane simulation&lt;/li&gt;
-&lt;li&gt;Damage surveys and damage estimation&lt;/li&gt;
-&lt;li&gt;Impact of climate change&lt;/li&gt;
-&lt;li&gt;lightning talks&lt;/li&gt;
-&lt;li&gt;python and pi's in Bermuda education&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Aim for most presentations to be about activities that are going on
-already in Bermuda, with some visions for future projects.&lt;/p&gt;
-&lt;p&gt;Invite others from overseas that are doing similar work.  Better
-still, people we are already collaborating with on Bermuda projects.&lt;/p&gt;
-&lt;p&gt;Focus on the Bermuda context: why is what you are doing a good fit for
-Bermuda, how can it fit better?&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Music,-Art"&gt;Music, Art&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Music,-Art"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Allow local musicians and artists to work and play together.  Work on
-making local artists work freely available on line.&lt;/p&gt;
-&lt;p&gt;Work on ways technology can complement the arts and vice versa.&lt;/p&gt;
-&lt;h4 id="Story-Telling"&gt;Story Telling&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Story-Telling"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Have people tell their hurricane stories about last year's storms.&lt;/p&gt;
-&lt;p&gt;Structure in a way that the stories might inspire new ideas to gather
-data and do research based on data from previous storms.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;ul&gt;
-&lt;li&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/li&gt;
-&lt;li&gt;Pies to eat&lt;/li&gt;
-&lt;li&gt;Education, teaching students using raspberry pi&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The ideas here are very much inspired by the way &lt;a href="https://us.pycon.org"&gt;python conferences are run&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The aim is to have a number of small events, that together make up the &lt;code&gt;Bermuda Pi&lt;/code&gt; experience.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Food and sustainable agriculture&lt;/p&gt;
-&lt;h4 id="Local-Bermuda-food"&gt;Local Bermuda food&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Local-Bermuda-food"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;h4 id="How-to-do-sustainable-agriculture"&gt;How to do sustainable agriculture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#How-to-do-sustainable-agriculture"&gt;¶&lt;/a&gt;&lt;/h4&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Leisure-activities"&gt;Leisure activities&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Leisure-activities"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Fay and Gonzalo parties would seem a good starter&lt;/p&gt;
-&lt;p&gt;Music, story-telling, Bermudian food,&lt;/p&gt;
-&lt;p&gt;Gombeys!&lt;/p&gt;
-&lt;p&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/p&gt;
-&lt;p&gt;Pies to eat!&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Weather"&gt;Weather&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Any event during hurricane season has to pay attention to the weather.&lt;/p&gt;
-&lt;p&gt;Given that one theme of &lt;code&gt;D Bermuda Pi&lt;/code&gt; will be hurricane research it
-would be unfortunate if the event were hit by a hurricane.&lt;/p&gt;
-&lt;p&gt;Having said that, it would give the researchers valuable first hand experience.&lt;/p&gt;
-&lt;p&gt;One project to work on during the week would be getting better
-estimates of the probability of the event being hit by bad weather.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Use long term climate features such as El Nino, the North Atlantic
-Oscillation, and the Bermuda High to help with contingency planning&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Develop tools that can help with future event planning&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Study detailed windfields around the island to better understand the
-challenges faced by the sailors.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Study tides and currents around the island&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Murphy's Law&lt;/a&gt; is likely to intervene here, so in the meanwhile it
-would be good if we kept an eye on the long range hurricane forecasts
-and nearer the time be in a position to work with Bermuda Weather and
-have plans in place in the event of bad weather.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Sustainablility-and-environmental-impact"&gt;Sustainablility and environmental impact&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Sustainablility-and-environmental-impact"&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Renewable-Energy"&gt;Renewable Energy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Renewable-Energy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Information-security-and-privacy"&gt;Information security and privacy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Information-security-and-privacy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Cryptocurrencies,-Bitcoin"&gt;Cryptocurrencies, Bitcoin&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Cryptocurrencies,-Bitcoin"&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Bermuda-Based-Organisations"&gt;Bermuda Based Organisations&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Based-Organisations"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;BIOS station&lt;/li&gt;
-&lt;li&gt;Bermuda Weather&lt;/li&gt;
-&lt;li&gt;BEST -- sustainablility&lt;/li&gt;
-&lt;li&gt;code441&lt;/li&gt;
-&lt;li&gt;codtuna&lt;/li&gt;
-&lt;li&gt;Pecha Kucha&lt;/li&gt;
-&lt;li&gt;Chewstick&lt;/li&gt;
-&lt;li&gt;Others?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Coding-Sprint"&gt;Coding Sprint&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Coding-Sprint"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Work on free software projects for a better Bermuda.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Reinsurance"&gt;Reinsurance&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Reinsurance"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Many of the reinsurers are using free software and the python language in particular.&lt;/p&gt;
-&lt;p&gt;It should be possible to have a &lt;em&gt;free software in finance&lt;/em&gt; track,
-perhaps along the lines of the PyData conferences.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Visitors"&gt;Visitors&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Visitors"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Free software practitioners and enthusiasts&lt;/li&gt;
-&lt;li&gt;Python Foundation&lt;/li&gt;
-&lt;li&gt;RedHat&lt;/li&gt;
-&lt;li&gt;Canonical/Ubuntu&lt;/li&gt;
-&lt;li&gt;Environmentalists&lt;/li&gt;
-&lt;li&gt;Meteorologists and climate researchers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Venues"&gt;Venues&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Venues"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This will very much depend on the level of interest&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Southampton Princess conference hall, used for TEDx&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;BIOS station&lt;/p&gt;
-&lt;p&gt;The BIOS station is close to the airport and close to Paget Island (see below).&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Paget-Island"&gt;Paget Island&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Paget-Island"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Paget Island is one of a number of Government run islands.  It has
-basic facilities.  It would make an excellent venue for a coding
-sprint focussing on the environment and sustainability.&lt;/p&gt;
-&lt;p&gt;Bermuda is an expensive place to visit, some free sofware enthusiasts
-would be more than happy to come and camp on the island.&lt;/p&gt;
-&lt;p&gt;One goal would be to make this as inclusive an event as possible,
-hence creating many different activities that will appeal to different
-demographics, but also to find ways to mix those people and give them
-new experiences.&lt;/p&gt;
-&lt;p&gt;The buildings and infrastructure on Paget Island are in need of some
-TLC.  It would be good to work towards building a place run on
-renewable energy, environmentally positive where people can come to
-study how we are doing things in Bermuda.&lt;/p&gt;
-&lt;p&gt;The philosophy of a camp on the island would be to leave the place
-better than it is found.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Chewstick"&gt;Chewstick&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Chewstick"&gt;¶&lt;/a&gt;&lt;/h4&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Everywhere!"&gt;Everywhere!&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Everywhere!"&gt;¶&lt;/a&gt;&lt;/h4&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Trivia"&gt;Trivia&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Trivia"&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Around-the-world-in-80-days"&gt;Around the world in 80 days&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Around-the-world-in-80-days"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;This blog started as a blog for an idea to create an *Around the world
-in 80 days* idea, to run little competitions where people get miles
-(or kilometers) for activities.  The idea is to see how far round the
-world you can get in 80 days, with fun twists along the way.
-One idea was to do an &lt;em&gt;Around Bermuda on Bermuda Bus and Ferry&lt;/em&gt;
-competition.  I learnt a lot on the project, but never quite got it
-out of the door.  But that is another story.&lt;/p&gt;
-&lt;p&gt;There is a version still limping along on heroku: &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Kudos to heroku.  I have a half build project running there, haven't
-checked it in ages and boom it springs into life.&lt;/p&gt;
-&lt;p&gt;There are some other pieces coming together that might make the bus
-thing viable in the near future, just needs a bit of time applied to
-it.&lt;/p&gt;
-&lt;p&gt;One thing that I found useful in the project was thinking in an 80 day
-time horizon.  So I was curious about what date is 80 days before 10th
-October 2015, the date for the start of the Bermuda $\pi$.&lt;/p&gt;
-&lt;p&gt;Hitting &lt;em&gt;Home&lt;/em&gt; on the &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt; shows me this:&lt;/p&gt;
-&lt;p&gt;Jun 29, 2015 is today's date&lt;/p&gt;
-&lt;p&gt;Sep 17, 2015 is 80 days from today&lt;/p&gt;
-&lt;p&gt;Apr 10, 2015 was 80 days ago&lt;/p&gt;
-&lt;p&gt;So time for a little python.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# lets see what python says&lt;/span&gt;
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
-&lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="o"&gt;=-&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-
-
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;2015-07-22
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;So&lt;/span&gt; &lt;span class="n"&gt;things&lt;/span&gt; &lt;span class="n"&gt;need&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;started&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;July&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="n"&gt;nd&lt;/span&gt; &lt;span class="mi"&gt;2015&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-$$2015^{{10}^2}$$
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="What's-this-*Number-$-e^{i\pi}$-thing-about?"&gt;What's this *Number $-e^{i\pi}$ thing about?&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#What's-this-*Number-%24-e%5E%7Bi%5Cpi%7D%24-thing-about?"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;There is a wonderful equation in mathematics that links some of the key
-constants from the world of mathematics.&lt;/p&gt;
-&lt;p&gt;There is $\pi$, the ratio between a circle's diameter and its
-circumference. $\pi$ turns up all the time in mathematics.&lt;/p&gt;
-&lt;p&gt;Then there is &lt;em&gt;e&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Both $\pi$ and $e$ are transcendental, a special type of number,
-although there are an infinite number of transendental numbers, when
-they turn up in mathematics they tend to be important.&lt;/p&gt;
-&lt;p&gt;Then there is 1.  The special number that you can multiply any other
-number by and leave it unchanged.&lt;/p&gt;
-&lt;p&gt;And there is 0.  The special number you can add to anything and leave it unchanged.&lt;/p&gt;
-&lt;p&gt;The equation is known as &lt;a href="https://en.wikipedia.org/wiki/Euler%27s_identity"&gt;Euler's identity&lt;/a&gt;:&lt;/p&gt;
-$$ e^{i\pi} + 1 = 0 $$&lt;p&gt;As this would be the first Bermuda $\pi$ it would:&lt;/p&gt;
-&lt;h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$"&gt;Bermuda $\pi$ Number 1 = $-e^{i\pi}$&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make it number one, every year.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-</description><category>bermuda</category><category>chewstick</category><category>education</category><category>python</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</guid><pubDate>Mon, 22 Jun 2015 21:12:40 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>.NET</category><category>free software</category><category>moonlight</category><category>silverlight</category><guid>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</guid><pubDate>Wed, 01 Jul 2015 20:52:03 GMT</pubDate></item></channel></rss>

@@ -58,7 +58,7 @@ Following a Ridge
 Having toiled to climb a hill you will rightly be satisfied with the
 view you have.
 
-Sometimes, when you look across the loand there is a spectactular
+Sometimes, when you look across the land there is a spectactular
 hill, dwarfing the one you have just climbed.  You can only imagine
 how the view might look from there.
 
