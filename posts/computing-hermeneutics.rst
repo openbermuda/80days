@@ -315,4 +315,9 @@ and allows seamless interaction between those languages.
 It is all about language and communication
 ==========================================
 
-Software is about communicating ideas.  
+Software is all about communication.  If you are a computer, machine
+code is your friend.
+
+If you are human, *Use the source, Luke.*
+
+And if the source is not available, maybe you need to read a different book.
