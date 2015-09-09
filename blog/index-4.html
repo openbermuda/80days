@@ -3,14 +3,21 @@
 og: http://ogp.me/ns#
 article: http://ogp.me/ns/article#
 " lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="description" content="Blog for an 80 day coding and exercise experiment.">
-<meta name="viewport" content="width=device-width">
-<title>Around the world in 80 days (old posts, page 4) | Around the world in 80 days</title>
-<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
-<link rel="canonical" href="http://openbermuda.github.io/80days/blog/index-4.html">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Blog for an 80 day coding and exercise experiment.">
+    <meta name="viewport" content="width=device-width">
+    <title>Around the world in 80 days (old posts, page 4) | Around the world in 80 days</title>
+
+                <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+                <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+      <link rel="canonical" href="http://openbermuda.github.io/80days/blog/index-4.html">
+
+
+
+    
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     tex2jax: {
@@ -22,28 +29,117 @@ MathJax.Hub.Config({
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
-</script><!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><style>
+</script>
+
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+
+    
+
+    
+    <style>
     div.input_prompt {
       display: none;
     }
     </style>
+
 </head>
 <body>
-    <section class="social"><ul>
-<li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+    <section class="social">
+        <ul>
+                    <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
             <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
             <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
             <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
             <li><a href="https://twitter.com/swfiua" title="My Twitter"><i class="icon-twitter"></i></a></li>
             <li><a href="https://github.com/swfiua" title="My Github"><i class="icon-github"></i></a></li>
 
-        </ul></section><section class="page-content"><div class="content" rel="main">
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+        <div class="post">
+            <h1 class="title"><a href="../posts/wheres-de-bus.html">Where's de bus</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2015-06-12T14:14:04+00:00">2015-06-12 14:14</time>
+                </div>
+                <div class="stats">
+                                <a href="../posts/wheres-de-bus.html#disqus_thread" data-disqus-identifier="cache/posts/wheres-de-bus.html">Comments</a>
+
+
+                </div>
+                        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="../categories/bermuda.html" rel="tag">bermuda</a></li>
+           <li><a class="tag p-category" href="../categories/bus.html" rel="tag">bus</a></li>
+           <li><a class="tag p-category" href="../categories/ferry.html" rel="tag">ferry</a></li>
+           <li><a class="tag p-category" href="../categories/open-source.html" rel="tag">open source</a></li>
+           <li><a class="tag p-category" href="../categories/transit.html" rel="tag">transit</a></li>
+        </ul>
+        </div>
+
+            </div>
+            <div class="body">
+                <div>
+<p>This year's TLF students are considering creating an application to
+give Bermuda's public transport users up to date information on where
+the buses and ferries actually are.</p>
+<p>Transit authorities that have made this data available have found a
+number of <a class="reference external" href="http://www.actsoft.com/public-transportation-profits-from-gps-tracking/">benefits</a> of bus tracking, including increased usage of
+public transport.</p>
+<p>There is a thriving open source project, <a class="reference external" href="http://onebusaway.org/">One Bus Away</a> which looks
+like it could be used in the Bermuda environment.</p>
+<p>A first step in getting the transport data into the <a class="reference external" href="https://developers.google.com/transit/gtfs/reference">General Transit
+Feed Specification</a> (GTFS) format.  This provides a flexible format
+for transit data.  It is how you specify bus stop locations, routes
+and timetables.  Once you have your data in this format there are a
+number of projects that you can use to create a powerful transit
+application.</p>
+<p>The <a class="reference external" href="http://onebusaway.org/">One Bus Away</a> project is an open source project that is being
+used in a number of US and Canadian cities.  It should be usable here
+in Bermuda too.</p>
+<p>Google provides good support for transit information and the
+<a class="reference external" href="http://www.dutchnews.nl/news/archives/2015/06/the-netherlands-debuts-new-google-public-transport-service/">Netherlands</a> recently became the first country in the world to
+provide full information via their service.</p>
+<p>Whilst this support from Google is good to have, since many tourists
+will be using google maps whilst visiting the island, there are
+benefits to being in control of your own data and websites.  There are
+restrictions on the use of Google maps and you are not in control of
+future development when you use that platform.  Further, users may not
+wish to share their location with Google due to privacy concerns.</p>
+<p><a class="reference external" href="https://www.openstreetmap.org/search?query=bermuda#map=12/32.2949/-64.7830">OpenStreetMap</a> is an free and open project to make top quality
+digital maps available.  The Bermuda map is quite excellent.  Further,
+there is a good open source javascript library, <a class="reference external" href="http://leafletjs.com/">leaflet</a> to create
+interactive maps using OpenStreetMap data.</p>
+<p>A few months back Open Bermuda started work on a <a class="reference external" href="https://github.com/openbermuda/wheres-de-bus">Where's de bus</a>
+project during a hackathon.  The challenge at that time was finding
+out where the actual bus stops were.  It is hoped that it will be
+possible to get this information and full bus and ferry timetables in
+machine readable form from the Bermuda Transportation Board (BTB).</p>
+<p>Given the small size of Bermuda and its transit network it would also
+be possible to crowd-source the data for a transit application.  If
+live GPS data is not avaialable from BTB an alternative would be to
+create a mobile application that public transport users could run and
+use to report bus locations as well as how full the bus currently is.</p>
+<p>There are already some open source GPS tracking systems available such
+as <a class="reference external" href="http://www.opengts.org/">OpenGTS</a> and <a class="reference external" href="https://www.traccar.org/">Traccar</a> that might be usable here.</p>
+<!-- title: links -->
+<!-- slug: references -->
+<!-- date: 2014-11-13 14:08:31 UTC -->
+<!-- tags: -->
+<!-- link: -->
+<!-- description: links to include in all posts -->
+<!-- type: text -->
+</div>
+            </div>
+        </div>
         <div class="post">
             <h1 class="title"><a href="../posts/sharon-wilson.html">Sharon Wilson</a></h1>
             <div class="meta">
                 <div class="authordate">
                     <time class="timeago" datetime="2015-05-24T15:40:38+00:00">2015-05-24 15:40</time>
-</div>
+                </div>
                 <div class="stats">
                                 <a href="../posts/sharon-wilson.html#disqus_thread" data-disqus-identifier="cache/posts/sharon-wilson.html">Comments</a>
 
@@ -55,7 +151,7 @@ MathJax.Hub.Config({
            <li><a class="tag p-category" href="../categories/art.html" rel="tag">art</a></li>
            <li><a class="tag p-category" href="../categories/bermuda.html" rel="tag">bermuda</a></li>
         </ul>
-</div>
+        </div>
 
             </div>
             <div class="body">
@@ -82,8 +178,10 @@ the end of the road, sometimes with a couple of balloons attached.  In
 that case, you are in luck.  She will welcome you to her home and let
 you discover her art.</p>
 <p>I have a copy of a book she produced, here is the cover:</p>
-<img alt="../galleries/SharonWilson/book_cover.jpg" src="../galleries/SharonWilson/book_cover.jpg" style="width: 300px; height: 400px;"><p>My cat seems to like the book too:</p>
-<img alt="../galleries/Snowy/snowy_wilson.jpg" src="../galleries/Snowy/snowy_wilson.jpg" style="width: 300px; height: 400px;"><p>There is a story behind everything she paints.  She will tell you some
+<img alt="../galleries/SharonWilson/book_cover.jpg" src="../galleries/SharonWilson/book_cover.jpg" style="width: 300px; height: 400px;">
+<p>My cat seems to like the book too:</p>
+<img alt="../galleries/Snowy/snowy_wilson.jpg" src="../galleries/Snowy/snowy_wilson.jpg" style="width: 300px; height: 400px;">
+<p>There is a story behind everything she paints.  She will tell you some
 of those stories, but also let you find your own story.</p>
 <p>Here is another picture, it has a good story too:</p>
 <img alt="../galleries/SharonWilson/father_and_daughter.jpg" src="../galleries/SharonWilson/father_and_daughter.jpg" style="width: 300px; height: 400px;">
@@ -95,7 +193,7 @@ of those stories, but also let you find your own story.</p>
             <div class="meta">
                 <div class="authordate">
                     <time class="timeago" datetime="2015-04-14T13:31:56+00:00">2015-04-14 13:31</time>
-</div>
+                </div>
                 <div class="stats">
                                 <a href="../posts/pycon-2015.html#disqus_thread" data-disqus-identifier="cache/posts/pycon-2015.html">Comments</a>
 
@@ -108,7 +206,7 @@ of those stories, but also let you find your own story.</p>
            <li><a class="tag p-category" href="../categories/pycon.html" rel="tag">pycon</a></li>
            <li><a class="tag p-category" href="../categories/python.html" rel="tag">python</a></li>
         </ul>
-</div>
+        </div>
 
             </div>
             <div class="body">
@@ -357,7 +455,7 @@ exciting ideas for me to pursue.</p>
             <div class="meta">
                 <div class="authordate">
                     <time class="timeago" datetime="2015-04-07T21:48:37+00:00">2015-04-07 21:48</time>
-</div>
+                </div>
                 <div class="stats">
                                 <a href="../posts/blades-and-sens-results-correlated.html#disqus_thread" data-disqus-identifier="cache/posts/blades-and-sens-results-correlated.html">Comments</a>
 
@@ -368,7 +466,7 @@ exciting ideas for me to pursue.</p>
         Tags : 
            <li><a class="tag p-category" href="../categories/sufc-sens.html" rel="tag">sufc sens</a></li>
         </ul>
-</div>
+        </div>
 
             </div>
             <div class="body">
@@ -465,20 +563,56 @@ is proven ;)</p>
 
             </div>
         </div>
-            <nav class="postindexpager"><ul class="pager">
-<li class="previous">
+            <nav class="postindexpager">
+        <ul class="pager">
+            <li class="previous">
                 <a href="index.html" rel="prev">Newer posts</a>
             </li>
             <li class="next">
                 <a href="index-3.html" rel="next">Older posts</a>
             </li>
-        </ul></nav><script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer" role="contentinfo"><p>Contents © 2015         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+        </ul>
+        </nav>
+
+                   <script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+                    <footer id="footer" role="contentinfo">
+            <p>Contents © 2015         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p>
             
         </footer>
+
+        </div>
+    </section>
+    
+    
+                <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
 </div>
-    </section><script src="../assets/js/all-nocdn.js" type="text/javascript"></script><script type="text/javascript">
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+        <script type="text/javascript">
             $(function(){
                 $('.timeago').timeago();
             });
