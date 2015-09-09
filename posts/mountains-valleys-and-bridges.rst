@@ -1,7 +1,7 @@
 .. title: Mountains, Valleys and Bridges
 .. slug: mountains-valleys-and-bridges
 .. date: 2015-09-08 12:33:26 UTC
-.. tags: 
+.. tags: hill climbing, bridges, mountains, hills
 .. category: 
 .. link: 
 .. description: 
