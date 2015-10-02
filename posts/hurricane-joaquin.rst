@@ -11,7 +11,13 @@ Hurricane Joaquim is now category 4 and expected to strengthen some
 more.
 
 It has been over the Bahamas for a long time now.
-   
+
+`Michael Johnston`_'s weather blog is a wonderful, Bermuda centric
+weather blog and a good resource to check for those in Bermuda
+wondering if Joaquin is heading this way.
+
+Michael is currently studying meteorology at Penn State.  He worked at
+the Bermuda weather service this summer.
 
 Uncertainty in paths   
 --------------------
@@ -35,8 +41,6 @@ we can learn a bit about how those systems will evolve.
 
 I believe that open and free software combined, with open scientific
 collaboration, can help communities better prepare for these events.
-
-`Michael Johnston`_'s weather blog.
 
 
 Direction of change in model predictions
@@ -71,13 +75,6 @@ they have been callibrated.
 
 This will provide good data and new insigts to improve them for the future.
 
-Model statistics in forecasts
------------------------------
-
-
-Graphics and satellite data
----------------------------
-
 Bermuda
 -------
 
@@ -102,3 +99,6 @@ It would be good to have more info on the likely intensity should it
 take a path close to Bermuda.
 
 There still appears to be a fair bit of uncertainty about the path.
+
+
+.. _Michael Johnston: https://bermudaweather.wordpress.com/
