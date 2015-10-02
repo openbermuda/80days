@@ -78,7 +78,7 @@ This will provide good data and new insigts to improve them for the future.
 Bermuda
 -------
 
-The first anniversary of these storms is fast approaching.
+The first anniversary of Fay and Gonzalo is fast approaching.
 
 For now Joaquin is moving very slowly, battering Caribbean islands.
 
