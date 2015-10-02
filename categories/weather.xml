@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (weather)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/weather.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 01 Sep 2015 14:40:07 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Fred Update</title><link>http://openbermuda.github.io/80days/posts/fred-update.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Fred formed way in the east of the Atlantic.  I believe it was already
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (weather)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link href="http://openbermuda.github.io/80days/categories/weather.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 02 Oct 2015 11:04:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hurricane Joaquin</title><link>http://openbermuda.github.io/80days/posts/hurricane-joaquin.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Hurricane Joaquim is now category 4 and expected to strengthen some
+more.&lt;/p&gt;
+&lt;p&gt;It has been over the Bahamas for a long time now.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bermudaweather.wordpress.com/"&gt;Michael Johnston&lt;/a&gt;'s weather blog is a wonderful, Bermuda centric
+weather blog and a good resource to check for those in Bermuda
+wondering if Joaquin is heading this way.&lt;/p&gt;
+&lt;p&gt;Michael is currently studying meteorology at Penn State.  He worked at
+the Bermuda weather service this summer.&lt;/p&gt;
+&lt;div class="section" id="uncertainty-in-paths"&gt;
+&lt;h2&gt;Uncertainty in paths&lt;/h2&gt;
+&lt;p&gt;There has been consdierable disagreement across models over what track
+this storm will take.&lt;/p&gt;
+&lt;p&gt;The weather systems are complex at present.  The models are coming
+into better agreement.&lt;/p&gt;
+&lt;p&gt;In situations like this it would be very useful to have more
+information on the likely intensity given each path.&lt;/p&gt;
+&lt;p&gt;The National Hurricane Centre discussion is always helpful.  It feels
+like the forecasts are getting better at getting the intensity right,
+given the right track.&lt;/p&gt;
+&lt;p&gt;The track tends to be driven by larger systems whose interaction is
+hard to predict.  But often, given the direction the hurricane travels
+we can learn a bit about how those systems will evolve.&lt;/p&gt;
+&lt;p&gt;I believe that open and free software combined, with open scientific
+collaboration, can help communities better prepare for these events.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="direction-of-change-in-model-predictions"&gt;
+&lt;h2&gt;Direction of change in model predictions&lt;/h2&gt;
+&lt;p&gt;The way the model predictions move can be informative.&lt;/p&gt;
+&lt;p&gt;One of the models may have been leaning more in that direction, all of
+them would likely have assigned some probability to the general
+direcion.&lt;/p&gt;
+&lt;p&gt;There seems to be some inertia in the models, so sometimes as they
+shift the direction of the forecast, the next update also moves a
+little in that direction: when the forecasts are changing, more change
+is often more likely, it indicates that the driving features are
+changing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="climate-change"&gt;
+&lt;h2&gt;Climate Change&lt;/h2&gt;
+&lt;p&gt;Sometimes it indicates there is a new factor in play.&lt;/p&gt;
+&lt;p&gt;Climate change is increasing occurrences of unusual weather.  Regions
+are experiencing conditions at the extremes of what they have
+experienced.&lt;/p&gt;
+&lt;p&gt;In many cases these are conditions that the region is poorly adapted
+to.&lt;/p&gt;
+&lt;p&gt;The models will also be experiencing conditions outside the area where
+they have been callibrated.&lt;/p&gt;
+&lt;p&gt;This will provide good data and new insigts to improve them for the future.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bermuda"&gt;
+&lt;h2&gt;Bermuda&lt;/h2&gt;
+&lt;p&gt;The first anniversary of these storms is fast approaching.&lt;/p&gt;
+&lt;p&gt;For now Joaquin is moving very slowly, battering Caribbean islands.&lt;/p&gt;
+&lt;p&gt;The latest forecasts have it well west of Bermuda.&lt;/p&gt;
+&lt;p&gt;The track should become more certain over then next 24 hours or so.&lt;/p&gt;
+&lt;p&gt;Latest 11,00pm EDT October 1, 2015 discussion has this paragraph:&lt;/p&gt;
+&lt;blockquote&gt;
+The forecast models continue to indicate a track farther away
+from the United States east coast and the threat of direct impacts
+from Joaquin in the Carolinas and mid-Atlantic states appears to be
+decreasing.  However, the threat of impacts in Bermuda has increased
+and a Tropical Storm or Hurricane Watch could be required for that
+island on Friday.&lt;/blockquote&gt;
+&lt;p&gt;It would be good to have more info on the likely intensity should it
+take a path close to Bermuda.&lt;/p&gt;
+&lt;p&gt;There still appears to be a fair bit of uncertainty about the path.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>hurricane</category><category>Joaquin</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/hurricane-joaquin.html</guid><pubDate>Fri, 02 Oct 2015 02:18:35 GMT</pubDate></item><item><title>Fred Update</title><link>http://openbermuda.github.io/80days/posts/fred-update.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Fred formed way in the east of the Atlantic.  I believe it was already
 a hurricane going over the Cape Verde islands.  I was shown pictures
 today of seas damaging a pier.  I have not heard too much more about
 damage.&lt;/p&gt;
