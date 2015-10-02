@@ -87,4 +87,18 @@ For now Joaquin is moving very slowly, battering Caribbean islands.
 
 The latest forecasts have it well west of Bermuda.
 
-The track should become more certain over then next 24 hours or so. 
+The track should become more certain over then next 24 hours or so.
+
+Latest 11,00pm EDT October 1, 2015 discussion has this paragraph:
+
+  The forecast models continue to indicate a track farther away
+  from the United States east coast and the threat of direct impacts
+  from Joaquin in the Carolinas and mid-Atlantic states appears to be
+  decreasing.  However, the threat of impacts in Bermuda has increased
+  and a Tropical Storm or Hurricane Watch could be required for that
+  island on Friday.
+
+It would be good to have more info on the likely intensity should it
+take a path close to Bermuda.
+
+There still appears to be a fair bit of uncertainty about the path.
