@@ -44,7 +44,7 @@ research as follows:
 So, they were actually doing research that, had it confirmed their
 hypothesis, would have likely been very beneficial to VW.
 
-Instead, they discovered how VW were actually rigging emissions tests.
+Instead, they discovered how VW were rigging emissions tests.
 
 In this case the information has leaked due to diligent scientific
 research, done in the the open and shared with the public.
@@ -127,7 +127,7 @@ We could all have trawled through Ashley Madison, but most chose not
 to do so, respecting people's privacy.
 
 It is no different to how people behave in social situations.
-Confidences are shared and respected allo the time.
+Confidences are shared and respected all the time.
 
 Just because they are shared with a computer does not change that
 social contract.
