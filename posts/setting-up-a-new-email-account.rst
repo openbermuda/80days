@@ -1,7 +1,7 @@
 .. title: Setting up a new email account
 .. slug: setting-up-a-new-email-account
 .. date: 2015-10-09 21:40:59 UTC
-.. tags: 
+.. tags: draft
 .. category: 
 .. link: 
 .. description: A tale of woe
