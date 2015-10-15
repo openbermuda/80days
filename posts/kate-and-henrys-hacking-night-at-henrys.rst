@@ -71,6 +71,20 @@ Kate:
 Agenda
 ======
 
+Should we execute this code?
+----------------------------
+
+The idea is for someone to present some code that has never been run.
+
+We discuss and debate whether it should be run.
+
+with:
+
+   @raspberrry pi @ fish
+
+Contributions
+-------------
+
 If there are volunteers to present ideas, let me know and I will
 advertise more widely.
 
