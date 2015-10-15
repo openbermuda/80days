@@ -94,11 +94,11 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/free-software.xml</loc>
-  <lastmod>2015-10-13</lastmod>
+  <lastmod>2015-10-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/fun.xml</loc>
-  <lastmod>2015-10-13</lastmod>
+  <lastmod>2015-10-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/gardening.xml</loc>
@@ -150,7 +150,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/meetup.xml</loc>
-  <lastmod>2015-10-13</lastmod>
+  <lastmod>2015-10-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/montreal.xml</loc>
@@ -282,10 +282,10 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/rss.xml</loc>
-  <lastmod>2015-10-13</lastmod>
+  <lastmod>2015-10-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/sitemap.xml</loc>
-  <lastmod>2015-10-13</lastmod>
+  <lastmod>2015-10-15</lastmod>
  </sitemap>
 </sitemapindex>
