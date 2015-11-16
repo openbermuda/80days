@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (open source)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/open-source.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Where's de bus</title><link>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's TLF students are considering creating an application to
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (open source)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/open-source.xml"></atom:link><language>en</language><lastBuildDate>Mon, 16 Nov 2015 17:27:28 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Bermuda Government Web Site</title><link>http://openbermuda.github.io/80days/posts/new-bermuda-government-web-site.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;In last week's thrown speech the government announced that a new
+government web site will be created in 2016.&lt;/p&gt;
+&lt;div class="section" id="why-is-a-new-website-needed"&gt;
+&lt;h2&gt;Why is a new website needed?&lt;/h2&gt;
+&lt;p&gt;The existing government websites are built on top of proprietary
+technologies such as Adobe Flash.&lt;/p&gt;
+&lt;p&gt;It would seem the government does not own the code to its own
+websites.&lt;/p&gt;
+&lt;p&gt;Contracts were put out to tender, the winning bid invariably ends up
+owning the code.  This locks the government into expensive support
+contracts from the same contractors.&lt;/p&gt;
+&lt;p&gt;Systems become unsupportable if built on top of proprietary technology
+that itself reaches end of life or if the contractor that owns the
+code goes out of business.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="free-software-and-open-data"&gt;
+&lt;h2&gt;Free Software and Open Data&lt;/h2&gt;
+&lt;p&gt;Free software is software that gives its users the freedom to examine,
+modify, change and re-distribute the software.&lt;/p&gt;
+&lt;p&gt;There are now millions of free software projects and the vast majority
+of successful technology companies are building their products with
+free software.&lt;/p&gt;
+&lt;p&gt;It is widely accepted in technology circles that the free and open
+development methodology results in higher quality software, lower
+total cost of ownership and more control for users.&lt;/p&gt;
+&lt;p&gt;Open data is a related concept.  Data is made freely available and
+searchable by all.&lt;/p&gt;
+&lt;p&gt;Other jurisdictions have embraced open data, appointed open data
+advocates.&lt;/p&gt;
+&lt;p&gt;They have run open data book clubs and hackathons to inform their
+citizens of the data that is available and invite development of
+innovative new tools.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-consider-free-and-open-source-solutions"&gt;
+&lt;h2&gt;Will the government consider free and open source solutions?&lt;/h2&gt;
+&lt;p&gt;Many jurisdictions now mandate that solutions be build with free and
+open software.&lt;/p&gt;
+&lt;p&gt;Others insist that free and open source solutions are given fair
+consideration in the bidding process.&lt;/p&gt;
+&lt;p&gt;Will the Bermuda government be looking at free software solutions?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-insist-it-has-control-of-the-code-for-its-own-website"&gt;
+&lt;h2&gt;Will the government insist it has control of the code for its own website?&lt;/h2&gt;
+&lt;p&gt;Will the government ensure it has control over the code running on its
+own websites?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-empower-the-community-to-contribute"&gt;
+&lt;h2&gt;Will the government empower the community to contribute?&lt;/h2&gt;
+&lt;p&gt;There is a growing community of free software enthusiasts in Bermuda.&lt;/p&gt;
+&lt;p&gt;Will the government support that community by involving it in the
+design and development of the new website?&lt;/p&gt;
+&lt;p&gt;Will it involve schools and the Bermuda college in the design and
+development of its websites?&lt;/p&gt;
+&lt;p&gt;Will it empower its people to contribute to their own systems?&lt;/p&gt;
+&lt;p&gt;Will it open up the process to wide discussion and provide funds to
+sponsor the best ideas?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-support-open-data-initiatives"&gt;
+&lt;h2&gt;Will the government support open data initiatives?&lt;/h2&gt;
+&lt;p&gt;Other jurisdictions have demonstrated the value of making citizen's
+data freely available and usable by the community.&lt;/p&gt;
+&lt;p&gt;Will the government embrace &lt;em&gt;open by default&lt;/em&gt;.  Data will be open
+unless there is a compelling reason to keep it secret.&lt;/p&gt;
+&lt;p&gt;Noting that securing data on today's computers is extremely difficult,
+will the government take steps to reduce to a minimum the amount of
+sensitive data it stores?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-involve-the-community-in-privacy-and-open-data-discussions"&gt;
+&lt;h2&gt;Will the government involve the community in privacy and open data discussions?&lt;/h2&gt;
+&lt;p&gt;Privacy and information security affect everyone living on the
+island.  Will the government invite contributions from the community
+and an informed discussion about what data should be stored on
+computers and who should have access to that data?&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>free software</category><category>open source</category><guid>http://openbermuda.github.io/80days/posts/new-bermuda-government-web-site.html</guid><pubDate>Mon, 16 Nov 2015 16:55:09 GMT</pubDate></item><item><title>Where's de bus</title><link>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's TLF students are considering creating an application to
 give Bermuda's public transport users up to date information on where
 the buses and ferries actually are.&lt;/p&gt;
 &lt;p&gt;Transit authorities that have made this data available have found a

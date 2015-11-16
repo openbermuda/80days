@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (bermuda)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link href="http://openbermuda.github.io/80days/categories/bermuda.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 07 Sep 2015 15:44:34 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Magic Roundabouts and Geese</title><link>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Growing up as children we would watch The Magic Roundabout on the BBC.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (bermuda)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/bermuda.xml"></atom:link><language>en</language><lastBuildDate>Mon, 16 Nov 2015 17:27:28 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Bermuda Government Web Site</title><link>http://openbermuda.github.io/80days/posts/new-bermuda-government-web-site.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;In last week's thrown speech the government announced that a new
+government web site will be created in 2016.&lt;/p&gt;
+&lt;div class="section" id="why-is-a-new-website-needed"&gt;
+&lt;h2&gt;Why is a new website needed?&lt;/h2&gt;
+&lt;p&gt;The existing government websites are built on top of proprietary
+technologies such as Adobe Flash.&lt;/p&gt;
+&lt;p&gt;It would seem the government does not own the code to its own
+websites.&lt;/p&gt;
+&lt;p&gt;Contracts were put out to tender, the winning bid invariably ends up
+owning the code.  This locks the government into expensive support
+contracts from the same contractors.&lt;/p&gt;
+&lt;p&gt;Systems become unsupportable if built on top of proprietary technology
+that itself reaches end of life or if the contractor that owns the
+code goes out of business.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="free-software-and-open-data"&gt;
+&lt;h2&gt;Free Software and Open Data&lt;/h2&gt;
+&lt;p&gt;Free software is software that gives its users the freedom to examine,
+modify, change and re-distribute the software.&lt;/p&gt;
+&lt;p&gt;There are now millions of free software projects and the vast majority
+of successful technology companies are building their products with
+free software.&lt;/p&gt;
+&lt;p&gt;It is widely accepted in technology circles that the free and open
+development methodology results in higher quality software, lower
+total cost of ownership and more control for users.&lt;/p&gt;
+&lt;p&gt;Open data is a related concept.  Data is made freely available and
+searchable by all.&lt;/p&gt;
+&lt;p&gt;Other jurisdictions have embraced open data, appointed open data
+advocates.&lt;/p&gt;
+&lt;p&gt;They have run open data book clubs and hackathons to inform their
+citizens of the data that is available and invite development of
+innovative new tools.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-consider-free-and-open-source-solutions"&gt;
+&lt;h2&gt;Will the government consider free and open source solutions?&lt;/h2&gt;
+&lt;p&gt;Many jurisdictions now mandate that solutions be build with free and
+open software.&lt;/p&gt;
+&lt;p&gt;Others insist that free and open source solutions are given fair
+consideration in the bidding process.&lt;/p&gt;
+&lt;p&gt;Will the Bermuda government be looking at free software solutions?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-insist-it-has-control-of-the-code-for-its-own-website"&gt;
+&lt;h2&gt;Will the government insist it has control of the code for its own website?&lt;/h2&gt;
+&lt;p&gt;Will the government ensure it has control over the code running on its
+own websites?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-empower-the-community-to-contribute"&gt;
+&lt;h2&gt;Will the government empower the community to contribute?&lt;/h2&gt;
+&lt;p&gt;There is a growing community of free software enthusiasts in Bermuda.&lt;/p&gt;
+&lt;p&gt;Will the government support that community by involving it in the
+design and development of the new website?&lt;/p&gt;
+&lt;p&gt;Will it involve schools and the Bermuda college in the design and
+development of its websites?&lt;/p&gt;
+&lt;p&gt;Will it empower its people to contribute to their own systems?&lt;/p&gt;
+&lt;p&gt;Will it open up the process to wide discussion and provide funds to
+sponsor the best ideas?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-support-open-data-initiatives"&gt;
+&lt;h2&gt;Will the government support open data initiatives?&lt;/h2&gt;
+&lt;p&gt;Other jurisdictions have demonstrated the value of making citizen's
+data freely available and usable by the community.&lt;/p&gt;
+&lt;p&gt;Will the government embrace &lt;em&gt;open by default&lt;/em&gt;.  Data will be open
+unless there is a compelling reason to keep it secret.&lt;/p&gt;
+&lt;p&gt;Noting that securing data on today's computers is extremely difficult,
+will the government take steps to reduce to a minimum the amount of
+sensitive data it stores?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-involve-the-community-in-privacy-and-open-data-discussions"&gt;
+&lt;h2&gt;Will the government involve the community in privacy and open data discussions?&lt;/h2&gt;
+&lt;p&gt;Privacy and information security affect everyone living on the
+island.  Will the government invite contributions from the community
+and an informed discussion about what data should be stored on
+computers and who should have access to that data?&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>free software</category><category>open source</category><guid>http://openbermuda.github.io/80days/posts/new-bermuda-government-web-site.html</guid><pubDate>Mon, 16 Nov 2015 16:55:09 GMT</pubDate></item><item><title>Magic Roundabouts and Geese</title><link>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Growing up as children we would watch The Magic Roundabout on the BBC.&lt;/p&gt;
 &lt;p&gt;It was a five minute children's program with a carousel, Zebedee,
 Dougal the dog and Dylan the rabbit.&lt;/p&gt;
 &lt;p&gt;Each episode ended with Zebedee saying, "Time for bed", before
@@ -1223,71 +1296,4 @@ and White Wizards&lt;/a&gt; it was appropriate that he should choose &lt;a class
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>linux</category><category>music</category><guid>http://openbermuda.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</guid><pubDate>Sun, 25 Jan 2015 22:22:58 GMT</pubDate></item><item><title>The Music from UNCLE</title><link>http://openbermuda.github.io/80days/posts/the-music-from-uncle.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am lucky enough to live in a wonderful part of the world.  &lt;a class="reference external" href="https://www.youtube.com/watch?v=vbVyE6hZjCU"&gt;Bermuda
-is another world&lt;/a&gt;.  It really is.&lt;/p&gt;
-&lt;p&gt;A tiny island of just 60,000 people, a place with a complex history.
-There are a lot of wonderful people here.  There are also some cool
-things starting to happen here such as &lt;a class="reference external" href="http://code441.com"&gt;code441&lt;/a&gt; and &lt;a class="reference external" href="http://wearebermuda.com/"&gt;wearebermuda&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It is Christmas time.  The last Saturday before Christmas and there
-are parties everywhere.  Many of them are company parties.  You know
-the thing, you sort of have to go along.  With luck you'll get to sit
-with some of the people at work you actually like.  As the night goes
-on, if you are lucky, you will find some like-minded people to spend
-time with.&lt;/p&gt;
-&lt;p&gt;This year, no office party for me.  So, we went to a local bar.  There
-is a DJ every Saturday night at this place.  The dance floor is always
-packed, for a simple reason: he knows his crowd.  And he always walks
-around before he starts, plans his work and works his plan.&lt;/p&gt;
-&lt;p&gt;Last night there must have been 60 cars parked in the area.  The place
-was packed.  Everyone was having a good time.&lt;/p&gt;
-&lt;p&gt;Now only in Bermuda could a DJ start the evening with &lt;a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30"&gt;My God is
-Awesome&lt;/a&gt;, follow it up with &lt;a class="reference external" href="https://www.youtube.com/watch?v=9T4WB2zfmps"&gt;Silent Night&lt;/a&gt; and already have his
-audience tapping their feet and getting into the mood.&lt;/p&gt;
-&lt;p&gt;I'd never heard &lt;a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30"&gt;My God is Awesome&lt;/a&gt; before.  Actually, I am sure I
-must of heard it, just hadn't really listend.  And I only really
-listened this time because it reminded me of the &lt;a class="reference external" href="http://awesome.naquadah.org/"&gt;Awesome window
-manager&lt;/a&gt;  I've been using awesome the last few weeks and it has had a
-huge impact on the way I use my computer.   And I am only scratching
-the surface of what it can do.&lt;/p&gt;
-&lt;p&gt;So this was followed up with &lt;a class="reference external" href="https://www.youtube.com/watch?v=xlVxEAUqWU0"&gt;You can't hurry love&lt;/a&gt;, an old version
-by the Supremes.  Another special song for me.&lt;/p&gt;
-&lt;p&gt;Then there was &lt;a class="reference external" href="https://www.youtube.com/watch?v=vdB-8eLEW8g"&gt;One Love&lt;/a&gt;, &lt;a class="reference external" href="https://www.youtube.com/watch?v=JFMtBibwrgY"&gt;Electric Slide&lt;/a&gt;, complete with line
-dancing.  Bermudian line dancing has to be seen to be appreciated.
-Last night was typical.  A mixture of regulars to the place and those
-just there for the party.  Everyone having a good time
-together. There were a lot of &lt;a class="reference external" href="https://www.youtube.com/watch?v=y6Sxv-sUYtM"&gt;Happy&lt;/a&gt; people.&lt;/p&gt;
-&lt;p&gt;My music tastes are a bit weird.  I pretty much follow the crowd.  And
-my guitar music.  I have been (very slowly) learning to play over the
-past few years.  I have a few books with tabs, most of them have the
-word &lt;em&gt;easy&lt;/em&gt; in their titles.&lt;/p&gt;
-&lt;p&gt;I would pick a song and try the patience of those around me by playing
-it over and over again, badly.  I would look at the tabs of some and
-think, no way I can play that.  But now I am starting to get a little
-better and a little more adventurous.  I am noticing songs that have
-been there for years ready for me to play.  Song of the moment is the
-&lt;a class="reference external" href="https://www.youtube.com/watch?v=YZo88P1Ie94"&gt;The Joker&lt;/a&gt;.  Like all good songs, there is lots of scope for
-changing the lyrics:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-I'm a picker,
-I'm a grinder,
-I'm a lover,
-I'm a sinner,
-I play my music in the sun
-&lt;/pre&gt;
-&lt;p&gt;Grinder not grinner, in tribute to the &lt;a class="reference external" href="https://www.youtube.com/watch?v=pTXjp2bf1vo"&gt;Sheffield Grinder&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;And seeing as I have a bit of a &lt;a class="reference external" href="http://git-scm.com/"&gt;git&lt;/a&gt; obsession:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-I'm a puller,
-I'm a merger,
-I'm a midnight coder,
-I get my checkouts from github.
-&lt;/pre&gt;
-&lt;p&gt;Thanks Uncle, old stuff still works.  Sometimes it works way better
-than the new stuff.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>awesome</category><category>bermuda</category><category>music</category><guid>http://openbermuda.github.io/80days/posts/the-music-from-uncle.html</guid><pubDate>Sun, 21 Dec 2014 20:01:33 GMT</pubDate></item></channel></rss>
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>linux</category><category>music</category><guid>http://openbermuda.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</guid><pubDate>Sun, 25 Jan 2015 22:22:58 GMT</pubDate></item></channel></rss>

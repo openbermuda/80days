@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Thu, 15 Oct 2015 13:19:11 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Kate and Henry's Hacking night at Henry's</title><link>http://openbermuda.github.io/80days/posts/kate-and-henrys-hacking-night-at-henrys.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;div class="section" id="what"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 16 Nov 2015 17:27:28 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Bermuda Government Web Site</title><link>http://openbermuda.github.io/80days/posts/new-bermuda-government-web-site.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;In last week's thrown speech the government announced that a new
+government web site will be created in 2016.&lt;/p&gt;
+&lt;div class="section" id="why-is-a-new-website-needed"&gt;
+&lt;h2&gt;Why is a new website needed?&lt;/h2&gt;
+&lt;p&gt;The existing government websites are built on top of proprietary
+technologies such as Adobe Flash.&lt;/p&gt;
+&lt;p&gt;It would seem the government does not own the code to its own
+websites.&lt;/p&gt;
+&lt;p&gt;Contracts were put out to tender, the winning bid invariably ends up
+owning the code.  This locks the government into expensive support
+contracts from the same contractors.&lt;/p&gt;
+&lt;p&gt;Systems become unsupportable if built on top of proprietary technology
+that itself reaches end of life or if the contractor that owns the
+code goes out of business.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="free-software-and-open-data"&gt;
+&lt;h2&gt;Free Software and Open Data&lt;/h2&gt;
+&lt;p&gt;Free software is software that gives its users the freedom to examine,
+modify, change and re-distribute the software.&lt;/p&gt;
+&lt;p&gt;There are now millions of free software projects and the vast majority
+of successful technology companies are building their products with
+free software.&lt;/p&gt;
+&lt;p&gt;It is widely accepted in technology circles that the free and open
+development methodology results in higher quality software, lower
+total cost of ownership and more control for users.&lt;/p&gt;
+&lt;p&gt;Open data is a related concept.  Data is made freely available and
+searchable by all.&lt;/p&gt;
+&lt;p&gt;Other jurisdictions have embraced open data, appointed open data
+advocates.&lt;/p&gt;
+&lt;p&gt;They have run open data book clubs and hackathons to inform their
+citizens of the data that is available and invite development of
+innovative new tools.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-consider-free-and-open-source-solutions"&gt;
+&lt;h2&gt;Will the government consider free and open source solutions?&lt;/h2&gt;
+&lt;p&gt;Many jurisdictions now mandate that solutions be build with free and
+open software.&lt;/p&gt;
+&lt;p&gt;Others insist that free and open source solutions are given fair
+consideration in the bidding process.&lt;/p&gt;
+&lt;p&gt;Will the Bermuda government be looking at free software solutions?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-insist-it-has-control-of-the-code-for-its-own-website"&gt;
+&lt;h2&gt;Will the government insist it has control of the code for its own website?&lt;/h2&gt;
+&lt;p&gt;Will the government ensure it has control over the code running on its
+own websites?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-empower-the-community-to-contribute"&gt;
+&lt;h2&gt;Will the government empower the community to contribute?&lt;/h2&gt;
+&lt;p&gt;There is a growing community of free software enthusiasts in Bermuda.&lt;/p&gt;
+&lt;p&gt;Will the government support that community by involving it in the
+design and development of the new website?&lt;/p&gt;
+&lt;p&gt;Will it involve schools and the Bermuda college in the design and
+development of its websites?&lt;/p&gt;
+&lt;p&gt;Will it empower its people to contribute to their own systems?&lt;/p&gt;
+&lt;p&gt;Will it open up the process to wide discussion and provide funds to
+sponsor the best ideas?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-support-open-data-initiatives"&gt;
+&lt;h2&gt;Will the government support open data initiatives?&lt;/h2&gt;
+&lt;p&gt;Other jurisdictions have demonstrated the value of making citizen's
+data freely available and usable by the community.&lt;/p&gt;
+&lt;p&gt;Will the government embrace &lt;em&gt;open by default&lt;/em&gt;.  Data will be open
+unless there is a compelling reason to keep it secret.&lt;/p&gt;
+&lt;p&gt;Noting that securing data on today's computers is extremely difficult,
+will the government take steps to reduce to a minimum the amount of
+sensitive data it stores?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="will-the-government-involve-the-community-in-privacy-and-open-data-discussions"&gt;
+&lt;h2&gt;Will the government involve the community in privacy and open data discussions?&lt;/h2&gt;
+&lt;p&gt;Privacy and information security affect everyone living on the
+island.  Will the government invite contributions from the community
+and an informed discussion about what data should be stored on
+computers and who should have access to that data?&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>free software</category><category>open source</category><guid>http://openbermuda.github.io/80days/posts/new-bermuda-government-web-site.html</guid><pubDate>Mon, 16 Nov 2015 16:55:09 GMT</pubDate></item><item><title>Kate and Henry's Hacking night at Henry's</title><link>http://openbermuda.github.io/80days/posts/kate-and-henrys-hacking-night-at-henrys.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;div class="section" id="what"&gt;
 &lt;h2&gt;What&lt;/h2&gt;
 &lt;p&gt;If you are interested in computing, hardware, software, art, music,
 culture then come along.&lt;/p&gt;
@@ -961,91 +1034,4 @@ it is necessary to have much more capacity than is needed on average.&lt;/p&gt;
 This works particularly well if you have long running computations
 that can be used to mop up spare compute cycles.&lt;/p&gt;
 &lt;p&gt;Bitcoin mining is one potential application.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>Cray</category><category>Cray-XMP</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</guid><pubDate>Sat, 01 Aug 2015 22:08:09 GMT</pubDate></item><item><title>Red and White v Blue and White</title><link>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last Saturday there was a big cricket match at Lord's.&lt;/p&gt;
-&lt;p&gt;Not the Lord's where England were falling apart as the Aussies were
-dominating the second test, but Lord's in St David's, Bermuda.&lt;/p&gt;
-&lt;p&gt;Bailey's Bay were playing Cleveland County in what is known as the
-Eastern Counties.&lt;/p&gt;
-&lt;p&gt;Each team in Bermuda has its colours, Bay are red and white, Cleveland
-are blue and white.&lt;/p&gt;
-&lt;p&gt;I come from Sheffield, UK, a city divided between the blue and white
-of the Owls and the red and white of the Mighty Blades.  I follow the
-Blades, so it was natural for me to be cheering for Bailey's Bay.&lt;/p&gt;
-&lt;p&gt;We had a slow start to the day and it was a long (for Bermuda) ride on
-the moped to St David's, so we didn't get to the ground until just
-before lunch.&lt;/p&gt;
-&lt;p&gt;As we entered we were greeted by a larger than life character in red
-and white.  Once I took out my red and white, &lt;em&gt;cat in the hat&lt;/em&gt;
-headgear he directed us towards the Digicel tent.&lt;/p&gt;
-&lt;img alt="../galleries/EasternCounties/20150718_123538.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_123538.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;The game was nicely poised, with Cleveland batting first and on about
-80 runs for 4 wickets at lunch.&lt;/p&gt;
-&lt;p&gt;After lunch the Bay bowlers dominated and Cleveland were bowled out
-for 127 in 49.3 overs.&lt;/p&gt;
-&lt;img alt="../galleries/EasternCounties/20150718_151601.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_151601.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;Lord's is a wonderful ground, right by the ocean, with natural banks
-on which people build stands.  Between innings we went for a walk
-round the ground and took some pictures.&lt;/p&gt;
-&lt;img alt="../galleries/EasternCounties/20150718_125203.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_125203.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;And then there is the precariously perched commentary position that
-you have to walk the plank to get to:&lt;/p&gt;
-&lt;img alt="../galleries/EasternCounties/20150718_152446.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_152446.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;Now being a Blades supporter I have got used to my team snatching
-defeat from the jaws of victory.  The target of 128 that Bay were set
-should have been easily within their grasp, but we were about to
-witness one of the most bizarre afternoon's cricket there ever was.&lt;/p&gt;
-&lt;p&gt;Bay lost two early wickets, but then regrouped and the batsmen were
-starting to open up at 50-2.   Cleveland had a couple of strong
-appeals turned down.  There was a strong appeal for a catch, but it
-was one of those where it was hard to tell if the ball had been
-blocked into the ground or hit the ground and come off the bat.  The
-umpire gave the benefit of the doubt to the batsman.&lt;/p&gt;
-&lt;p&gt;Cleveland protested and for 40 minutes chaos ensued.  Both coaches,
-the president of the Eastern Counties and even a policeman took to the
-pitch to try and get the game restarted.&lt;/p&gt;
-&lt;img alt="../galleries/EasternCounties/20150718_171958.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_171958.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;Soon after the restart, there was another delay for a drinks break.
-The batsmen were finding it difficult to get into any sort of rhythm
-and first ball after the break a wicket fell.&lt;/p&gt;
-&lt;p&gt;After this wickets fell steadily, but Bay always looked like they
-would make it.  Until, after 30 overs, with the scores tied and Bay
-with just 2 wickets remaining the umpires declared the game over.&lt;/p&gt;
-&lt;p&gt;With the scores tied, Cleveland, as holders, were declared winners.&lt;/p&gt;
-&lt;p&gt;It reminded me of the infamous F.A. Cup tie when the Blades were
-holding their own against an Arsenal side.  The ball was kicked into
-play for an injury.  The resulting throw was sportingly thrown back to
-the blades players, but Kanu did not seem to understand what was
-happening, raced onto the ball and slotted it into the net.&lt;/p&gt;
-&lt;p&gt;Arsenal went on to win, but Wenger graciously agreed to replay the
-game.  Of course, the Blades went on to lose the replay, but at least
-the game was not decided by this bizarre incident.&lt;/p&gt;
-&lt;p&gt;I read today that the Cleveland coach was very unhappy with his sides
-behaviour, perhaps he will follow Wenger's example and ask for the
-game to be replayed.  However, that might not be possible given the
-busy summer cricket schedule here in Bermuda, with Cup Match &lt;a class="footnote-reference" href="http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html#id2" id="id1"&gt;[2]&lt;/a&gt; less than
-two weeks away this might not be an option.&lt;/p&gt;
-&lt;p&gt;Today's Royal Gazette has a full page &lt;a class="reference external" href="http://www.royalgazette.com/article/20150720/COMMENT01/150729969"&gt;editorial&lt;/a&gt; on the game.  There
-are also rumours that Cleveland have been &lt;a class="reference external" href="http://www.royalgazette.com/article/20150720/SPORT02/150729960"&gt;stripped of the cup&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It is never dull following the Red and White wizards.&lt;/p&gt;
-&lt;p&gt;So much for the cricket, the day itself was fun from beginning to
-end.  Unfortunately, I had packed the bag of stuff to take to the
-ground, so instead of drinks and food and sunscreen we had an
-assortment of raspberry pi's, humidity sensors, air pressure sensors,
-wires, breadboards and a netbook.&lt;/p&gt;
-&lt;p&gt;There was food in the clubhouse, yellow and blue, St David's colours.
-So we were able to find some chips that weren't made of silicon.  And
-the rum swizzle went down very smoothly.&lt;/p&gt;
-&lt;p&gt;The banter in the crowd rarely stopped, with fans from both sides
-sitting enjoying together.&lt;/p&gt;
-&lt;p&gt;Cricket in Bermuda is very much something you go to watch with family
-and friends.  Worst case, you have a day in the sunshine in a
-beautiful setting, with people you love.&lt;/p&gt;
-&lt;p&gt;Next stop the blue and red of Somerset playing the light and dark blue
-of St George's.  Cup Match!&lt;/p&gt;
-&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
-&lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html#id1"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cup match is a two day game between the Red and Blue of
-Somerset and the dark and light blue of St Georges.&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;</description><guid>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</guid><pubDate>Mon, 20 Jul 2015 00:35:52 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>Cray</category><category>Cray-XMP</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</guid><pubDate>Sat, 01 Aug 2015 22:08:09 GMT</pubDate></item></channel></rss>
