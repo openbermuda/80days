@@ -54,7 +54,7 @@ innovative new tools.
 Will the government consider free and open source solutions?
 ------------------------------------------------------------
 
-Many jurisdictions now mandate that solutions be build with free and
+Many jurisdictions now mandate that solutions be built with free and
 open software.
 
 Others insist that free and open source solutions are given fair
