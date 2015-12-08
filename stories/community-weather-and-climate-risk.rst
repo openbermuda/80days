@@ -113,15 +113,45 @@ Data to support this?
 Personal weather stations
 -------------------------
 
-Raspberry pi
-++++++++++++
+Raspberry pi's provide a cheap way to create simple weather
+stations. A simple station that measures air pressure, temperature and
+humidity can be built for less than $50.
 
+The power requirements are low, so stations can be powered by solar
+trickle charging a small battery.
+
+Anemometers and wind direction sensors are valuable additions to
+have and can be built at reasonably low cost.
+
+Education
++++++++++
+
+Building these stations is an excellent project for a school or
+college.
+
+Once built, these provide lots of opportunities for school projects
+related to weather.
+
+In particular, studying the data from the stations can provide
+interesting insights.
+
+For example, when I built a station myself, I learnt that the
+atmosphere is tidal.
+
+Stations
+++++++++
+
+Data
+++++
+
+There are a growing group of weather enthusiasts that have their own
+personal weather stations.
 
 Weather Underground
-+++++++++++++++++++
+'''''''''''''''''''
 
 Sunshine
-++++++++
+''''''''
 
 
 Open Data
@@ -133,8 +163,8 @@ Satellite Imagery
 Radar
 -----
 
-Education
----------
+One of the most used resources in Bermuda are the animated radar
+images that the weather service provides
 
 Projects of interest
 --------------------
@@ -145,6 +175,7 @@ Global Precipitation Mission
 
 related projects?
 
+windyty
 
 
 Tourism
@@ -153,4 +184,14 @@ Tourism
 Bermuda
 -------
 
-Organisations: BIOS, BEST, Bermuda Weather
+Bermuda Weather
++++++++++++++++
+
+BIOS
+++++
+
+Others
+++++++
+
+BEST, greenrock, ...
+
