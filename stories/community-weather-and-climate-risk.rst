@@ -7,6 +7,8 @@
 .. description: Proposal for a talk at PyCon Caribbean
 .. type: text
 
+.. sectnum::
+    depth: 3
 
 ==================================
 Community Weather and Climate Risk
@@ -33,11 +35,6 @@ Community weather and climate:
 Abstract
 ========   
    
-** I'm late! **
-
-So this proposal is late. It is partly a software project, and every
-one of those has been late.
-
 I'm working to develop python and free software community here in
 Bermuda. The potential is huge, and it can have a really positive
 impact here and beyond. But things take time.
@@ -74,27 +71,86 @@ abstracts:
 
 https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/
 
+Introduction
+------------
 
-Climate
--------
+
 
 Hurricanes
 ----------
 
-Raspberry pi
-------------
+2013 and 2014 seasons
++++++++++++++++++++++
+
+* Erika and Fay
+
+* Gonzalo and Joaquin
+
+Damage surveys
+
+Precipitation  
+
+Climate Change
+--------------
+
+* current climate is at the edge of our historical record of data.
+
+Ice Cap melting
++++++++++++++++
+
+Rising sea levels
+'''''''''''''''''
+
+
+
+Extreme weather events
+++++++++++++++++++++++
+
+Growing evidence that frequency of extreme events is increasing.
+
+Data to support this?
 
 Personal weather stations
 -------------------------
 
+Raspberry pi
+++++++++++++
+
+
+Weather Underground
++++++++++++++++++++
+
+Sunshine
+++++++++
+
+
 Open Data
 ---------
 
-Imagery
--------
+Satellite Imagery
+-----------------
 
 Radar
 -----
 
 Education
 ---------
+
+Projects of interest
+--------------------
+
+Oasis
+
+Global Precipitation Mission
+
+related projects?
+
+
+
+Tourism
+-------
+
+Bermuda
+-------
+
+Organisations: BIOS, BEST, Bermuda Weather
