@@ -74,6 +74,26 @@ https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/
 Introduction
 ------------
 
+I have worked with risk managements systems over the last 18 years.
+Through this time I have been working with open source software, using
+great tools to build systems to assess risk.
+
+Hurricanes have always been an interest.  Much of this time I have
+been living in Bermuda, where I now live.  I have a keen interest in
+weather and climate.
+
+Climate change presents challenges to risk modelling and weather
+forecasting.
+
+There have been significant developments in computing, especially the
+low cost and low power raspberry pi.
+
+Software developments too.  Making things.
+
+Data, data, everywhere.
+
+I will begin with some observations from the last two Atlantic
+hurricane seasons.
 
 Hurricanes
 ----------
@@ -105,10 +125,11 @@ Climate Change
 Ice Cap melting
 +++++++++++++++
 
+Ocean
++++++
+
 Rising sea levels
-'''''''''''''''''
-
-
++++++++++++++++++
 
 Extreme weather events
 ++++++++++++++++++++++
@@ -116,6 +137,26 @@ Extreme weather events
 Growing evidence that frequency of extreme events is increasing.
 
 Data to support this?
+
+Changes in Precipitation
+++++++++++++++++++++++++
+
+Drought
++++++++
+
+Crops
++++++
+
+Extreme Heat
+++++++++++++
+
+and cold.
+
+Raspberry Pi
+++++++++++++
+
+Pi Day
+''''''
 
 Personal weather stations
 -------------------------
@@ -130,8 +171,9 @@ trickle charging a small battery.
 Anemometers and wind direction sensors are valuable additions to
 have and can be built at reasonably low cost.
 
-Education
-+++++++++
+
+Learning
+++++++++
 
 Building these stations is an excellent project for a school or
 college.
@@ -149,7 +191,9 @@ Stations
 ++++++++
 
 Data
-++++
+----
+
+Data, data, everywhere.
 
 There are a growing group of weather enthusiasts that have their own
 personal weather stations.
