@@ -156,7 +156,7 @@ Raspberry Pi
 ++++++++++++
 
 Pi Day
-''''''
+``````
 
 Personal weather stations
 -------------------------
@@ -199,23 +199,27 @@ There are a growing group of weather enthusiasts that have their own
 personal weather stations.
 
 Weather Underground
-'''''''''''''''''''
++++++++++++++++++++
 
 Sunshine
-''''''''
+++++++++
 
 
 Open Data
----------
++++++++++
 
 Satellite Imagery
------------------
++++++++++++++++++
 
 Radar
------
++++++
 
 One of the most used resources in Bermuda are the animated radar
-images that the weather service provides
+images that the weather service provides.
+
+This data could also be used to estimate rainfall.  With rainfall
+readings from lots of weather stations it should be possible to
+calibrate models and gain better insight into rainfall within storms.
 
 Projects of interest
 --------------------
