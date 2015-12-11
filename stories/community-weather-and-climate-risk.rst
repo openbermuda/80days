@@ -8,7 +8,7 @@
 .. type: text
 
 .. sectnum::
-    depth: 3
+    :depth: 3
 
 ==================================
 Community Weather and Climate Risk
