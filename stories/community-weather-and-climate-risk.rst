@@ -75,20 +75,27 @@ Introduction
 ------------
 
 
-
 Hurricanes
 ----------
 
-2013 and 2014 seasons
+2014 and 2015 seasons
 +++++++++++++++++++++
 
-* Erika and Fay
+Erika and Fay
+`````````````
+Is there anyone attending that could talk about Erika?
 
-* Gonzalo and Joaquin
+Gonzalo and Joaquin
+```````````````````
+
+Are there others that have information about Joaquin?  Also the
+flooding caused be systems active at the same time.
 
 Damage surveys
+``````````````
 
-Precipitation  
+Precipitation
+`````````````
 
 Climate Change
 --------------
