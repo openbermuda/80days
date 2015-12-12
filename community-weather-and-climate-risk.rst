@@ -7,6 +7,8 @@
 .. description: Proposal for a talk at PyCon Caribbean
 .. type: text
 
+.. sectnum::
+    :depth: 3
 
 ==================================
 Community Weather and Climate Risk
@@ -33,11 +35,6 @@ Community weather and climate:
 Abstract
 ========   
    
-** I'm late! **
-
-So this proposal is late. It is partly a software project, and every
-one of those has been late.
-
 I'm working to develop python and free software community here in
 Bermuda. The potential is huge, and it can have a really positive
 impact here and beyond. But things take time.
@@ -74,27 +71,190 @@ abstracts:
 
 https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/
 
+Introduction
+------------
 
-Climate
--------
+I have worked with risk managements systems over the last 18 years.
+Through this time I have been working with open source software, using
+great tools to build systems to assess risk.
+
+Hurricanes have always been an interest.  Much of this time I have
+been living in Bermuda, where I now live.  I have a keen interest in
+weather and climate.
+
+Climate change presents challenges to risk modelling and weather
+forecasting.
+
+There have been significant developments in computing, especially the
+low cost and low power raspberry pi.
+
+Software developments too.  Making things.
+
+Data, data, everywhere.
+
+I will begin with some observations from the last two Atlantic
+hurricane seasons.
 
 Hurricanes
 ----------
 
-Raspberry pi
-------------
+2014 and 2015 seasons
++++++++++++++++++++++
+
+Erika and Fay
+`````````````
+Is there anyone attending that could talk about Erika?
+
+Gonzalo and Joaquin
+```````````````````
+
+Are there others that have information about Joaquin?  Also the
+flooding caused be systems active at the same time.
+
+Damage surveys
+``````````````
+
+Precipitation
+`````````````
+
+Climate Change
+--------------
+
+* current climate is at the edge of our historical record of data.
+
+Ice Cap melting
++++++++++++++++
+
+Ocean
++++++
+
+Rising sea levels
++++++++++++++++++
+
+Extreme weather events
+++++++++++++++++++++++
+
+Growing evidence that frequency of extreme events is increasing.
+
+Data to support this?
+
+Changes in Precipitation
+++++++++++++++++++++++++
+
+Drought
++++++++
+
+Crops
++++++
+
+Extreme Heat
+++++++++++++
+
+and cold.
+
+Raspberry Pi
+++++++++++++
+
+Pi Day
+``````
 
 Personal weather stations
 -------------------------
 
-Open Data
----------
+Raspberry pi's provide a cheap way to create simple weather
+stations. A simple station that measures air pressure, temperature and
+humidity can be built for less than $50.
 
-Imagery
--------
+The power requirements are low, so stations can be powered by solar
+trickle charging a small battery.
+
+Anemometers and wind direction sensors are valuable additions to
+have and can be built at reasonably low cost.
+
+
+Learning
+++++++++
+
+Building these stations is an excellent project for a school or
+college.
+
+Once built, these provide lots of opportunities for school projects
+related to weather.
+
+In particular, studying the data from the stations can provide
+interesting insights.
+
+For example, when I built a station myself, I learnt that the
+atmosphere is tidal.
+
+Stations
+++++++++
+
+Data
+----
+
+Data, data, everywhere.
+
+There are a growing group of weather enthusiasts that have their own
+personal weather stations.
+
+Weather Underground
++++++++++++++++++++
+
+Sunshine
+++++++++
+
+
+Open Data
++++++++++
+
+Satellite Imagery
++++++++++++++++++
 
 Radar
++++++
+
+One of the most used resources in Bermuda are the animated radar
+images that the weather service provides.
+
+This data could also be used to estimate rainfall.  With rainfall
+readings from lots of weather stations it should be possible to
+calibrate models and gain better insight into rainfall within storms.
+
+Projects of interest
+--------------------
+
+Oasis
+
+Global Precipitation Mission
+
+related projects?
+
+windyty
+
+
+Tourism
+-------
+
+Bermuda
+-------
+
+Bermuda Weather
++++++++++++++++
+
+BIOS
+++++
+
+Others
+++++++
+
+BEST, greenrock, ...
+
+Caribbean
+---------
+
+World
 -----
 
-Education
----------
+Lam-Lam to Everest
+------------------
