@@ -158,12 +158,11 @@ BEST, greenrock, ...
 ### 3.10 World
 ### 3.11 Lam-Lam to Everest
 
+# Introduction 1 minute
 
-# Everest and LamLam
+# Everest and Lamlam
 
-Check LamLam spelling?
-
-# Mount Everest
+# Mount Everest 5 minutes
 
 Highest mountain on earth?
 
@@ -171,7 +170,7 @@ A mountain of data and algorithms.
 
 Twisted pandas and django ponies.
 
-# Mount LamLam
+# Mount Lamlam 5 minutes
 
 Highest mountain on earth?
 
@@ -193,19 +192,32 @@ Social
 
 python, plays nicely with others
 
-# Special
+# Special 5 minutes
 
-# Bermuda
+## Bermuda
 
-# Weather
+## Weather
 
-# General
+# General 5 minutes
 
-# World
+## World
 
-# Climate
+## Climate
 
-# Raspberry pi
+# Raspberry pi 5 minutes
 
 We'll need something for the journey
 
+## Vista
+
+Very informal seminar for the tea-club audience
+
+Random pechukucha
+
+## Bridges, hills, valleys and mountains
+
+# Jupyter
+
+Coolest project on another planet, to save a world
+
+# Choose your own adventure
