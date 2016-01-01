@@ -41,6 +41,23 @@ provide more information to help mitigate the impact of storms.
 
 Further, we can provide risk analyses for the likely impact of current
 and future human behaviour on our climate.
+
+The talk will follow the structure of an adventure, from hills to
+mountains.
+
+Everest is a mountain of data, Lamlam is a land of philosophies and
+ideas, algorithms, theories.
+
+Everest has many other resources, powerful computing, wonderful
+software, brilliant people sharing ideas.
+
+Lamlam is where we learn to understand each other.  Ask questions
+about how we want to use computers, networks and information.
+
+How we can create wonderful systems with simple, cheap hardware.
+
+And how Jupyter ties it all together to help us look after our world.
+
 ## 3 Outline
 
 I will be looking for images to illustrate each point.  Let's say 30
