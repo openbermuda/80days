@@ -238,3 +238,10 @@ Random pechukucha
 Coolest project on another planet, to save a world
 
 # Choose your own adventure
+
+# Links
+
+https://github.com/peakrisk/lamlam
+
+http://openbermuda.org/80days/blog/
+
