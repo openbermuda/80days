@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (raspberry pi)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link href="http://openbermuda.github.io/80days/categories/raspberry-pi.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 01 Aug 2015 23:32:20 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The raspberry pi super computer</title><link>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The raspberry pi 2 comes with around 6 times the processing power of
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (raspberry pi)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/raspberry-pi.xml"></atom:link><language>en</language><lastBuildDate>Mon, 04 Jan 2016 00:33:07 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a href="http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`raspberry pi sense hat`_&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have been thinking about putting together raspberry pi's, sensors
+and mopeds to make a mobile weather station and more.&lt;/p&gt;
+&lt;p&gt;So in Bermuda we have mopeds.  Power supplies are one thing that is
+causing me some thinking with pi's.  They only need about 5 watts of
+power.  With the pizero, I think it is about 1-2 watts.&lt;/p&gt;
+&lt;p&gt;Solar is always an option, but then the sun goes in.  There is wind
+and rain too.  Lots of ways to get enough power.  And batteries to
+store for when there is nothing.&lt;/p&gt;
+&lt;p&gt;And of course, mopeds have batteries.  They also have this thing that
+sits between your legs and creates explosions lots of times per
+second.&lt;/p&gt;
+&lt;div class="section" id="sense-hat"&gt;
+&lt;h2&gt;Sense Hat&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.raspberrypi.org/products/sense-hat/"&gt;https://www.raspberrypi.org/products/sense-hat/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So I have spend all of five minutes looking at this.&lt;/p&gt;
+&lt;p&gt;It has sensors for:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gyroscope&lt;/li&gt;
+&lt;li&gt;Accelerometer&lt;/li&gt;
+&lt;li&gt;Magnetometer&lt;/li&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;li&gt;Barometric pressure&lt;/li&gt;
+&lt;li&gt;Humidity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And it has a mini joystick as well as an 8x8 matrix display.&lt;/p&gt;
+&lt;p&gt;It plugs neatly into a pi 2's and I expect could be adapted to the
+pizero.&lt;/p&gt;
+&lt;p&gt;Oh, and it is being used for the Astro pi project on the international
+space station.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://astro-pi.org/"&gt;https://astro-pi.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am thinking of adding a wifi chip and a GPS chip.  The latter is
+also good for a real time clock.&lt;/p&gt;
+&lt;p&gt;The sense had also comes with a python library.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://pythonhosted.org/sense-hat/"&gt;http://pythonhosted.org/sense-hat/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are all sorts of other tools that look useful.&lt;/p&gt;
+&lt;p&gt;I can't find it now, but I saw another sense hat piece of code that
+was storing readings in a python flask app, which is what I have been
+trying to do with &lt;a class="reference external" href="https://github.com/peakrisk/sunshine"&gt;sunshine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So, all I need now is one of those Apollo helmets for the moped, with
+the gold coated visor.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="system-messages section"&gt;
+&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
+&lt;div class="system-message" id="id1"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 5); &lt;em&gt;&lt;a href="http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "raspberry pi sense hat".&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>pycaribbean</category><category>python</category><category>raspberry pi</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</guid><pubDate>Mon, 04 Jan 2016 00:13:11 GMT</pubDate></item><item><title>The raspberry pi super computer</title><link>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The raspberry pi 2 comes with around 6 times the processing power of
 the original pi.&lt;/p&gt;
 &lt;p&gt;It is still fairly low powered, but it is interesting to compare the
 pi with some older computers that were considered powerful in their

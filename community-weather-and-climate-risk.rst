@@ -61,15 +61,9 @@ and future human behaviour on our climate.
 Outline
 =======
 
-This is a work in progress.  I will be looking for imagery to
-illustrate each point.   Let's 30 images, 1 minute a piece.
+I will be looking for images to illustrate each point.  Let's say 30
+images, 1 minute a piece.
 
-Which reminds me, I need to work on the (random) pechakucha project.
-
-There is an example of what the proposal committee are looking for as
-abstracts: 
-
-https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/
 
 Introduction
 ------------
