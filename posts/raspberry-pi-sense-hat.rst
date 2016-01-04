@@ -74,3 +74,5 @@ trying to do with `sunshine`_.
 
 So, all I need now is one of those Apollo helmets for the moped, with
 the gold coated visor.
+
+.. _sunshine: https://github.com/peakrisk/sunshine
