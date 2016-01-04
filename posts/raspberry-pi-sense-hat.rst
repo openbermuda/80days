@@ -75,4 +75,5 @@ trying to do with `sunshine`_.
 So, all I need now is one of those Apollo helmets for the moped, with
 the gold coated visor.
 
+.. _raspberry pi sense hat: https://www.raspberrypi.org/products/sense-hat/
 .. _sunshine: https://github.com/peakrisk/sunshine
