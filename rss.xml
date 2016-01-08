@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 04 Jan 2016 00:33:07 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a href="http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`raspberry pi sense hat`_&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 08 Jan 2016 20:20:31 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
+phone.&lt;/p&gt;
+&lt;p&gt;It was actually before phone apps were really a thing, or even called
+apps.  Nokia had ported python to the Series 60 phones and had some
+simple libraries you could use to build your Nokia apps.&lt;/p&gt;
+&lt;p&gt;I created one called &lt;a class="reference external" href="http://anorak.sourceforge.net/"&gt;anorak&lt;/a&gt;.  Around the same time Guido Van Rossum
+posted some code to a thing he called &lt;a class="reference external" href="https://www.python.org/~guido/mclock2.py"&gt;mclock2&lt;/a&gt;.  Growing up his
+family had a clock which had three coloured discs and a bright light
+behind them.  The disks rotate through the day giving pretty patterns
+on the clock.  The clock was designed by Rob Juda.&lt;/p&gt;
+&lt;p&gt;Here is a screenshot from Guido's code.&lt;/p&gt;
+&lt;img alt="../galleries/Fishnet/guido.png" src="http://openbermuda.github.io/80days/galleries/Fishnet/guido.png"&gt;
+&lt;p&gt;Guido created a Tkinter application to simulate the clock.  I liked
+the clock, so ported it to Series 60 and used it as the default screen
+for &lt;em&gt;anorak&lt;/em&gt; which was a sort of poorman's GPS using cell tower
+locations to figure out where I was.&lt;/p&gt;
+&lt;p&gt;Fast-forward to today and there is the Raspberry Pi and the Sense Hat.&lt;/p&gt;
+&lt;p&gt;The latter is on the International Space Station.  It plugs into the
+pins on a pi and has:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gyroscope&lt;/li&gt;
+&lt;li&gt;Accelerometer&lt;/li&gt;
+&lt;li&gt;Magnetometer&lt;/li&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;li&gt;Humidity&lt;/li&gt;
+&lt;li&gt;Barometric pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition it has an 8x8 coloured LED array.&lt;/p&gt;
+&lt;p&gt;I am working on hooking all this up to my moped and wanted to learn
+about to use the &lt;a class="reference external" href="https://github.com/RPi-Distro/python-sense-hat"&gt;sense hat python interface&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The interface is simple to use, just import the library and create a
+SenseHat object and then you can talk to the device.&lt;/p&gt;
+&lt;p&gt;I could not find a drawing library to draw directly onto the 8*8 pixel
+grid.  Instead I used PIL and ImageDraw.Draw.&lt;/p&gt;
+&lt;p&gt;This allowed me to create a 64x64 image with PIL, with very few
+changes to the code.  I just needed the ImageDraw.Draw().pieslice
+method.&lt;/p&gt;
+&lt;p&gt;Now to get down to 8*8 I just divided the image into an 8*8 grid with
+8*8 pixels in each grid point.&lt;/p&gt;
+&lt;p&gt;I then just take the average pixel value and use hat.set_pixel() to
+set that value.&lt;/p&gt;
+&lt;p&gt;The hands of the clock did not work too well.  In the end I made the
+hour hand all black with a 10 pixel wide line.  The minute hand I did
+in white, again 10 pixels wide.&lt;/p&gt;
+&lt;p&gt;Here is a photo of the end result.&lt;/p&gt;
+&lt;img alt="../galleries/Fishnet/sense_hat_mclock.jpg" src="http://openbermuda.github.io/80days/galleries/Fishnet/sense_hat_mclock.jpg"&gt;
+&lt;p&gt;So, not quite as neat as the Tkinter version, but I have found I can
+actually figure out the time from this thing.&lt;/p&gt;&lt;/div&gt;</description><category>mclock2</category><category>python</category><category>raspberry pi</category><category>sense hat</category><guid>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</guid><pubDate>Fri, 08 Jan 2016 19:17:42 GMT</pubDate></item><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a class="reference external" href="https://www.raspberrypi.org/products/sense-hat/"&gt;raspberry pi sense hat&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I have been thinking about putting together raspberry pi's, sensors
 and mopeds to make a mobile weather station and more.&lt;/p&gt;
 &lt;p&gt;So in Bermuda we have mopeds.  Power supplies are one thing that is
@@ -40,12 +87,6 @@ was storing readings in a python flask app, which is what I have been
 trying to do with &lt;a class="reference external" href="https://github.com/peakrisk/sunshine"&gt;sunshine&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;So, all I need now is one of those Apollo helmets for the moped, with
 the gold coated visor.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="system-messages section"&gt;
-&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
-&lt;div class="system-message" id="id1"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 5); &lt;em&gt;&lt;a href="http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "raspberry pi sense hat".&lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</description><category>pycaribbean</category><category>python</category><category>raspberry pi</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</guid><pubDate>Mon, 04 Jan 2016 00:13:11 GMT</pubDate></item><item><title>New Bermuda Government Web Site</title><link>http://openbermuda.github.io/80days/posts/new-bermuda-government-web-site.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;In last week's thrown speech the government announced that a new
 government web site will be created in 2016.&lt;/p&gt;
 &lt;div class="section" id="why-is-a-new-website-needed"&gt;
@@ -988,58 +1029,4 @@ models have different strengths.&lt;/p&gt;
 &lt;div class="section" id="national-hurricane-centre"&gt;
 &lt;h2&gt;National Hurricane Centre&lt;/h2&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif"&gt;http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>2014</category><category>2015</category><category>fred</category><category>hurricane</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/fred-update.html</guid><pubDate>Tue, 01 Sep 2015 00:41:56 GMT</pubDate></item><item><title>Erika, Andrew, Danny and Fred</title><link>http://openbermuda.github.io/80days/posts/erika-andrew-danny-and-fred.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The last few weeks the Atlantic hurricane season has got more active.&lt;/p&gt;
-&lt;p&gt;Danny never really got started, was blown apart by sheer, but no doubt
-spawned a lot of thunderstorms.&lt;/p&gt;
-&lt;p&gt;Flooding from Erika has resulted in numerous deaths in Domincan
-Republic.&lt;/p&gt;
-&lt;p&gt;Erika has fallen apart, but again there will be a lot of thunderstorms
-along its path.  There is a lot of moisture in the atmosphere.&lt;/p&gt;
-&lt;div class="section" id="erika"&gt;
-&lt;h2&gt;Erika&lt;/h2&gt;
-&lt;p&gt;Early forecasts had the most likely track heading over Hispanola, Then
-curving, but likely being blown apart by sheer from strong upper
-atmosphere winds related to El Nino.&lt;/p&gt;
-&lt;p&gt;This is in fact very close to what actually has happened.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="track-forecast"&gt;
-&lt;h2&gt;Track forecast&lt;/h2&gt;
-&lt;p&gt;The weather models started to suggest the storm would curve more
-northerly.  This all involves really complex systems that stretch over
-thousands of miles.&lt;/p&gt;
-&lt;p&gt;So the models most likely path was more northerly, and that might take
-it on a path to hit Florida.&lt;/p&gt;
-&lt;p&gt;At one point the most likely track was heading all up the east coast
-of Florida, without making landfall.  If it had held together it might
-of intensified over hot water with low windsheer and been a major
-storm at landfall in the Carolinas.&lt;/p&gt;
-&lt;p&gt;Throughout this period there was always the possibility of heading
-over Hispanola, but it wasn't the most likely path.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="andrew"&gt;
-&lt;h2&gt;Andrew&lt;/h2&gt;
-&lt;p&gt;Andrew formed in a similar season to 2015 with a high El Nino.&lt;/p&gt;
-&lt;p&gt;It took a more northerly track, steered north of the Caribbean, then
-turned straight into Florida.&lt;/p&gt;
-&lt;p&gt;I think a comparison of Andrew and Erika, Danny too, would be
-interesting.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="fred"&gt;
-&lt;h2&gt;Fred&lt;/h2&gt;
-&lt;p&gt;Hurricane names run on a six year cycle.  So, there are six lists,
-that repeat every six years.&lt;/p&gt;
-&lt;p&gt;If a storm becomes significant in some way, usually the more intense
-and damaging storms that hit land, the name gets &lt;em&gt;retired&lt;/em&gt; from the
-list and is forever associated with that storm.&lt;/p&gt;
-&lt;p&gt;So, we have Fred.  Now for me, Fred means Fiery Fred Trueman,
-Yorkshire and England fast bolwer.  I never saw him play, but often
-heard him commentating on test matches.&lt;/p&gt;
-&lt;p&gt;So some day we will see a Fiery Fred storm.&lt;/p&gt;
-&lt;p&gt;A storm named Fred has just formed.  Like Erika, there is a fair
-amount of uncertainty on what path it takes and how intense it will
-get.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="more-information"&gt;
-&lt;h2&gt;More information&lt;/h2&gt;
-&lt;p&gt;Michael Johnston has also been blogging about the &lt;a class="reference external" href="https://bermudaweather.wordpress.com/2015/08/30/active-tropics/"&gt;recent storms&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>hurricane</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/erika-andrew-danny-and-fred.html</guid><pubDate>Sun, 30 Aug 2015 21:39:48 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>2014</category><category>2015</category><category>fred</category><category>hurricane</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/fred-update.html</guid><pubDate>Tue, 01 Sep 2015 00:41:56 GMT</pubDate></item></channel></rss>

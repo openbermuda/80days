@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (raspberry pi)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/raspberry-pi.xml"></atom:link><language>en</language><lastBuildDate>Mon, 04 Jan 2016 00:33:07 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a href="http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`raspberry pi sense hat`_&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (raspberry pi)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/raspberry-pi.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 08 Jan 2016 20:20:31 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
+phone.&lt;/p&gt;
+&lt;p&gt;It was actually before phone apps were really a thing, or even called
+apps.  Nokia had ported python to the Series 60 phones and had some
+simple libraries you could use to build your Nokia apps.&lt;/p&gt;
+&lt;p&gt;I created one called &lt;a class="reference external" href="http://anorak.sourceforge.net/"&gt;anorak&lt;/a&gt;.  Around the same time Guido Van Rossum
+posted some code to a thing he called &lt;a class="reference external" href="https://www.python.org/~guido/mclock2.py"&gt;mclock2&lt;/a&gt;.  Growing up his
+family had a clock which had three coloured discs and a bright light
+behind them.  The disks rotate through the day giving pretty patterns
+on the clock.  The clock was designed by Rob Juda.&lt;/p&gt;
+&lt;p&gt;Here is a screenshot from Guido's code.&lt;/p&gt;
+&lt;img alt="../galleries/Fishnet/guido.png" src="http://openbermuda.github.io/80days/galleries/Fishnet/guido.png"&gt;
+&lt;p&gt;Guido created a Tkinter application to simulate the clock.  I liked
+the clock, so ported it to Series 60 and used it as the default screen
+for &lt;em&gt;anorak&lt;/em&gt; which was a sort of poorman's GPS using cell tower
+locations to figure out where I was.&lt;/p&gt;
+&lt;p&gt;Fast-forward to today and there is the Raspberry Pi and the Sense Hat.&lt;/p&gt;
+&lt;p&gt;The latter is on the International Space Station.  It plugs into the
+pins on a pi and has:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gyroscope&lt;/li&gt;
+&lt;li&gt;Accelerometer&lt;/li&gt;
+&lt;li&gt;Magnetometer&lt;/li&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;li&gt;Humidity&lt;/li&gt;
+&lt;li&gt;Barometric pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition it has an 8x8 coloured LED array.&lt;/p&gt;
+&lt;p&gt;I am working on hooking all this up to my moped and wanted to learn
+about to use the &lt;a class="reference external" href="https://github.com/RPi-Distro/python-sense-hat"&gt;sense hat python interface&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The interface is simple to use, just import the library and create a
+SenseHat object and then you can talk to the device.&lt;/p&gt;
+&lt;p&gt;I could not find a drawing library to draw directly onto the 8*8 pixel
+grid.  Instead I used PIL and ImageDraw.Draw.&lt;/p&gt;
+&lt;p&gt;This allowed me to create a 64x64 image with PIL, with very few
+changes to the code.  I just needed the ImageDraw.Draw().pieslice
+method.&lt;/p&gt;
+&lt;p&gt;Now to get down to 8*8 I just divided the image into an 8*8 grid with
+8*8 pixels in each grid point.&lt;/p&gt;
+&lt;p&gt;I then just take the average pixel value and use hat.set_pixel() to
+set that value.&lt;/p&gt;
+&lt;p&gt;The hands of the clock did not work too well.  In the end I made the
+hour hand all black with a 10 pixel wide line.  The minute hand I did
+in white, again 10 pixels wide.&lt;/p&gt;
+&lt;p&gt;Here is a photo of the end result.&lt;/p&gt;
+&lt;img alt="../galleries/Fishnet/sense_hat_mclock.jpg" src="http://openbermuda.github.io/80days/galleries/Fishnet/sense_hat_mclock.jpg"&gt;
+&lt;p&gt;So, not quite as neat as the Tkinter version, but I have found I can
+actually figure out the time from this thing.&lt;/p&gt;&lt;/div&gt;</description><category>mclock2</category><category>python</category><category>raspberry pi</category><category>sense hat</category><guid>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</guid><pubDate>Fri, 08 Jan 2016 19:17:42 GMT</pubDate></item><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a class="reference external" href="https://www.raspberrypi.org/products/sense-hat/"&gt;raspberry pi sense hat&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I have been thinking about putting together raspberry pi's, sensors
 and mopeds to make a mobile weather station and more.&lt;/p&gt;
 &lt;p&gt;So in Bermuda we have mopeds.  Power supplies are one thing that is
@@ -40,12 +87,6 @@ was storing readings in a python flask app, which is what I have been
 trying to do with &lt;a class="reference external" href="https://github.com/peakrisk/sunshine"&gt;sunshine&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;So, all I need now is one of those Apollo helmets for the moped, with
 the gold coated visor.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="system-messages section"&gt;
-&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
-&lt;div class="system-message" id="id1"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 5); &lt;em&gt;&lt;a href="http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "raspberry pi sense hat".&lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</description><category>pycaribbean</category><category>python</category><category>raspberry pi</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</guid><pubDate>Mon, 04 Jan 2016 00:13:11 GMT</pubDate></item><item><title>The raspberry pi super computer</title><link>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The raspberry pi 2 comes with around 6 times the processing power of
 the original pi.&lt;/p&gt;
 &lt;p&gt;It is still fairly low powered, but it is interesting to compare the

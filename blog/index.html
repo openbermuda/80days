@@ -39,6 +39,79 @@ MathJax.Hub.Config({
 
         </ul></section><section class="page-content"><div class="content" rel="main">
         <div class="post">
+            <h1 class="title"><a href="../posts/guidos-clock-and-the-raspberry-pi-sense-hat.html">Guido's clock and the Raspberry Pi Sense Hat</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2016-01-08T19:17:42+00:00">2016-01-08 19:17</time>
+</div>
+                <div class="stats">
+                                <a href="../posts/guidos-clock-and-the-raspberry-pi-sense-hat.html#disqus_thread" data-disqus-identifier="cache/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html">Comments</a>
+
+
+                </div>
+                        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="../categories/mclock2.html" rel="tag">mclock2</a></li>
+           <li><a class="tag p-category" href="../categories/python.html" rel="tag">python</a></li>
+           <li><a class="tag p-category" href="../categories/raspberry-pi.html" rel="tag">raspberry pi</a></li>
+           <li><a class="tag p-category" href="../categories/sense-hat.html" rel="tag">sense hat</a></li>
+        </ul>
+</div>
+
+            </div>
+            <div class="body">
+                <div>
+<p>Many years ago I was working a simple app to run on a Nokia Series 60
+phone.</p>
+<p>It was actually before phone apps were really a thing, or even called
+apps.  Nokia had ported python to the Series 60 phones and had some
+simple libraries you could use to build your Nokia apps.</p>
+<p>I created one called <a class="reference external" href="http://anorak.sourceforge.net/">anorak</a>.  Around the same time Guido Van Rossum
+posted some code to a thing he called <a class="reference external" href="https://www.python.org/~guido/mclock2.py">mclock2</a>.  Growing up his
+family had a clock which had three coloured discs and a bright light
+behind them.  The disks rotate through the day giving pretty patterns
+on the clock.  The clock was designed by Rob Juda.</p>
+<p>Here is a screenshot from Guido's code.</p>
+<img alt="../galleries/Fishnet/guido.png" src="../galleries/Fishnet/guido.png"><p>Guido created a Tkinter application to simulate the clock.  I liked
+the clock, so ported it to Series 60 and used it as the default screen
+for <em>anorak</em> which was a sort of poorman's GPS using cell tower
+locations to figure out where I was.</p>
+<p>Fast-forward to today and there is the Raspberry Pi and the Sense Hat.</p>
+<p>The latter is on the International Space Station.  It plugs into the
+pins on a pi and has:</p>
+<ul class="simple">
+<li>Gyroscope</li>
+<li>Accelerometer</li>
+<li>Magnetometer</li>
+<li>Temperature</li>
+<li>Humidity</li>
+<li>Barometric pressure</li>
+</ul>
+<p>In addition it has an 8x8 coloured LED array.</p>
+<p>I am working on hooking all this up to my moped and wanted to learn
+about to use the <a class="reference external" href="https://github.com/RPi-Distro/python-sense-hat">sense hat python interface</a>.</p>
+<p>The interface is simple to use, just import the library and create a
+SenseHat object and then you can talk to the device.</p>
+<p>I could not find a drawing library to draw directly onto the 8*8 pixel
+grid.  Instead I used PIL and ImageDraw.Draw.</p>
+<p>This allowed me to create a 64x64 image with PIL, with very few
+changes to the code.  I just needed the ImageDraw.Draw().pieslice
+method.</p>
+<p>Now to get down to 8*8 I just divided the image into an 8*8 grid with
+8*8 pixels in each grid point.</p>
+<p>I then just take the average pixel value and use hat.set_pixel() to
+set that value.</p>
+<p>The hands of the clock did not work too well.  In the end I made the
+hour hand all black with a 10 pixel wide line.  The minute hand I did
+in white, again 10 pixels wide.</p>
+<p>Here is a photo of the end result.</p>
+<img alt="../galleries/Fishnet/sense_hat_mclock.jpg" src="../galleries/Fishnet/sense_hat_mclock.jpg"><p>So, not quite as neat as the Tkinter version, but I have found I can
+actually figure out the time from this thing.</p>
+</div>
+            </div>
+        </div>
+        <div class="post">
             <h1 class="title"><a href="../posts/raspberry-pi-sense-hat.html">Raspberry Pi Sense Hat</a></h1>
             <div class="meta">
                 <div class="authordate">
@@ -62,7 +135,7 @@ MathJax.Hub.Config({
             </div>
             <div class="body">
                 <div>
-<p>I just discovered the <a href="../posts/raspberry-pi-sense-hat.html#id1"><span class="problematic" id="id2">`raspberry pi sense hat`_</span></a>.</p>
+<p>I just discovered the <a class="reference external" href="https://www.raspberrypi.org/products/sense-hat/">raspberry pi sense hat</a>.</p>
 <p>I have been thinking about putting together raspberry pi's, sensors
 and mopeds to make a mobile weather station and more.</p>
 <p>So in Bermuda we have mopeds.  Power supplies are one thing that is
@@ -103,12 +176,6 @@ was storing readings in a python flask app, which is what I have been
 trying to do with <a class="reference external" href="https://github.com/peakrisk/sunshine">sunshine</a>.</p>
 <p>So, all I need now is one of those Apollo helmets for the moped, with
 the gold coated visor.</p>
-</div>
-<div class="system-messages section">
-<h2>Docutils System Messages</h2>
-<div class="system-message" id="id1">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 5); <em><a href="../posts/raspberry-pi-sense-hat.html#id2">backlink</a></em></p>
-Unknown target name: "raspberry pi sense hat".</div>
 </div>
 </div>
             </div>
@@ -1266,86 +1333,6 @@ models have different strengths.</p>
 <div class="section" id="national-hurricane-centre">
 <h2>National Hurricane Centre</h2>
 <p><a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif">http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif</a></p>
-</div>
-</div>
-            </div>
-        </div>
-        <div class="post">
-            <h1 class="title"><a href="../posts/erika-andrew-danny-and-fred.html">Erika, Andrew, Danny and Fred</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2015-08-30T21:39:48+00:00">2015-08-30 21:39</time>
-</div>
-                <div class="stats">
-                                <a href="../posts/erika-andrew-danny-and-fred.html#disqus_thread" data-disqus-identifier="cache/posts/erika-andrew-danny-and-fred.html">Comments</a>
-
-
-                </div>
-                        <div itemprop="keywords" class="tags">
-        <ul>
-        Tags : 
-           <li><a class="tag p-category" href="../categories/hurricane.html" rel="tag">hurricane</a></li>
-           <li><a class="tag p-category" href="../categories/weather.html" rel="tag">weather</a></li>
-        </ul>
-</div>
-
-            </div>
-            <div class="body">
-                <div>
-<p>The last few weeks the Atlantic hurricane season has got more active.</p>
-<p>Danny never really got started, was blown apart by sheer, but no doubt
-spawned a lot of thunderstorms.</p>
-<p>Flooding from Erika has resulted in numerous deaths in Domincan
-Republic.</p>
-<p>Erika has fallen apart, but again there will be a lot of thunderstorms
-along its path.  There is a lot of moisture in the atmosphere.</p>
-<div class="section" id="erika">
-<h2>Erika</h2>
-<p>Early forecasts had the most likely track heading over Hispanola, Then
-curving, but likely being blown apart by sheer from strong upper
-atmosphere winds related to El Nino.</p>
-<p>This is in fact very close to what actually has happened.</p>
-</div>
-<div class="section" id="track-forecast">
-<h2>Track forecast</h2>
-<p>The weather models started to suggest the storm would curve more
-northerly.  This all involves really complex systems that stretch over
-thousands of miles.</p>
-<p>So the models most likely path was more northerly, and that might take
-it on a path to hit Florida.</p>
-<p>At one point the most likely track was heading all up the east coast
-of Florida, without making landfall.  If it had held together it might
-of intensified over hot water with low windsheer and been a major
-storm at landfall in the Carolinas.</p>
-<p>Throughout this period there was always the possibility of heading
-over Hispanola, but it wasn't the most likely path.</p>
-</div>
-<div class="section" id="andrew">
-<h2>Andrew</h2>
-<p>Andrew formed in a similar season to 2015 with a high El Nino.</p>
-<p>It took a more northerly track, steered north of the Caribbean, then
-turned straight into Florida.</p>
-<p>I think a comparison of Andrew and Erika, Danny too, would be
-interesting.</p>
-</div>
-<div class="section" id="fred">
-<h2>Fred</h2>
-<p>Hurricane names run on a six year cycle.  So, there are six lists,
-that repeat every six years.</p>
-<p>If a storm becomes significant in some way, usually the more intense
-and damaging storms that hit land, the name gets <em>retired</em> from the
-list and is forever associated with that storm.</p>
-<p>So, we have Fred.  Now for me, Fred means Fiery Fred Trueman,
-Yorkshire and England fast bolwer.  I never saw him play, but often
-heard him commentating on test matches.</p>
-<p>So some day we will see a Fiery Fred storm.</p>
-<p>A storm named Fred has just formed.  Like Erika, there is a fair
-amount of uncertainty on what path it takes and how intense it will
-get.</p>
-</div>
-<div class="section" id="more-information">
-<h2>More information</h2>
-<p>Michael Johnston has also been blogging about the <a class="reference external" href="https://bermudaweather.wordpress.com/2015/08/30/active-tropics/">recent storms</a>.</p>
 </div>
 </div>
             </div>
