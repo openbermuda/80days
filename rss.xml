@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 08 Jan 2016 20:20:31 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" href="http://openbermuda.github.io/80days/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 09 Jan 2016 01:29:59 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
 phone.&lt;/p&gt;
 &lt;p&gt;It was actually before phone apps were really a thing, or even called
 apps.  Nokia had ported python to the Series 60 phones and had some
@@ -46,7 +46,50 @@ in white, again 10 pixels wide.&lt;/p&gt;
 &lt;p&gt;Here is a photo of the end result.&lt;/p&gt;
 &lt;img alt="../galleries/Fishnet/sense_hat_mclock.jpg" src="http://openbermuda.github.io/80days/galleries/Fishnet/sense_hat_mclock.jpg"&gt;
 &lt;p&gt;So, not quite as neat as the Tkinter version, but I have found I can
-actually figure out the time from this thing.&lt;/p&gt;&lt;/div&gt;</description><category>mclock2</category><category>python</category><category>raspberry pi</category><category>sense hat</category><guid>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</guid><pubDate>Fri, 08 Jan 2016 19:17:42 GMT</pubDate></item><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a class="reference external" href="https://www.raspberrypi.org/products/sense-hat/"&gt;raspberry pi sense hat&lt;/a&gt;.&lt;/p&gt;
+actually figure out the time from this thing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I thought I might be able to do add new method to create pixels.  I am
+creating a 64 * 64 image using the Python Imaging Library tools.&lt;/p&gt;
+&lt;p&gt;This one uses a weighted average based on Euclidean distance from the
+center of the 8 * * area being averaged.  The resulting clock is
+looking prettier now.&lt;/p&gt;
+&lt;p&gt;Currently the hands are being drawn as 12 pixels wide lines, with a
+black hour hand and a red minute hand.&lt;/p&gt;
+&lt;p&gt;Depending on what is going on with the coloured disks the time is
+usually quite easily readable.  Sometimes you have to wait a few
+seconds if there is a lot of red or dark colour on the clock, before
+you can find the hands.&lt;/p&gt;
+&lt;p&gt;It is a fun little clock when you only need approximate time.&lt;/p&gt;
+&lt;div class="section" id="sensors"&gt;
+&lt;h2&gt;Sensors&lt;/h2&gt;
+&lt;p&gt;I have been playing with these a little.  I have a simple monitor
+function that can be used to send data from the sensors to the pixel
+display.&lt;/p&gt;
+&lt;p&gt;The temperature sensor is a little too close to the pi's processor, so
+it is affected by the heat from the processor.  &lt;a class="reference external" href="https://www.raspberrypi.org/forums/viewtopic.php?f=104&amp;amp;t=111457"&gt;This topic&lt;/a&gt; on the
+raspberry pi forum had some helpful suggestions.&lt;/p&gt;
+&lt;p&gt;There are two temperature sensors on the board. One with the humidity
+sensor and one with the pressure sensor.  They are different distances
+from the pi processor.&lt;/p&gt;
+&lt;p&gt;The incantation below can be used to get the CPU temperature.:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+vcgencmd measure_temp
+&lt;/pre&gt;
+&lt;p&gt;With these three numbers it should be possible to find a reasonable
+formula to get a good approximation of the real temperature.  To do
+this I will just have to collect some data to fit a model to.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="joy-stick"&gt;
+&lt;h2&gt;Joy Stick&lt;/h2&gt;
+&lt;p&gt;I am yet to experiment with this.  I suspect it will be fairly easy to
+set something up so I can use it to switch between different displays.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="storing-readings"&gt;
+&lt;h2&gt;Storing Readings&lt;/h2&gt;
+&lt;p&gt;This is also on the list.  Once I have this working I'll be able to
+collect data as I am driving around Bermuda.  This will include data
+from the accelerometer and the compass.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>mclock2</category><category>python</category><category>raspberry pi</category><category>sense hat</category><guid>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</guid><pubDate>Fri, 08 Jan 2016 19:17:42 GMT</pubDate></item><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a class="reference external" href="https://www.raspberrypi.org/products/sense-hat/"&gt;raspberry pi sense hat&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I have been thinking about putting together raspberry pi's, sensors
 and mopeds to make a mobile weather station and more.&lt;/p&gt;
 &lt;p&gt;So in Bermuda we have mopeds.  Power supplies are one thing that is

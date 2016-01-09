@@ -114,6 +114,49 @@ in white, again 10 pixels wide.</p>
 <p>Here is a photo of the end result.</p>
 <img alt="../galleries/Fishnet/sense_hat_mclock.jpg" src="../galleries/Fishnet/sense_hat_mclock.jpg"><p>So, not quite as neat as the Tkinter version, but I have found I can
 actually figure out the time from this thing.</p>
+<p><em>UPDATE:</em></p>
+<p>I thought I might be able to do add new method to create pixels.  I am
+creating a 64 * 64 image using the Python Imaging Library tools.</p>
+<p>This one uses a weighted average based on Euclidean distance from the
+center of the 8 * * area being averaged.  The resulting clock is
+looking prettier now.</p>
+<p>Currently the hands are being drawn as 12 pixels wide lines, with a
+black hour hand and a red minute hand.</p>
+<p>Depending on what is going on with the coloured disks the time is
+usually quite easily readable.  Sometimes you have to wait a few
+seconds if there is a lot of red or dark colour on the clock, before
+you can find the hands.</p>
+<p>It is a fun little clock when you only need approximate time.</p>
+<div class="section" id="sensors">
+<h2>Sensors</h2>
+<p>I have been playing with these a little.  I have a simple monitor
+function that can be used to send data from the sensors to the pixel
+display.</p>
+<p>The temperature sensor is a little too close to the pi's processor, so
+it is affected by the heat from the processor.  <a class="reference external" href="https://www.raspberrypi.org/forums/viewtopic.php?f=104&amp;t=111457">This topic</a> on the
+raspberry pi forum had some helpful suggestions.</p>
+<p>There are two temperature sensors on the board. One with the humidity
+sensor and one with the pressure sensor.  They are different distances
+from the pi processor.</p>
+<p>The incantation below can be used to get the CPU temperature.:</p>
+<pre class="literal-block">
+vcgencmd measure_temp
+</pre>
+<p>With these three numbers it should be possible to find a reasonable
+formula to get a good approximation of the real temperature.  To do
+this I will just have to collect some data to fit a model to.</p>
+</div>
+<div class="section" id="joy-stick">
+<h2>Joy Stick</h2>
+<p>I am yet to experiment with this.  I suspect it will be fairly easy to
+set something up so I can use it to switch between different displays.</p>
+</div>
+<div class="section" id="storing-readings">
+<h2>Storing Readings</h2>
+<p>This is also on the list.  Once I have this working I'll be able to
+collect data as I am driving around Bermuda.  This will include data
+from the accelerometer and the compass.</p>
+</div>
 </div>
         </div>
                 <ul class="pager">
