@@ -6,10 +6,16 @@ Bermuda/daniels_head.jpg
 
 
 # Everest and Lamlam
+
 # Mount Everest 5 minutes
+
+PeakDistrict/loes_hill.jpg
+
 # Mount Lamlam 5 minutes
 
 HackBermuda/autumn_sunrise.jpg
+
+PeakDistrict/road_now_or_then.jpg
 
 
 # Special 5 minutes
@@ -23,15 +29,15 @@ EasternCounties/press_lords.jpg
 
 HackBermuda/horseshoe.jpg
 HackBermuda/mawi_americas.jpg
-HackBermuda/piday3.jpg
-HackBermuda/piday.jpg
-HackBermuda/pi_day_pies.jpg
 HackBermuda/pinkandbluelimo.jpg
 HackBermuda/snow.jpg
 HackBermuda/treedownfay.jpg
 HackBermuda/treedown.jpg
 HackBermuda/treeup.jpg
 
+HackBermuda/birthday_guitar.jpg
+HackBermuda/cityhall.jpg
+HackBermuda/daniels.jpg
 
 ## Weather
 # General 5 minutes
@@ -44,26 +50,37 @@ Bermuda/green_shoots.jpg
 
 HackBermuda/fishing.jpg
 
+SharonWilson/book_cover.jpg
+
 
 # Raspberry pi 5 minutes
+
+RaspberryPi/raspberry.jpg
+RaspberryPi/weather_pi.jpg
+
+HackBermuda/piday3.jpg
+HackBermuda/piday.jpg
+HackBermuda/pi_day_pies.jpg
+
 ## Vista
+
+PeakDistrict/hope_valley.jpg
+
 
 ## Bridges, hills, valleys and mountains
 
+PeakDistrict/hills_and_bridges.jpg
+
+SharonWilson/father_and_daughter.jpg
+
 # Jupyter
 
+Snowy/coding.jpg
 HackBermuda/mandela.jpg
 
 # Choose your own adventure
 
-
-
-
-
-
-HackBermuda/birthday_guitar.jpg
-HackBermuda/cityhall.jpg
-HackBermuda/daniels.jpg
+Bermuda/somerset_sunset.jpg
 
 
 HackBermuda/global_hackathon.jpg
@@ -72,23 +89,27 @@ HackBermuda/hackathon_bermuda.jpg
 HackBermuda/gonzalo-modis-oct17.jpg
 
 
-Magic/selfie.jpg
-RaspberryPi/raspberry.jpg
-RaspberryPi/weather_pi.jpg
-SharonWilson/book_cover.jpg
-SharonWilson/father_and_daughter.jpg
-Snowy/coding.jpg
 Snowy/dontlikethismoving.jpg
-Snowy/packed.jpg
 Snowy/snowy_wilson.jpg
+
 SpittalPond/spittal_cross.jpg
 SpittalPond/spittal_portuguese.jpg
-Springsteen/Springsteen.jpg
 
-Endings
-=======
+GibbsHill/new_view.jpg
+GibbsHill/roof_damage.jpg
+GibbsHill/tree_down.jpg
+PeakDistrict/guides.jpg
+PeakDistrict/help_from_above.jpg
 
-Bermuda/somerset_sunset.jpg
+
+PeakDistrict/iron_age_jacuzzi.jpg
+PeakDistrict/magic_cottage.jpg
+PeakDistrict/relish.jpg
+PeakDistrict/stone_circle.jpg
+PeakDistrict/two.jpg
+PeakDistrict/village_in_a_valley.jpg
+PeakDistrict/vista.jpg
+
 
 Spares
 ======
@@ -101,3 +122,23 @@ Gates/i_got_the_t_shirt.jpg
 Gates/Me with Bill's Gates.jpg
 
 HackBermuda/americascup.jpg
+
+Magic/selfie.jpg
+
+Fishnet/guido.png
+Fishnet/sense_hat_mclock.jpg
+
+Snowy/packed.jpg
+
+Springsteen/Springsteen.jpg
+
+Joaquin/joaquin.png
+PeakDistrict/hollins_cross.jpg
+PeakDistrict/ladybower.jpg
+PeakDistrict/old_renewable.jpg
+PeakDistrict/out_of_the_woods.jpg
+PeakDistrict/red_lion.jpg
+PeakDistrict/ridge_walk.jpg
+PeakDistrict/shivering.jpg
+PeakDistrict/summit.jpg
+PeakDistrict/swan.jpg
