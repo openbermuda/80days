@@ -138,6 +138,12 @@ This is also on the list.  Once I have this working I'll be able to
 collect data as I am driving around Bermuda.  This will include data
 from the accelerometer and the compass.  
 
+Raspberry Pi Forum
+------------------
+
+There is a `raspberry pi forum index`_ which has some forums for a
+wide range of subjects, including the AstroPy, the other name for the
+Sense Hat.
            
 
 .. _anorak: http://anorak.sourceforge.net/
@@ -151,3 +157,5 @@ from the accelerometer and the compass.
 .. _sense hat python interface: https://github.com/RPi-Distro/python-sense-hat
 
 .. _this topic: https://www.raspberrypi.org/forums/viewtopic.php?f=104&t=111457
+
+.. _raspberry pi forum index: https://www.raspberrypi.org/forums/index.php
