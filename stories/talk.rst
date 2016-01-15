@@ -7,6 +7,13 @@ Bermuda/daniels_head.jpg
 
 # Everest and Lamlam
 
+PeakDistrict/summit.jpg
+
+PeakDistrict/ridge_walk.jpg
+
+GibbsHill/tree_down.jpg
+
+
 # Mount Everest 5 minutes
 
 PeakDistrict/loes_hill.jpg
@@ -17,6 +24,7 @@ HackBermuda/autumn_sunrise.jpg
 
 PeakDistrict/road_now_or_then.jpg
 
+EasternCounties/press_lords.jpg
 
 # Special 5 minutes
 ## Bermuda
@@ -25,7 +33,6 @@ HackBermuda/cricket.jpg
 EasternCounties/blue_and_white_lords.jpg
 EasternCounties/red_and_white_lords.jpg
 EasternCounties/lords_view.jpg
-EasternCounties/press_lords.jpg
 
 HackBermuda/horseshoe.jpg
 HackBermuda/mawi_americas.jpg
@@ -50,6 +57,8 @@ Bermuda/green_shoots.jpg
 
 HackBermuda/fishing.jpg
 
+Joaquin/joaquin.png
+
 SharonWilson/book_cover.jpg
 
 
@@ -61,6 +70,8 @@ RaspberryPi/weather_pi.jpg
 HackBermuda/piday3.jpg
 HackBermuda/piday.jpg
 HackBermuda/pi_day_pies.jpg
+
+PeakDistrict/old_renewable.jpg
 
 ## Vista
 
@@ -75,8 +86,14 @@ SharonWilson/father_and_daughter.jpg
 
 # Jupyter
 
+PeakDistrict/help_from_above.jpg
+
 Snowy/coding.jpg
+
+PeakDistrict/swan.jpg
+
 HackBermuda/mandela.jpg
+
 
 # Choose your own adventure
 
@@ -89,7 +106,6 @@ HackBermuda/hackathon_bermuda.jpg
 HackBermuda/gonzalo-modis-oct17.jpg
 
 
-Snowy/dontlikethismoving.jpg
 Snowy/snowy_wilson.jpg
 
 SpittalPond/spittal_cross.jpg
@@ -99,7 +115,6 @@ GibbsHill/new_view.jpg
 GibbsHill/roof_damage.jpg
 GibbsHill/tree_down.jpg
 PeakDistrict/guides.jpg
-PeakDistrict/help_from_above.jpg
 
 
 PeakDistrict/iron_age_jacuzzi.jpg
@@ -129,16 +144,15 @@ Fishnet/guido.png
 Fishnet/sense_hat_mclock.jpg
 
 Snowy/packed.jpg
+Snowy/dontlikethismoving.jpg
 
 Springsteen/Springsteen.jpg
 
-Joaquin/joaquin.png
 PeakDistrict/hollins_cross.jpg
 PeakDistrict/ladybower.jpg
-PeakDistrict/old_renewable.jpg
 PeakDistrict/out_of_the_woods.jpg
 PeakDistrict/red_lion.jpg
-PeakDistrict/ridge_walk.jpg
+
+
 PeakDistrict/shivering.jpg
-PeakDistrict/summit.jpg
-PeakDistrict/swan.jpg
+
