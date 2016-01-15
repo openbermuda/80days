@@ -29,6 +29,7 @@ class SlideShow:
 
         print(self.slides[self.pos])
         os.system('eog -w %s &' % self.slides[self.pos])
+        time.sleep(10)
 
 
 if __name__ == '__main__':        
