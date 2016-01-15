@@ -7,16 +7,15 @@ Bermuda/daniels_head.jpg
 
 # Everest and Lamlam
 
+
+# Mount Everest 5 minutes
+
 PeakDistrict/summit.jpg
 
 PeakDistrict/ridge_walk.jpg
 
 GibbsHill/tree_down.jpg
 
-
-# Mount Everest 5 minutes
-
-PeakDistrict/loes_hill.jpg
 
 # Mount Lamlam 5 minutes
 
@@ -29,22 +28,30 @@ EasternCounties/press_lords.jpg
 # Special 5 minutes
 ## Bermuda
 
-HackBermuda/cricket.jpg
+HackBermuda/pinkandbluelimo.jpg
+
+HackBermuda/treedown.jpg
+
+HackBermuda/horseshoe.jpg
+
+HackBermuda/treedownfay.jpg
+HackBermuda/treeup.jpg
+
+
 EasternCounties/blue_and_white_lords.jpg
 EasternCounties/red_and_white_lords.jpg
 EasternCounties/lords_view.jpg
 
-HackBermuda/horseshoe.jpg
 HackBermuda/mawi_americas.jpg
-HackBermuda/pinkandbluelimo.jpg
 HackBermuda/snow.jpg
-HackBermuda/treedownfay.jpg
-HackBermuda/treedown.jpg
-HackBermuda/treeup.jpg
+
+HackBermuda/cityhall.jpg
+
+HackBermuda/daniels.jpg
 
 HackBermuda/birthday_guitar.jpg
-HackBermuda/cityhall.jpg
-HackBermuda/daniels.jpg
+
+HackBermuda/cricket.jpg
 
 ## Weather
 # General 5 minutes
@@ -100,31 +107,6 @@ HackBermuda/mandela.jpg
 Bermuda/somerset_sunset.jpg
 
 
-HackBermuda/global_hackathon.jpg
-HackBermuda/hackathon_bermuda.jpg
-
-HackBermuda/gonzalo-modis-oct17.jpg
-
-
-Snowy/snowy_wilson.jpg
-
-SpittalPond/spittal_cross.jpg
-SpittalPond/spittal_portuguese.jpg
-
-GibbsHill/new_view.jpg
-GibbsHill/roof_damage.jpg
-GibbsHill/tree_down.jpg
-PeakDistrict/guides.jpg
-
-
-PeakDistrict/iron_age_jacuzzi.jpg
-PeakDistrict/magic_cottage.jpg
-PeakDistrict/relish.jpg
-PeakDistrict/stone_circle.jpg
-PeakDistrict/two.jpg
-PeakDistrict/village_in_a_valley.jpg
-PeakDistrict/vista.jpg
-
 
 Spares
 ======
@@ -155,4 +137,29 @@ PeakDistrict/red_lion.jpg
 
 
 PeakDistrict/shivering.jpg
+
+HackBermuda/global_hackathon.jpg
+HackBermuda/hackathon_bermuda.jpg
+
+HackBermuda/gonzalo-modis-oct17.jpg
+
+
+Snowy/snowy_wilson.jpg
+
+SpittalPond/spittal_cross.jpg
+SpittalPond/spittal_portuguese.jpg
+
+GibbsHill/new_view.jpg
+GibbsHill/roof_damage.jpg
+GibbsHill/tree_down.jpg
+PeakDistrict/guides.jpg
+
+
+PeakDistrict/iron_age_jacuzzi.jpg
+PeakDistrict/magic_cottage.jpg
+PeakDistrict/relish.jpg
+PeakDistrict/stone_circle.jpg
+PeakDistrict/two.jpg
+PeakDistrict/village_in_a_valley.jpg
+PeakDistrict/vista.jpg
 
