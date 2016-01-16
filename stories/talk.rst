@@ -89,6 +89,12 @@ PeakDistrict/hope_valley.jpg
 
 PeakDistrict/hills_and_bridges.jpg
 
+any_bridge.png
+
+change_any_bridge.png
+
+oasis_bridge.png
+
 SharonWilson/father_and_daughter.jpg
 
 # Jupyter
