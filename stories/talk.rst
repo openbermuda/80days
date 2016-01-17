@@ -23,7 +23,6 @@ HackBermuda/autumn_sunrise.jpg
 
 PeakDistrict/road_now_or_then.jpg
 
-EasternCounties/press_lords.jpg
 
 # Special 5 minutes
 ## Bermuda
@@ -41,9 +40,9 @@ HackBermuda/treeup.jpg
 EasternCounties/blue_and_white_lords.jpg
 EasternCounties/red_and_white_lords.jpg
 EasternCounties/lords_view.jpg
+EasternCounties/press_lords.jpg
 
 HackBermuda/mawi_americas.jpg
-HackBermuda/snow.jpg
 
 HackBermuda/cityhall.jpg
 
@@ -62,6 +61,12 @@ Bermuda/green_shoots.jpg
 ## World
 ## Climate
 
+HackBermuda/snow.jpg
+
+### lake and grass
+
+### Hurricane Alex
+
 HackBermuda/fishing.jpg
 
 Joaquin/joaquin.png
@@ -74,7 +79,6 @@ SharonWilson/book_cover.jpg
 RaspberryPi/raspberry.jpg
 RaspberryPi/weather_pi.jpg
 
-HackBermuda/piday3.jpg
 HackBermuda/piday.jpg
 HackBermuda/pi_day_pies.jpg
 
@@ -89,11 +93,11 @@ PeakDistrict/hope_valley.jpg
 
 PeakDistrict/hills_and_bridges.jpg
 
-any_bridge.png
+Bridges/any_bridge.png
 
-change_any_bridge.png
+Bridges/change_any_bridge.png
 
-oasis_bridge.png
+Bridges/oasis_bridge.png
 
 SharonWilson/father_and_daughter.jpg
 
@@ -149,6 +153,7 @@ HackBermuda/hackathon_bermuda.jpg
 
 HackBermuda/gonzalo-modis-oct17.jpg
 
+HackBermuda/piday3.jpg
 
 Snowy/snowy_wilson.jpg
 
