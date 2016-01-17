@@ -46,8 +46,6 @@ HackBermuda/mawi_americas.jpg
 
 HackBermuda/cityhall.jpg
 
-HackBermuda/daniels.jpg
-
 HackBermuda/birthday_guitar.jpg
 
 HackBermuda/cricket.jpg
@@ -173,4 +171,6 @@ PeakDistrict/stone_circle.jpg
 PeakDistrict/two.jpg
 PeakDistrict/village_in_a_valley.jpg
 PeakDistrict/vista.jpg
+
+HackBermuda/daniels.jpg
 
