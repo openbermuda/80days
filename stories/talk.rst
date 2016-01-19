@@ -1,12 +1,8 @@
-# 30 seconds per slide
-
-# Introduction 1 minute
+# Community Weather and Climate Risk
 
 Bermuda/daniels_head.jpg
 
-
 # Everest and Lamlam
-
 
 # Mount Everest 5 minutes
 
@@ -37,18 +33,6 @@ HackBermuda/treedownfay.jpg
 HackBermuda/treeup.jpg
 
 
-EasternCounties/blue_and_white_lords.jpg
-EasternCounties/red_and_white_lords.jpg
-EasternCounties/lords_view.jpg
-EasternCounties/press_lords.jpg
-
-HackBermuda/mawi_americas.jpg
-
-HackBermuda/cityhall.jpg
-
-HackBermuda/birthday_guitar.jpg
-
-HackBermuda/cricket.jpg
 
 ## Weather
 # General 5 minutes
@@ -60,8 +44,7 @@ Bermuda/green_shoots.jpg
 ## Climate
 
 HackBermuda/snow.jpg
-
-### lake and grass
+Magic/winter_canoe.jpg
 
 ### Hurricane Alex
 
@@ -174,3 +157,22 @@ PeakDistrict/vista.jpg
 
 HackBermuda/daniels.jpg
 
+EasternCounties/blue_and_white_lords.jpg
+EasternCounties/red_and_white_lords.jpg
+EasternCounties/lords_view.jpg
+EasternCounties/press_lords.jpg
+
+HackBermuda/mawi_americas.jpg
+
+HackBermuda/cityhall.jpg
+
+HackBermuda/birthday_guitar.jpg
+
+HackBermuda/cricket.jpg
+
+Fishnet/guido.png
+
+Snowy/cat_help.jpg
+Snowy/spot_the_cat.jpg
+Snowy/take_me_with_you.jpg
+Snowy/top_cat.jpg
