@@ -1,12 +1,8 @@
-# 30 seconds per slide
-
-# Introduction 1 minute
+# Community Weather and Climate Risk
 
 Bermuda/daniels_head.jpg
 
-
 # Everest and Lamlam
-
 
 # Mount Everest 5 minutes
 
@@ -23,7 +19,6 @@ HackBermuda/autumn_sunrise.jpg
 
 PeakDistrict/road_now_or_then.jpg
 
-EasternCounties/press_lords.jpg
 
 # Special 5 minutes
 ## Bermuda
@@ -38,20 +33,6 @@ HackBermuda/treedownfay.jpg
 HackBermuda/treeup.jpg
 
 
-EasternCounties/blue_and_white_lords.jpg
-EasternCounties/red_and_white_lords.jpg
-EasternCounties/lords_view.jpg
-
-HackBermuda/mawi_americas.jpg
-HackBermuda/snow.jpg
-
-HackBermuda/cityhall.jpg
-
-HackBermuda/daniels.jpg
-
-HackBermuda/birthday_guitar.jpg
-
-HackBermuda/cricket.jpg
 
 ## Weather
 # General 5 minutes
@@ -61,6 +42,11 @@ Bermuda/green_shoots.jpg
 
 ## World
 ## Climate
+
+HackBermuda/snow.jpg
+Magic/winter_canoe.jpg
+
+### Hurricane Alex
 
 HackBermuda/fishing.jpg
 
@@ -74,7 +60,6 @@ SharonWilson/book_cover.jpg
 RaspberryPi/raspberry.jpg
 RaspberryPi/weather_pi.jpg
 
-HackBermuda/piday3.jpg
 HackBermuda/piday.jpg
 HackBermuda/pi_day_pies.jpg
 
@@ -88,6 +73,12 @@ PeakDistrict/hope_valley.jpg
 ## Bridges, hills, valleys and mountains
 
 PeakDistrict/hills_and_bridges.jpg
+
+Bridges/any_bridge.png
+
+Bridges/change_any_bridge.png
+
+Bridges/oasis_bridge.png
 
 SharonWilson/father_and_daughter.jpg
 
@@ -106,7 +97,7 @@ HackBermuda/mandela.jpg
 
 Bermuda/somerset_sunset.jpg
 
-
+The End
 
 Spares
 ======
@@ -143,6 +134,7 @@ HackBermuda/hackathon_bermuda.jpg
 
 HackBermuda/gonzalo-modis-oct17.jpg
 
+HackBermuda/piday3.jpg
 
 Snowy/snowy_wilson.jpg
 
@@ -163,3 +155,24 @@ PeakDistrict/two.jpg
 PeakDistrict/village_in_a_valley.jpg
 PeakDistrict/vista.jpg
 
+HackBermuda/daniels.jpg
+
+EasternCounties/blue_and_white_lords.jpg
+EasternCounties/red_and_white_lords.jpg
+EasternCounties/lords_view.jpg
+EasternCounties/press_lords.jpg
+
+HackBermuda/mawi_americas.jpg
+
+HackBermuda/cityhall.jpg
+
+HackBermuda/birthday_guitar.jpg
+
+HackBermuda/cricket.jpg
+
+Fishnet/guido.png
+
+Snowy/cat_help.jpg
+Snowy/spot_the_cat.jpg
+Snowy/take_me_with_you.jpg
+Snowy/top_cat.jpg
