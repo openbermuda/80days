@@ -39,6 +39,105 @@ MathJax.Hub.Config({
 
         </ul></section><section class="page-content"><div class="content" rel="main">
         <div class="post">
+            <h1 class="title"><a href="../posts/dice-passwords.html">Dice passwords</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2016-01-20T03:05:34+00:00">2016-01-20 03:05</time>
+</div>
+                <div class="stats">
+                                <a href="../posts/dice-passwords.html#disqus_thread" data-disqus-identifier="cache/posts/dice-passwords.html">Comments</a>
+
+
+                </div>
+                        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="../categories/dice.html" rel="tag">dice</a></li>
+           <li><a class="tag p-category" href="../categories/information-security.html" rel="tag">information security</a></li>
+           <li><a class="tag p-category" href="../categories/passwords.html" rel="tag">passwords</a></li>
+           <li><a class="tag p-category" href="../categories/random.html" rel="tag">random</a></li>
+        </ul>
+</div>
+
+            </div>
+            <div class="body">
+                <div>
+<p>Micah Lee wrote an excellent article on <a class="reference external" href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/">diceware</a>.  It covers a lot
+of issues, but guides through how to create a secure passphrase with
+dice.</p>
+<p>It contains some excellent advice, like all security advice, there are
+subtleties to consider, but the steps advised will be a vast
+improvement over the current situation.</p>
+<p>There are some obstacles, however.</p>
+<div class="section" id="industry-standards">
+<h2>Industry standards</h2>
+<p>For a long while it has been <em>industry standard</em> to impose rules such
+as:</p>
+<ul class="simple">
+<li>password must contain upper and lower case letters</li>
+<li>password must contain a digit</li>
+<li>password must contain a punctuation</li>
+<li>password must not contain <em>that</em> character</li>
+<li>password must be changed every 90 days</li>
+</ul>
+<p>These rules had rationale behind them, but they also have many
+unintended consequences.</p>
+<p>The rules are intended to increase the password space, or the size of
+the alphabet of characters that are used.</p>
+<p>However, few sites explicitly state their password requirements.
+Often it is like a mini adventure game, discovering the rules, one by
+one.</p>
+<p>And of course, all this is happening when you are having to change
+your password, when you have more important things to do.</p>
+<p>Oh, and don't forget that critical server that has its password in a
+file, but nobody unchecked the expire password box, that stopped
+working yesterday.</p>
+<p>The end result is by the time all the rules are satisfied the password
+has degenerated to P4ssw0rd!.   Relieved that you have solved the
+little adventure, you get back to what you were doing.</p>
+<p>Until you need to use the password again.  And you can't remember it.
+Well you remember what you started with.</p>
+<p>You enter a few random guesses, much to the delight of the man in the
+middle, because the site is not using http.</p>
+<p>Or it is using https, but not securely.</p>
+<p>You call a helpdesk and they reset it to W3lcome! for you and everyone else.</p>
+<div class="section" id="good-passwords">
+<h3>Good passwords</h3>
+<p>Micah points out that it is incredibly hard to think up a good
+password.</p>
+<p>He presents a way to generate a phrase instead.   Using rolls of dice
+to select words from a long list.</p>
+<p>Now sadly, none of these high entropy passwords will work for sites
+imposing these rules.</p>
+<p>So you end up changing a few characters in the first word.  And this
+is good, until you go a month without logging on.  And then you can't
+remember which characters you changed.</p>
+<p>So, Micah also points out that password managers can be handy for
+passwords for internet sites, where you don't care so much if the
+password is broken.</p>
+<p>Password managers allow you to use a passphrase to in turn generate
+random passwords.  The function used includes hashing of the web site
+name.</p>
+<p>The only problem here is that some generate passwords that don't match
+the solutions.</p>
+</div>
+<div class="section" id="what-can-sites-do-to-help">
+<h3>What can sites do to help?</h3>
+<p>Do not restrict the size of the password space by imposing alphabet
+soup rules.</p>
+<p>Run a password cracker on your own password database.  Inform users
+whose passwords are crackable.  Advise them on how to use a password
+manager.</p>
+<p>And about the password expiring thing, that is another story.</p>
+<p>Google sends emails about logins from new devices and has a number of
+other small things they do which give good feedback which can help
+with security.</p>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="post">
             <h1 class="title"><a href="../posts/guidos-clock-and-the-raspberry-pi-sense-hat.html">Guido's clock and the Raspberry Pi Sense Hat</a></h1>
             <div class="meta">
                 <div class="authordate">
@@ -150,6 +249,12 @@ set something up so I can use it to switch between different displays.</p>
 <p>This is also on the list.  Once I have this working I'll be able to
 collect data as I am driving around Bermuda.  This will include data
 from the accelerometer and the compass.</p>
+</div>
+<div class="section" id="raspberry-pi-forum">
+<h2>Raspberry Pi Forum</h2>
+<p>There is a <a class="reference external" href="https://www.raspberrypi.org/forums/index.php">raspberry pi forum index</a> which has some forums for a
+wide range of subjects, including the AstroPy, the other name for the
+Sense Hat.</p>
 </div>
 </div>
             </div>
@@ -1295,94 +1400,9 @@ to another Jupyter supported language is always an option.</p>
 </div>
             </div>
         </div>
-        <div class="post">
-            <h1 class="title"><a href="../posts/fred-update.html">Fred Update</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2015-09-01T00:41:56+00:00">2015-09-01 00:41</time>
-</div>
-                <div class="stats">
-                                <a href="../posts/fred-update.html#disqus_thread" data-disqus-identifier="cache/posts/fred-update.html">Comments</a>
-
-
-                </div>
-                        <div itemprop="keywords" class="tags">
-        <ul>
-        Tags : 
-           <li><a class="tag p-category" href="../categories/2014.html" rel="tag">2014</a></li>
-           <li><a class="tag p-category" href="../categories/2015.html" rel="tag">2015</a></li>
-           <li><a class="tag p-category" href="../categories/fred.html" rel="tag">fred</a></li>
-           <li><a class="tag p-category" href="../categories/hurricane.html" rel="tag">hurricane</a></li>
-           <li><a class="tag p-category" href="../categories/weather.html" rel="tag">weather</a></li>
-        </ul>
-</div>
-
-            </div>
-            <div class="body">
-                <div>
-<p>Fred formed way in the east of the Atlantic.  I believe it was already
-a hurricane going over the Cape Verde islands.  I was shown pictures
-today of seas damaging a pier.  I have not heard too much more about
-damage.</p>
-<p>Six years ago, Fred formed around the same area a little further
-south, but did not intensify as fast.  It did become a hurricane, then
-dissipated as it curled, for a short while was heading easterly, then
-got pushed back westward.  By this time it had fallen apart and it
-did not get organised again, but the remnants of the storm tracked a
-good way across the Atlantic.</p>
-<p>Looking at the discussion of Fred, it is likely to be pulled apart in
-the short term.  Then the track forecasts give a range of
-possibilities, including heading westward.</p>
-<p>Latest (5AM AST, 1st September) forecast discussion:</p>
-<p><a class="reference external" href="http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml">http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml</a></p>
-<p>These discussions tend to be very helpful in gauging how much
-confidence the forecasters about the forecasts.</p>
-<p>These days, both track and intensity forecasts can be pretty accurate
-out to 24 hours or so.</p>
-<p>This paragraph from the discussion has a lot of information in it:</p>
-<blockquote>
-Fred is expected to move between west-northwest and northwest for
-the next 72 hours as a mid-level ridge to the north of the cyclone
-gradually builds westward. After that time, a turn toward the
-north-northwest and north is forecast due to a deep-layer trough
-currently over eastern Canada that is expected to dig
-southeastward over the central Atlantic and erode the ridge. The
-NHC model guidance is in decent agreement on this developing
-pattern change.  However, there are significant differences in the
-model solutions with the HWRF, GFS, and GFDL models keeping Fred
-stronger and making the northward turn sooner, whereas the weaker
-solution models like the UKMET and ECMWF take a weaker and more
-vertically shallow cyclone farther west before turning it
-northward.  The official forecast track is a little south of the
-previous advisory track, mainly due to the more southerly initial
-position, and follows a blend of the weaker UKMET and ECMWF
-solutions.</blockquote>
-<p>At the end, we learn the current forecast track is further south than
-the previous advisory.  The discussion notes this is mostly because
-Fred did not move as far north as expected over the previous period.</p>
-<p>Disagreements in models are usually informative, often indicating
-there is more uncertainty in the forecast.  Sometimes the forecasters
-have good understanding of why the models are disagreeing, different
-models have different strengths.</p>
-<div class="section" id="bermuda-weather">
-<h2>Bermuda Weather</h2>
-<p><a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif">http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif</a></p>
-</div>
-<div class="section" id="wikipedia">
-<h2>Wikipedia</h2>
-<p><a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29">https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29</a></p>
-<p><a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29">https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29</a></p>
-</div>
-<div class="section" id="national-hurricane-centre">
-<h2>National Hurricane Centre</h2>
-<p><a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif">http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif</a></p>
-</div>
-</div>
-            </div>
-        </div>
             <nav class="postindexpager"><ul class="pager">
 <li class="next">
-                <a href="index-4.html" rel="next">Older posts</a>
+                <a href="index-5.html" rel="next">Older posts</a>
             </li>
         </ul></nav><script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer" role="contentinfo"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>

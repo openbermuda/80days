@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (random)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/random.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 03:40:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Dice passwords</title><link>http://openbermuda.github.io/80days/posts/dice-passwords.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Micah Lee wrote an excellent article on &lt;a class="reference external" href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/"&gt;diceware&lt;/a&gt;.  It covers a lot
+of issues, but guides through how to create a secure passphrase with
+dice.&lt;/p&gt;
+&lt;p&gt;It contains some excellent advice, like all security advice, there are
+subtleties to consider, but the steps advised will be a vast
+improvement over the current situation.&lt;/p&gt;
+&lt;p&gt;There are some obstacles, however.&lt;/p&gt;
+&lt;div class="section" id="industry-standards"&gt;
+&lt;h2&gt;Industry standards&lt;/h2&gt;
+&lt;p&gt;For a long while it has been &lt;em&gt;industry standard&lt;/em&gt; to impose rules such
+as:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;password must contain upper and lower case letters&lt;/li&gt;
+&lt;li&gt;password must contain a digit&lt;/li&gt;
+&lt;li&gt;password must contain a punctuation&lt;/li&gt;
+&lt;li&gt;password must not contain &lt;em&gt;that&lt;/em&gt; character&lt;/li&gt;
+&lt;li&gt;password must be changed every 90 days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These rules had rationale behind them, but they also have many
+unintended consequences.&lt;/p&gt;
+&lt;p&gt;The rules are intended to increase the password space, or the size of
+the alphabet of characters that are used.&lt;/p&gt;
+&lt;p&gt;However, few sites explicitly state their password requirements.
+Often it is like a mini adventure game, discovering the rules, one by
+one.&lt;/p&gt;
+&lt;p&gt;And of course, all this is happening when you are having to change
+your password, when you have more important things to do.&lt;/p&gt;
+&lt;p&gt;Oh, and don't forget that critical server that has its password in a
+file, but nobody unchecked the expire password box, that stopped
+working yesterday.&lt;/p&gt;
+&lt;p&gt;The end result is by the time all the rules are satisfied the password
+has degenerated to P4ssw0rd!.   Relieved that you have solved the
+little adventure, you get back to what you were doing.&lt;/p&gt;
+&lt;p&gt;Until you need to use the password again.  And you can't remember it.
+Well you remember what you started with.&lt;/p&gt;
+&lt;p&gt;You enter a few random guesses, much to the delight of the man in the
+middle, because the site is not using http.&lt;/p&gt;
+&lt;p&gt;Or it is using https, but not securely.&lt;/p&gt;
+&lt;p&gt;You call a helpdesk and they reset it to W3lcome! for you and everyone else.&lt;/p&gt;
+&lt;div class="section" id="good-passwords"&gt;
+&lt;h3&gt;Good passwords&lt;/h3&gt;
+&lt;p&gt;Micah points out that it is incredibly hard to think up a good
+password.&lt;/p&gt;
+&lt;p&gt;He presents a way to generate a phrase instead.   Using rolls of dice
+to select words from a long list.&lt;/p&gt;
+&lt;p&gt;Now sadly, none of these high entropy passwords will work for sites
+imposing these rules.&lt;/p&gt;
+&lt;p&gt;So you end up changing a few characters in the first word.  And this
+is good, until you go a month without logging on.  And then you can't
+remember which characters you changed.&lt;/p&gt;
+&lt;p&gt;So, Micah also points out that password managers can be handy for
+passwords for internet sites, where you don't care so much if the
+password is broken.&lt;/p&gt;
+&lt;p&gt;Password managers allow you to use a passphrase to in turn generate
+random passwords.  The function used includes hashing of the web site
+name.&lt;/p&gt;
+&lt;p&gt;The only problem here is that some generate passwords that don't match
+the solutions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-can-sites-do-to-help"&gt;
+&lt;h3&gt;What can sites do to help?&lt;/h3&gt;
+&lt;p&gt;Do not restrict the size of the password space by imposing alphabet
+soup rules.&lt;/p&gt;
+&lt;p&gt;Run a password cracker on your own password database.  Inform users
+whose passwords are crackable.  Advise them on how to use a password
+manager.&lt;/p&gt;
+&lt;p&gt;And about the password expiring thing, that is another story.&lt;/p&gt;
+&lt;p&gt;Google sends emails about logins from new devices and has a number of
+other small things they do which give good feedback which can help
+with security.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>dice</category><category>information security</category><category>passwords</category><category>random</category><guid>http://openbermuda.github.io/80days/posts/dice-passwords.html</guid><pubDate>Wed, 20 Jan 2016 03:05:34 GMT</pubDate></item></channel></rss>

@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" href="http://openbermuda.github.io/80days/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 09 Jan 2016 01:29:59 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 03:40:17 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Dice passwords</title><link>http://openbermuda.github.io/80days/posts/dice-passwords.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Micah Lee wrote an excellent article on &lt;a class="reference external" href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/"&gt;diceware&lt;/a&gt;.  It covers a lot
+of issues, but guides through how to create a secure passphrase with
+dice.&lt;/p&gt;
+&lt;p&gt;It contains some excellent advice, like all security advice, there are
+subtleties to consider, but the steps advised will be a vast
+improvement over the current situation.&lt;/p&gt;
+&lt;p&gt;There are some obstacles, however.&lt;/p&gt;
+&lt;div class="section" id="industry-standards"&gt;
+&lt;h2&gt;Industry standards&lt;/h2&gt;
+&lt;p&gt;For a long while it has been &lt;em&gt;industry standard&lt;/em&gt; to impose rules such
+as:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;password must contain upper and lower case letters&lt;/li&gt;
+&lt;li&gt;password must contain a digit&lt;/li&gt;
+&lt;li&gt;password must contain a punctuation&lt;/li&gt;
+&lt;li&gt;password must not contain &lt;em&gt;that&lt;/em&gt; character&lt;/li&gt;
+&lt;li&gt;password must be changed every 90 days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These rules had rationale behind them, but they also have many
+unintended consequences.&lt;/p&gt;
+&lt;p&gt;The rules are intended to increase the password space, or the size of
+the alphabet of characters that are used.&lt;/p&gt;
+&lt;p&gt;However, few sites explicitly state their password requirements.
+Often it is like a mini adventure game, discovering the rules, one by
+one.&lt;/p&gt;
+&lt;p&gt;And of course, all this is happening when you are having to change
+your password, when you have more important things to do.&lt;/p&gt;
+&lt;p&gt;Oh, and don't forget that critical server that has its password in a
+file, but nobody unchecked the expire password box, that stopped
+working yesterday.&lt;/p&gt;
+&lt;p&gt;The end result is by the time all the rules are satisfied the password
+has degenerated to P4ssw0rd!.   Relieved that you have solved the
+little adventure, you get back to what you were doing.&lt;/p&gt;
+&lt;p&gt;Until you need to use the password again.  And you can't remember it.
+Well you remember what you started with.&lt;/p&gt;
+&lt;p&gt;You enter a few random guesses, much to the delight of the man in the
+middle, because the site is not using http.&lt;/p&gt;
+&lt;p&gt;Or it is using https, but not securely.&lt;/p&gt;
+&lt;p&gt;You call a helpdesk and they reset it to W3lcome! for you and everyone else.&lt;/p&gt;
+&lt;div class="section" id="good-passwords"&gt;
+&lt;h3&gt;Good passwords&lt;/h3&gt;
+&lt;p&gt;Micah points out that it is incredibly hard to think up a good
+password.&lt;/p&gt;
+&lt;p&gt;He presents a way to generate a phrase instead.   Using rolls of dice
+to select words from a long list.&lt;/p&gt;
+&lt;p&gt;Now sadly, none of these high entropy passwords will work for sites
+imposing these rules.&lt;/p&gt;
+&lt;p&gt;So you end up changing a few characters in the first word.  And this
+is good, until you go a month without logging on.  And then you can't
+remember which characters you changed.&lt;/p&gt;
+&lt;p&gt;So, Micah also points out that password managers can be handy for
+passwords for internet sites, where you don't care so much if the
+password is broken.&lt;/p&gt;
+&lt;p&gt;Password managers allow you to use a passphrase to in turn generate
+random passwords.  The function used includes hashing of the web site
+name.&lt;/p&gt;
+&lt;p&gt;The only problem here is that some generate passwords that don't match
+the solutions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-can-sites-do-to-help"&gt;
+&lt;h3&gt;What can sites do to help?&lt;/h3&gt;
+&lt;p&gt;Do not restrict the size of the password space by imposing alphabet
+soup rules.&lt;/p&gt;
+&lt;p&gt;Run a password cracker on your own password database.  Inform users
+whose passwords are crackable.  Advise them on how to use a password
+manager.&lt;/p&gt;
+&lt;p&gt;And about the password expiring thing, that is another story.&lt;/p&gt;
+&lt;p&gt;Google sends emails about logins from new devices and has a number of
+other small things they do which give good feedback which can help
+with security.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>dice</category><category>information security</category><category>passwords</category><category>random</category><guid>http://openbermuda.github.io/80days/posts/dice-passwords.html</guid><pubDate>Wed, 20 Jan 2016 03:05:34 GMT</pubDate></item><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
 phone.&lt;/p&gt;
 &lt;p&gt;It was actually before phone apps were really a thing, or even called
 apps.  Nokia had ported python to the Series 60 phones and had some
@@ -89,6 +160,12 @@ set something up so I can use it to switch between different displays.&lt;/p&gt;
 &lt;p&gt;This is also on the list.  Once I have this working I'll be able to
 collect data as I am driving around Bermuda.  This will include data
 from the accelerometer and the compass.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="raspberry-pi-forum"&gt;
+&lt;h2&gt;Raspberry Pi Forum&lt;/h2&gt;
+&lt;p&gt;There is a &lt;a class="reference external" href="https://www.raspberrypi.org/forums/index.php"&gt;raspberry pi forum index&lt;/a&gt; which has some forums for a
+wide range of subjects, including the AstroPy, the other name for the
+Sense Hat.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;</description><category>mclock2</category><category>python</category><category>raspberry pi</category><category>sense hat</category><guid>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</guid><pubDate>Fri, 08 Jan 2016 19:17:42 GMT</pubDate></item><item><title>Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I just discovered the &lt;a class="reference external" href="https://www.raspberrypi.org/products/sense-hat/"&gt;raspberry pi sense hat&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I have been thinking about putting together raspberry pi's, sensors
 and mopeds to make a mobile weather station and more.&lt;/p&gt;
@@ -1016,60 +1093,4 @@ to another Jupyter supported language is always an option.&lt;/p&gt;
 &lt;!-- description: links to include in all posts --&gt;
 &lt;!-- type: text --&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>census</category><category>free software</category><guid>http://openbermuda.github.io/80days/posts/census-survey.html</guid><pubDate>Thu, 03 Sep 2015 15:07:57 GMT</pubDate></item><item><title>Fred Update</title><link>http://openbermuda.github.io/80days/posts/fred-update.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Fred formed way in the east of the Atlantic.  I believe it was already
-a hurricane going over the Cape Verde islands.  I was shown pictures
-today of seas damaging a pier.  I have not heard too much more about
-damage.&lt;/p&gt;
-&lt;p&gt;Six years ago, Fred formed around the same area a little further
-south, but did not intensify as fast.  It did become a hurricane, then
-dissipated as it curled, for a short while was heading easterly, then
-got pushed back westward.  By this time it had fallen apart and it
-did not get organised again, but the remnants of the storm tracked a
-good way across the Atlantic.&lt;/p&gt;
-&lt;p&gt;Looking at the discussion of Fred, it is likely to be pulled apart in
-the short term.  Then the track forecasts give a range of
-possibilities, including heading westward.&lt;/p&gt;
-&lt;p&gt;Latest (5AM AST, 1st September) forecast discussion:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml"&gt;http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;These discussions tend to be very helpful in gauging how much
-confidence the forecasters about the forecasts.&lt;/p&gt;
-&lt;p&gt;These days, both track and intensity forecasts can be pretty accurate
-out to 24 hours or so.&lt;/p&gt;
-&lt;p&gt;This paragraph from the discussion has a lot of information in it:&lt;/p&gt;
-&lt;blockquote&gt;
-Fred is expected to move between west-northwest and northwest for
-the next 72 hours as a mid-level ridge to the north of the cyclone
-gradually builds westward. After that time, a turn toward the
-north-northwest and north is forecast due to a deep-layer trough
-currently over eastern Canada that is expected to dig
-southeastward over the central Atlantic and erode the ridge. The
-NHC model guidance is in decent agreement on this developing
-pattern change.  However, there are significant differences in the
-model solutions with the HWRF, GFS, and GFDL models keeping Fred
-stronger and making the northward turn sooner, whereas the weaker
-solution models like the UKMET and ECMWF take a weaker and more
-vertically shallow cyclone farther west before turning it
-northward.  The official forecast track is a little south of the
-previous advisory track, mainly due to the more southerly initial
-position, and follows a blend of the weaker UKMET and ECMWF
-solutions.&lt;/blockquote&gt;
-&lt;p&gt;At the end, we learn the current forecast track is further south than
-the previous advisory.  The discussion notes this is mostly because
-Fred did not move as far north as expected over the previous period.&lt;/p&gt;
-&lt;p&gt;Disagreements in models are usually informative, often indicating
-there is more uncertainty in the forecast.  Sometimes the forecasters
-have good understanding of why the models are disagreeing, different
-models have different strengths.&lt;/p&gt;
-&lt;div class="section" id="bermuda-weather"&gt;
-&lt;h2&gt;Bermuda Weather&lt;/h2&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif"&gt;http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="wikipedia"&gt;
-&lt;h2&gt;Wikipedia&lt;/h2&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29"&gt;https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29"&gt;https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="national-hurricane-centre"&gt;
-&lt;h2&gt;National Hurricane Centre&lt;/h2&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif"&gt;http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>2014</category><category>2015</category><category>fred</category><category>hurricane</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/fred-update.html</guid><pubDate>Tue, 01 Sep 2015 00:41:56 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>census</category><category>free software</category><guid>http://openbermuda.github.io/80days/posts/census-survey.html</guid><pubDate>Thu, 03 Sep 2015 15:07:57 GMT</pubDate></item></channel></rss>
