@@ -70,7 +70,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/dice.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/django.xml</loc>
@@ -134,7 +134,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/information-security.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/javascript.xml</loc>
@@ -194,7 +194,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/passwords.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/pi.xml</loc>
@@ -214,7 +214,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/random.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/raspberry-pi.xml</loc>
@@ -326,10 +326,10 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/sitemap.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-01-20</lastmod>
  </sitemap>
 </sitemapindex>

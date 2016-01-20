@@ -89,8 +89,15 @@ Password managers allow you to use a passphrase to in turn generate
 random passwords.  The function used includes hashing of the web site
 name.
 
-The only problem here is that some generate passwords that don't match
-the solutions.
+The only problem here is that some generate passwords that don't pass
+the site's alphabet soup rules.
+
+Password managers usually allow to specify the alphabet of characters,
+but even with that sometimes the password they come up with will not
+satisfy the rules.
+
+This is because they are using the full password space, not
+arbitrarily shrinking that space.
 
 What can sites do to help?
 --------------------------
