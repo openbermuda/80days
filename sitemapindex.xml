@@ -61,6 +61,10 @@
   <lastmod>2015-07-09</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://openbermuda.github.io/80days/categories/communication.xml</loc>
+  <lastmod>2016-01-23</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/cray-xmp.xml</loc>
   <lastmod>2015-08-01</lastmod>
  </sitemap>
@@ -197,6 +201,10 @@
   <lastmod>2016-01-20</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://openbermuda.github.io/80days/categories/perspective.xml</loc>
+  <lastmod>2016-01-23</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/pi.xml</loc>
   <lastmod>2015-07-09</lastmod>
  </sitemap>
@@ -235,6 +243,14 @@
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/spittal-pond.xml</loc>
   <lastmod>2015-07-09</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://openbermuda.github.io/80days/categories/stack.xml</loc>
+  <lastmod>2016-01-23</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://openbermuda.github.io/80days/categories/stress.xml</loc>
+  <lastmod>2016-01-23</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/sufc-sens.xml</loc>
@@ -326,10 +342,10 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/rss.xml</loc>
-  <lastmod>2016-01-20</lastmod>
+  <lastmod>2016-01-23</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/sitemap.xml</loc>
-  <lastmod>2016-01-20</lastmod>
+  <lastmod>2016-01-23</lastmod>
  </sitemap>
 </sitemapindex>

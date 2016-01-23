@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 13:23:46 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Dice passwords</title><link>http://openbermuda.github.io/80days/posts/dice-passwords.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Micah Lee wrote an excellent article on &lt;a class="reference external" href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/"&gt;diceware&lt;/a&gt;.  It covers a lot
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 23 Jan 2016 22:02:08 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Perspective, Communication, Stress and the Stack</title><link>http://openbermuda.github.io/80days/posts/perspective-communication-stress-and-the-stack.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago there was a programme on the BBC, I can't remember the
+name.&lt;/p&gt;
+&lt;p&gt;Groups of high school pupils would present a science project they were
+working on.  I think each programme would cover 2-3 schools and there
+were also follow-ups on projects to see how they were progressing.&lt;/p&gt;
+&lt;p&gt;There were all sorts of fascinating things being done.  A lot of
+chemistry experiments, physics, biology too.  And there was always a
+teacher in the background who was inspiring these young people.&lt;/p&gt;
+&lt;p&gt;I recall one show, where a team was investigating stress.  The panel
+were very much pure scientists.   One commented"&lt;/p&gt;
+&lt;blockquote&gt;
+"nobody really knows how to define stress".&lt;/blockquote&gt;
+&lt;p&gt;This stuck with me.  It was weird, because pretty much everyone I knew
+had expeienced stress.  There wasn't really a good definition,&lt;/p&gt;
+&lt;p&gt;The panel were focussed on the fact the team did not really have a
+clear definition of what they were trying to study.&lt;/p&gt;
+&lt;p&gt;Stress is everywhere, but it is different for everyone.  Each has
+their own perspective, interests, concerns and fears.&lt;/p&gt;
+&lt;p&gt;Focussing on the causes of stress it is easy to miss what the essence
+of the stress feeling is.&lt;/p&gt;
+&lt;p&gt;This is a personal perspective, but I suspect many will recognise some
+of what follows.&lt;/p&gt;
+&lt;p&gt;As the number of things I care about and feel the need to act on
+increases, so the stress builds.&lt;/p&gt;
+&lt;div class="section" id="computers-and-being-able-to-fix-them"&gt;
+&lt;h2&gt;Computers and being able to fix them&lt;/h2&gt;
+&lt;p&gt;I like fixing things and making things.  When you have some pieces you
+can put together and test an idea, make something work a little
+better, a little easier then I find that satisfying.&lt;/p&gt;
+&lt;p&gt;Along the way, each fix uncovers other problems you did not know
+existed.  You find new ideas to pursue, the list of things you care
+about grows.  You find fascinating new ideas, that mesh with other
+things you care about.&lt;/p&gt;
+&lt;p&gt;When you work with computers and use modern software tools so many
+things can be improved.  And each improvement is a small step in a
+good direction.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="rabbit-holes"&gt;
+&lt;h2&gt;Rabbit holes&lt;/h2&gt;
+&lt;p&gt;Along the way, the simple task can turn into many other simple tasks.&lt;/p&gt;
+&lt;p&gt;And meanwhile you encounter new brokenness and want to fix that too.&lt;/p&gt;
+&lt;p&gt;It is easy to get dragged into rabbit holes, forgetting what you were
+originally trying to fix.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="burnout"&gt;
+&lt;h2&gt;Burnout&lt;/h2&gt;
+&lt;p&gt;When the stack gets too deep then you have stress.  Too many things to
+think about and no time for any of them.  More things arriving faster
+than you can even process them.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="control"&gt;
+&lt;h2&gt;Control&lt;/h2&gt;
+&lt;p&gt;There may be many things you have no control over, but that are
+important to you and things you care about.  You need help from
+others, but they have their own perspective, their own stack of
+nightmares.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="stress-is-not-all-bad"&gt;
+&lt;h2&gt;Stress is not all bad&lt;/h2&gt;
+&lt;p&gt;If you can reduce the stress, get some breathing space, then you have
+a stack of interesting things to explore.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="unwinding-the-stack"&gt;
+&lt;h2&gt;Unwinding the stack&lt;/h2&gt;
+&lt;p&gt;As you unwind the stack, look for patterns, group items.   Look for
+solutions that address many issue not just one.&lt;/p&gt;
+&lt;p&gt;Look for bridges to build and look for others at the other side of the
+ravine who can help you cross and share.&lt;/p&gt;
+&lt;p&gt;Prune the stack, discard what is not relevant now.&lt;/p&gt;
+&lt;p&gt;Ask if the things that you cannot control matter?  If they do, how can
+you get help?   Who else cares about this?  Why do you care?&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>communication</category><category>perspective</category><category>stack</category><category>stress</category><guid>http://openbermuda.github.io/80days/posts/perspective-communication-stress-and-the-stack.html</guid><pubDate>Fri, 22 Jan 2016 21:15:10 GMT</pubDate></item><item><title>Dice passwords</title><link>http://openbermuda.github.io/80days/posts/dice-passwords.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Micah Lee wrote an excellent article on &lt;a class="reference external" href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/"&gt;diceware&lt;/a&gt;.  It covers a lot
 of issues, but guides through how to create a secure passphrase with
 dice.&lt;/p&gt;
 &lt;p&gt;It contains some excellent advice, like all security advice, there are
@@ -889,213 +960,4 @@ the world circling around her and find ways to change the paths of
 those that needed to be on a different path, or gently put together
 those that would benefit from each other.&lt;/p&gt;
 &lt;p&gt;I now have another Magic Roundabout in my life.  Mum's are magic.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>france</category><category>ottawa</category><category>roundabouts</category><category>sufc</category><category>swindon</category><guid>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</guid><pubDate>Fri, 04 Sep 2015 14:54:08 GMT</pubDate></item><item><title>Census Survey</title><link>http://openbermuda.github.io/80days/posts/census-survey.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;div class="section" id="introduction"&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;The Bermuda Government, Department of Statistics has put out a Request
-for Proposal (RFP) for a &lt;em&gt;web-based solution to support on-line
-census&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Below are some thoughts on how Free Software could form the solution.&lt;/p&gt;
-&lt;p&gt;The census raises many complex issues of privacy, accessibility and
-access to information.  In short, is has all the features of a
-typical software project.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="free-software-solution"&gt;
-&lt;h2&gt;Free Software Solution&lt;/h2&gt;
-&lt;p&gt;Most, if not all, of the pieces required to build this system already
-exist as free software.&lt;/p&gt;
-&lt;p&gt;This software is free in the sense that it gives you freedom.  Freedom
-to examine the software, freedom to look how it works, freedom to
-change it as you wish.&lt;/p&gt;
-&lt;p&gt;Freedom to pass the software on to others should you wish, so long as
-you give them the same freedoms you received.&lt;/p&gt;
-&lt;p&gt;A prototype can be built from these pieces in around 20 hours of
-development.&lt;/p&gt;
-&lt;p&gt;There are Bermudians with the skills to do this and the time to devote
-to such a project.&lt;/p&gt;
-&lt;p&gt;In some cases they will be exploring new concepts, but that is the
-nature of IT.&lt;/p&gt;
-&lt;p&gt;There are many others they can call on to assist should they need
-guidance, including the millions of people around the globe who
-contribute to free software.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="accessibility"&gt;
-&lt;h2&gt;Accessibility&lt;/h2&gt;
-&lt;p&gt;Accessibility is often neglected in software.&lt;/p&gt;
-&lt;p&gt;Many free software tools have good support for accessibility.&lt;/p&gt;
-&lt;p&gt;Generally, a framework is provided to address a wide range of
-accessibility issues.&lt;/p&gt;
-&lt;p&gt;Everyone has different challenges working with computers.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;vision&lt;/li&gt;
-&lt;li&gt;hearing&lt;/li&gt;
-&lt;li&gt;motor movements&lt;/li&gt;
-&lt;li&gt;speech&lt;/li&gt;
-&lt;li&gt;language processing&lt;/li&gt;
-&lt;li&gt;reading&lt;/li&gt;
-&lt;li&gt;writing&lt;/li&gt;
-&lt;li&gt;fear&lt;/li&gt;
-&lt;li&gt;the software itself&lt;/li&gt;
-&lt;li&gt;citizens access to information&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Bermuda is an international island.  English is the dominant
-language.&lt;/p&gt;
-&lt;p&gt;Documents are generally produced in English.&lt;/p&gt;
-&lt;p&gt;However, the island has many nationalities living here and also has
-many Bermudians who have travelled and lived abroad.&lt;/p&gt;
-&lt;p&gt;There are also distinct communities within Bermuda with their own
-language, culture and history.&lt;/p&gt;
-&lt;p&gt;And, of course, Bermuda is a popular travel destination, with many
-nationalities paying visits.&lt;/p&gt;
-&lt;p&gt;Yet there is very poor support for languages other than English on
-most Bermuda related websites.&lt;/p&gt;
-&lt;p&gt;A free software solution would accommodate translations.  Further, it
-would allow anyone to contribute to those translations.&lt;/p&gt;
-&lt;p&gt;Free software: means you can adapt for differing needs, since you have
-the code.  Without the code you are tied to a third party.&lt;/p&gt;
-&lt;p&gt;Further others can help you.  A free software census solution for
-Bermuda may be usable in many other juristictions.  Bermudians who
-develop such software would be able to work with others wherever in
-the world they may be.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="public-access-to-information"&gt;
-&lt;h2&gt;Public Access To Information&lt;/h2&gt;
-&lt;p&gt;Census data is invaluable in many ways.  It provides data that can
-guide public policy.&lt;/p&gt;
-&lt;p&gt;TODO: Anology: vaccination: having your children vaccinated protects
-them against illness, but also reduces the chance of epidemics
-breaking out.  There are small risks to every vaccination, but the
-benefits to society can be significant.  For example, consider the
-elimination of polio, a disease that affect large numbers of people in
-the past.&lt;/p&gt;
-&lt;p&gt;In the UK there have been censuses since 1831 (may have been earlier).&lt;/p&gt;
-&lt;p&gt;Collecting the data back in that day was a huge task.  At the time it
-gave vast amounts of information about poplulation sizes, household
-sizes and the age profile of the population and their occupations.&lt;/p&gt;
-&lt;p&gt;All the data was hand written.  Pages of data might have totals and
-there were presumably clerks creating aggregate statistics.&lt;/p&gt;
-&lt;p&gt;Nowadays, genealogists find the census data both fascinating and
-invaluable as they trace family history.&lt;/p&gt;
-&lt;p&gt;The UK has been digitising this data over the last few years and
-making it available on line.&lt;/p&gt;
-&lt;p&gt;A free software solution to the census would anticipate PATI requests
-by building access to information into the system.&lt;/p&gt;
-&lt;p&gt;Rather than wait for PATI requests and have to then examine data to
-see what should be released, the decisions about what should be
-released, when and to who will be made up front and built into the
-solution.&lt;/p&gt;
-&lt;p&gt;A system can be built that will only release certain information after
-some specified period.&lt;/p&gt;
-&lt;p&gt;Some data may need reviewing after some number of years and released
-or re-sealed based on that review.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="transparency-and-privacy"&gt;
-&lt;h2&gt;Transparency and Privacy&lt;/h2&gt;
-&lt;p&gt;It is assumed that aggregate data from the census will be made freely
-available to citizens.  Our solution will include support for such
-access.&lt;/p&gt;
-&lt;p&gt;It is recommended that any data of a sensitive nature be treated
-appropriately, including the physical security of any computers
-storing the data.&lt;/p&gt;
-&lt;p&gt;One possibility is to try to build a system that only stores
-aggregrate information.&lt;/p&gt;
-&lt;p&gt;It should also be noted that in a small community like Bermuda
-aggregate data, especially when combined with other similar data can
-remove annonynimity.&lt;/p&gt;
-&lt;p&gt;One recommendation would be to encourage community discussion about
-the census questions and have the community guide the decisions
-regarding privacy and access to information.&lt;/p&gt;
-&lt;p&gt;Collecting more personal data that will be stored in some sort of time
-capsule for the benefit of future historians and genealogy.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="computer-insecurity"&gt;
-&lt;h2&gt;Computer insecurity&lt;/h2&gt;
-&lt;p&gt;In view of all the high profile data breaches that the world has been
-experiencing over recent months it should be apparent that storing
-sensitive data on computers is not an easy task.&lt;/p&gt;
-&lt;p&gt;Our solution will recognise this fact and propose appropriate measures
-for storing more sensitive data.&lt;/p&gt;
-&lt;p&gt;However, it would be our recommendation to only collect data that the
-residents of Bermuda are comfortable in sharing.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="maintenance-and-development"&gt;
-&lt;h2&gt;Maintenance and Development&lt;/h2&gt;
-&lt;p&gt;With a free software solution future maintenance and development of
-the software can be performed by anyone with the skills.  The local
-poplulation will have all the tools they need, they just need to learn
-the skills needed.&lt;/p&gt;
-&lt;p&gt;Further, a well designed free software census would be usable in other
-jurisdictions.&lt;/p&gt;
-&lt;p&gt;If developed here in Bermuda by Bermudians it would create
-opportunities for the team to work elsewhere in the world.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="free-software-centre"&gt;
-&lt;h2&gt;Free Software Centre&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div class="section" id="ownership-of-code"&gt;
-&lt;h2&gt;Ownership of code&lt;/h2&gt;
-&lt;p&gt;The government, not the developers would own and code developed for
-the site.&lt;/p&gt;
-&lt;p&gt;It should be noted most of the code already exists and is free
-software.&lt;/p&gt;
-&lt;p&gt;It is suggested that any code written for the project be itself
-released as a free software project using the GPL license.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="existing-free-software-solutions"&gt;
-&lt;h2&gt;Existing Free Software solutions&lt;/h2&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www.census.gov/data/software.html"&gt;http://www.census.gov/data/software.html&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="appendix-a-python-and-django"&gt;
-&lt;h2&gt;Appendix A: Python and Django&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div class="section" id="django"&gt;
-&lt;h2&gt;Django&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div class="section" id="django-quiz"&gt;
-&lt;h2&gt;Django Quiz&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div class="section" id="appendix-project-jupyter"&gt;
-&lt;h2&gt;Appendix:  Project Jupyter&lt;/h2&gt;
-&lt;p&gt;Humans in different parts of the world speak different languages.&lt;/p&gt;
-&lt;p&gt;Humans have also developed many different languages for communicating
-with computers.&lt;/p&gt;
-&lt;p&gt;Learning these languages can take considerable time and effort.&lt;/p&gt;
-&lt;p&gt;For most of the history of modern computing, communicating with other
-languages has been difficult.&lt;/p&gt;
-&lt;p&gt;In effect, the plethora of languages has worked to Balkanise the IT
-world.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://jupyter.org/"&gt;Project Jupyter&lt;/a&gt; is just one project that is helping languages work
-together.&lt;/p&gt;
-&lt;p&gt;Jupyter is a tool that supports virtually seamless interoperability
-between 50 different languages, from python, to perl, C++ to C#, Bash
-to Brainfuck, erlang to lua, matlab to php.&lt;/p&gt;
-&lt;div class="section" id="choosing-tools"&gt;
-&lt;h3&gt;Choosing tools&lt;/h3&gt;
-&lt;p&gt;Developers invariably like to use the tools they know best.  They
-understand them, know what they are capable of and know many of the
-risks they will encounter using those tools to solve a problem.&lt;/p&gt;
-&lt;p&gt;Starting a project with a new tool presents many additional risks:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;will it work as advertised?&lt;/li&gt;
-&lt;li&gt;How much time will it take to learn?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For an organisation starting out in the free software world the choice
-can be daunting.&lt;/p&gt;
-&lt;p&gt;Further, any large organisation will likely end up using many
-different languages.&lt;/p&gt;
-&lt;p&gt;Whilst there are inefficiencies in this approach, there are
-advantages, just as with growing crops: monoculture leaves an
-organisation vulnerable to anything which threatens that ecosystem.&lt;/p&gt;
-&lt;p&gt;Variety gives resilience, but at some cost.&lt;/p&gt;
-&lt;p&gt;Projects such as Jupyter help support that variety and reduce the
-costs.&lt;/p&gt;
-&lt;p&gt;If a particular technology choice is proving hard to support, porting
-to another Jupyter supported language is always an option.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>census</category><category>free software</category><guid>http://openbermuda.github.io/80days/posts/census-survey.html</guid><pubDate>Thu, 03 Sep 2015 15:07:57 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>france</category><category>ottawa</category><category>roundabouts</category><category>sufc</category><category>swindon</category><guid>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</guid><pubDate>Fri, 04 Sep 2015 14:54:08 GMT</pubDate></item></channel></rss>
