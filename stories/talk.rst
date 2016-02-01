@@ -1,5 +1,20 @@
 # Community Weather and Climate Risk
 
+   From LamLam to Everest
+
+   A tale of adventure, through hills and dales, over peaks and
+   bridges, from islands in the sea, to clouds in the sky, across the
+   sea and through the sky to the peak of Everest and the universe
+   beyond.
+
+   Johnny Gill
+
+   swfiua@gmail.com
+
+   github.com/[swfiua|peakrisk|openbermuda]
+
+END_CAPTION
+   
 Bermuda/daniels_head.jpg
 
 PeakDistrict/summit.jpg
@@ -28,6 +43,10 @@ HackBermuda/snow.jpg
 Magic/winter_canoe.jpg
 
 ### Hurricane Alex
+
+   A hurricane in January in the Azores
+
+END_CAPTION
 
 HackBermuda/fishing.jpg
 
