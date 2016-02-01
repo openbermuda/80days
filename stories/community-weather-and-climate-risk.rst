@@ -8,18 +8,57 @@
 .. type: text
 
 .. sectnum::
-    :depth: 3
+   :depth: 3           
 
 ==================================
 Community Weather and Climate Risk
 ==================================
 
-I have submitted a talk proposal to PyCon Caribbean.
+Update
+======
 
-They have their own web based submission system, but I would like to
-develop the ideas for the talk here.
+PyCaribbean is in the Dominican Republic in February.  There is a lot
+happening between now and then.
 
-Pull requests would be great to have.
+I have been working on slides and thoughts for a talk at the
+conference.  I need some tools to help me give presentations and am
+enjoying working with the tools alongside thinking about what I would
+like to talk about.
+
+I've also been building simple tools to turn my scripts into
+slideshows.
+
+I am mostly using photos I have taken, mainly because it is too much
+work to check copyright etc.
+
+But also I have some images that each come with many stories.  And
+there are a lot of stories.
+
+In the process I have been working with restructured text, markdown,
+python, feh, eog and more.
+
+Most of the software is in the *noddy* folder of the *blog* branch,
+
+Note to self: I should make this branch master and switch master to
+80days -- probably is a separate project.
+
+I also need to write some install instructions, for now, add noddy to
+your path and watch out.  Read the code first, there isn't much, but
+it gets powerful, quickly.
+
+At the moment the best place to find some of what I am thinking about
+is here:
+
+http://openbermuda.org/80days/blog/
+
+And the noddy code is here:
+
+https://github.com/openbermuda/80days/tree/blog
+
+and here:
+
+https://github.com/peakrisk/lamlam
+
 
 Description
 ===========
