@@ -22,11 +22,19 @@ class SlideShow:
 
     def interpret(self, msg):
         """ Load input """
+        slides = msg.get('slides', [])
+        self.cache = msg.get('folder')
+        self.gallery = msg.get('gallery', '..')
 
         with open(self.cache + '/slides.txt', 'w') as logfile:
-            for ix, item in enumerate(msg):
+            for ix, item in enumerate(slides):
                 image = self.prepare_image(item)
                 filename = self.cache_image(image, ix)
+
+                text = item.get('caption', '')
+                if text:
+                    with open(filename + '.txt', 'w') as caption:
+                        caption.write(text)
                 print('%s,%d' % (filename, item.get('time', 0)), file=logfile)
 
     def prepare_image(self, slide):
@@ -40,6 +48,9 @@ class SlideShow:
 
             # convert _ to ' '
             caption = caption.replace('_', ' ')
+
+            # save the caption
+            slide['caption'] = caption
  
         # create image
         image_file = self.create_image(image, caption)
@@ -50,16 +61,17 @@ class SlideShow:
         """ Create an image with a caption """
         suffix = 'png'
         if image_file:
-            img = Image.open(image_file)
+            img = Image.open(os.path.join(self.gallery, image_file))
             width, height = img.size
             ratio = width/WIDTH
             img = img.resize((int(width // ratio),
                               int(height // ratio)),
                              Image.ANTIALIAS)
         else:
-            img = Image.new('RGB', (WIDTH, HEIGHT), (255,255,255))
-
-        image = self.add_caption(img, caption)
+            img = Image.new('RGB', (WIDTH, HEIGHT), 'black')
+            image = self.add_caption(img, caption)
+            
+        image = img
 
         return image
 
@@ -74,16 +86,20 @@ class SlideShow:
         return name
 
 
-    def add_caption(self, image, caption):
+    def add_caption(self, image, caption, colour=None):
         """ Add a caption to the image """
 
+        if colour is None:
+            colour = "white"
+    
         width, height = image.size
         draw = ImageDraw.Draw(image)
 
         draw.font = self.font
 
         draw.font = self.font
-        draw.text((width // 10, height//20), caption, fill=(0,0,0))
+        draw.text((width // 10, height//20), caption,
+                  fill=colour)
 
         return image
 

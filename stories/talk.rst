@@ -1,52 +1,52 @@
 # Community Weather and Climate Risk
 
+   From LamLam to Everest
+
+   A tale of adventure, through hills and dales, over peaks and
+   bridges, from islands in the sea, to clouds in the sky, across the
+   sea and through the sky to the peak of Everest and the universe
+   beyond.
+
+   Johnny Gill
+
+   swfiua@gmail.com
+
+   github.com/[swfiua|peakrisk|openbermuda]
+
+END_CAPTION
+   
 Bermuda/daniels_head.jpg
-
-# Everest and Lamlam
-
-# Mount Everest 5 minutes
 
 PeakDistrict/summit.jpg
 
 PeakDistrict/ridge_walk.jpg
 
-GibbsHill/tree_down.jpg
-
-
-# Mount Lamlam 5 minutes
+GibbsHill/roof_damage.jpg
 
 HackBermuda/autumn_sunrise.jpg
 
 PeakDistrict/road_now_or_then.jpg
 
-
-# Special 5 minutes
-## Bermuda
-
 HackBermuda/pinkandbluelimo.jpg
+
+HackBermuda/treedownfay.jpg
 
 HackBermuda/treedown.jpg
 
-HackBermuda/horseshoe.jpg
-
-HackBermuda/treedownfay.jpg
 HackBermuda/treeup.jpg
 
-
-
-## Weather
-# General 5 minutes
+HackBermuda/horseshoe.jpg
 
 Bermuda/green_shoots.jpg
-
-
-## World
-## Climate
 
 HackBermuda/snow.jpg
 Magic/winter_canoe.jpg
 
 ### Hurricane Alex
+
+   A hurricane in January in the Azores
+
+END_CAPTION
 
 HackBermuda/fishing.jpg
 
@@ -54,35 +54,25 @@ Joaquin/joaquin.png
 
 SharonWilson/book_cover.jpg
 
-
-# Raspberry pi 5 minutes
-
 RaspberryPi/raspberry.jpg
-RaspberryPi/weather_pi.jpg
 
-HackBermuda/piday.jpg
+Fishnet/sense_hat_mclock.jpg
+
 HackBermuda/pi_day_pies.jpg
 
 PeakDistrict/old_renewable.jpg
 
-## Vista
-
 PeakDistrict/hope_valley.jpg
-
-
-## Bridges, hills, valleys and mountains
 
 PeakDistrict/hills_and_bridges.jpg
 
 Bridges/any_bridge.png
 
-Bridges/change_any_bridge.png
-
 Bridges/oasis_bridge.png
 
-SharonWilson/father_and_daughter.jpg
+Bridges/change_any_bridge.png
 
-# Jupyter
+SharonWilson/father_and_daughter.jpg
 
 PeakDistrict/help_from_above.jpg
 
@@ -91,9 +81,6 @@ Snowy/coding.jpg
 PeakDistrict/swan.jpg
 
 HackBermuda/mandela.jpg
-
-
-# Choose your own adventure
 
 Bermuda/somerset_sunset.jpg
 

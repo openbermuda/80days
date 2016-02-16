@@ -20,8 +20,10 @@ class SlideShow:
 
     def interpret(self, msg):
         """ Create a slide show """
+
+        self.captions = msg.get('captions', '.')
         
-        for item in msg:
+        for item in msg['slides']:
             self.add(item)
 
     def add(self, slide):
@@ -31,6 +33,9 @@ class SlideShow:
     def next(self):
 
         # send feh a signal to move to the next slide
+        # 10 is SIGUSR1
+        # this is byzantine, must be a better way to send a signal
+        # from python
         os.system('kill -s 10 %d' % self.feh.pid)
 
     def show(self):
@@ -38,7 +43,8 @@ class SlideShow:
         #os.system('eog -g -w %s &' % image_file)
         #os.system('feh -F %s &' % image_file)
         slides = ' '.join([x.get('image', '') for x in self.slides])
-        cmd = 'feh -F --scale-down %s' % slides
+        cmd = 'feh --scale-down --caption-path %s %s' % (
+            self.captions, slides)
         self.feh = subprocess.Popen(cmd.split(' '))
 
     def set_duration(self, duration):
@@ -49,12 +55,14 @@ class SlideShow:
 
         unfixed = len(self.slides) - nfixed
 
-        self.wait = max(5, int(duration / unfixed))
+        self.wait = max(1, int(duration / unfixed))
 
     def run(self):
         """ Run the show """
 
         self.show()
+        input('Press any key to start')
+        
         for image in self.slides:
             wait = image.get('time', 0)
             wait = max(self.wait, wait)
