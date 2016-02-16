@@ -1,10 +1,10 @@
 # Community Weather and Climate Risk
 
-   From LamLam to Everest
+   From Lamlam to Everest
 
-   A tale of adventure, through hills and dales, over peaks and
-   bridges, from islands in the sea, to clouds in the sky, across the
-   sea and through the sky to the peak of Everest and the universe
+   A tale of adventure, through hills and dales,
+   from islands in the sea, to clouds in the sky,
+   to the peak of Everest and the universe
    beyond.
 
    Johnny Gill
@@ -59,7 +59,7 @@ Bermuda/green_shoots.jpg
 
 Joaquin/joaquin.png
 
-HurricaneAlex/alex_2016_track.jpg
+HurricaneAlex/alex_2016_track.png
 
 HackBermuda/snow.jpg
 Magic/winter_canoe.jpg
