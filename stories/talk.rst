@@ -13,21 +13,39 @@
 
    github.com/[swfiua|peakrisk|openbermuda]
 
-END_CAPTION
-   
 Bermuda/daniels_head.jpg
+
+# Everest
+
+   Highest mountain on earth?
 
 PeakDistrict/summit.jpg
 
 PeakDistrict/ridge_walk.jpg
 
+# Lamlam
+
+   Highest mountain on earth
+
 GibbsHill/roof_damage.jpg
 
 HackBermuda/autumn_sunrise.jpg
 
+# A journey
+
+   From Lamlam to Everest
+
 PeakDistrict/road_now_or_then.jpg
 
 HackBermuda/pinkandbluelimo.jpg
+
+# Hurricanes
+
+ Fay and Erika
+
+ Gonzalo and Joaquin
+
+ Alex
 
 HackBermuda/treedownfay.jpg
 
@@ -39,18 +57,22 @@ HackBermuda/horseshoe.jpg
 
 Bermuda/green_shoots.jpg
 
+Joaquin/joaquin.png
+
+HurricaneAlex/alex_2016_track.jpg
+
 HackBermuda/snow.jpg
 Magic/winter_canoe.jpg
 
-### Hurricane Alex
-
-   A hurricane in January in the Azores
-
-END_CAPTION
-
 HackBermuda/fishing.jpg
 
-Joaquin/joaquin.png
+# Community
+
+  Raspberry Pi and Pies
+
+  Astro Pi
+
+  Weather
 
 SharonWilson/book_cover.jpg
 
@@ -63,6 +85,15 @@ HackBermuda/pi_day_pies.jpg
 PeakDistrict/old_renewable.jpg
 
 PeakDistrict/hope_valley.jpg
+
+# Putting it altogether
+
+  People
+
+  Gravity Waves
+
+  Python
+
 
 PeakDistrict/hills_and_bridges.jpg
 
