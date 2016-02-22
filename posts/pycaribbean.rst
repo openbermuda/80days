@@ -16,7 +16,7 @@ I am just relaxing after three fantastic days here in Santo Domingo.
 
 It was the first PyCaribbean conference: Python, palm trees, wonderful
 people, a meeting of languages: Spanish, python, English, Restructured
-Text, Markdown, with generous lashings of pandas, ipython and Jypyter
+Text, Markdown, with generous lashings of pandas, ipython and Jupyter
 notebooks.
 
 Santo Domingo
@@ -70,7 +70,7 @@ On the Friday before the conference we walked over to the venue.  It
 is hot and humid here, so shorts were the order of the day.
 
 When we got to the centre the security wouldn't let us in.
-Interpertter to the rescue: no shorts allowed, a policy for all
+Interpretter to the rescue: no shorts allowed, a policy for all
 government buildings.
 
 I felt for the organisers, this is the sort of rule it is easy not to
@@ -113,15 +113,15 @@ the future.
 
 Just ten days ago the world of science had been buzzing with the
 announcement of the LIGO experiments detection of gravitational waves
-from two black holes, each the mass of more than Suns colliding over 1
-billion light years away.
+from two black holes, each the mass of more than 30 Suns, colliding
+over 1 billion light years away.
 
 What has since emerged is the extent to which python was involved in
 the incredible data analyis that has been able to detect a wrinkle in
-space time, from 1 billion light years away, less than the width of a
-proton. 
+space time less than the width of a proton as it passed by the earth
+from a billion light years away.
 
-The world have physics has finally moved on from Fortran to python.
+The world of physics has finally moved on from Fortran to python.
 Brandon joked that physicists only change language once every 50
 years, so this is a significant transition.
 
@@ -133,7 +133,7 @@ humanities and so much more.
 Driving much of this are wonderful tools, in particular, Jupyter
 notebook, matplotlib, ipython and more.
 
-In short, the tools have reached the point when regardless of your
+In short, the tools have reached the point where regardless of your
 discipline you can quickly learn just enough to quickly investigate
 ideas.
 
@@ -145,11 +145,11 @@ Allen Downey talked about thinking in python.
 He talked about expressing thoughts in natural language, mathematics
 and computer code.
 
-When we write computer code we are making mathematics something that
+When we write computer code we are turning mathematics something that
 computers can run.
 
-The language of mathematics is neither executable or easy to
-understand.
+The language of mathematics is neither executable or easy for humans
+to understand.
 
 Natural language is rich, but ambiguous and not executable.
 
@@ -198,7 +198,8 @@ Paul showed how to write simple code using python interfaces to MPI
 parallel machines.
 
 Paul just does this in his spare time, helping a friend with
-biological science problems related to DNA and RNA.
+biological science problems related to DNA and RNA, he just happens to
+have access to a supercomputer to test his code on.
 
 Keynote: Django Ladies
 ======================
@@ -214,7 +215,7 @@ Django ladies have now run training across the globe.  Their tutorials
 have been read bay millions.
 
 Ola recognised the challenges for women trying to enter a tech world
-dominated by men and provided tools to help them succeed.
+dominated by men and provided tips and guides to help them succeed.
 
 Tech communities have long lacked diversity, PyCaribbean has added
 another dimension by helping foster community across the Caribbean.
@@ -228,13 +229,14 @@ documentation.
 Eric created readthedocs and more recently writethedocs.
 
 Documentation is fundamental to making your code accessible to
-others.
+others.  And in six months time, even it it is your own code, you will
+be glad that you wrote the docs.
 
 Again, there was some history of the world of python documentation.
 
-Integration of documentation generation into the test generation
-process has been a major driver of helping documentation stay in sync
-with code.
+Integration of documentation generation into automated build processes
+has been a major driver in helping documentation stay in sync with
+code.
 
 The Django project was mentioned as a project with a process that
 positively fosters documentation generation.
@@ -257,7 +259,7 @@ Jose Elias gave a fascinating account of the world of virtual
 and augmented reality.
 
 For the purposes of this talk, virtual reality was focussed on
-technology that presents a virtual worlds using headsets.
+technology that presents virtual worlds using headsets.
 
 Jose gave a history of the subject.  Like many technology developments
 early enthusiam ran into technical issues and the subject was
