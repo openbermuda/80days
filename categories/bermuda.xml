@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (bermuda)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/categories/bermuda.xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 20:10:01 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PyCaribbean</title><link>http://openbermuda.github.io/80days/posts/pycaribbean.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am just relaxing after three fantastic days here in Santo Domingo.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (bermuda)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link href="http://openbermuda.github.io/80days/categories/bermuda.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 20:29:14 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PyCaribbean</title><link>http://openbermuda.github.io/80days/posts/pycaribbean.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am just relaxing after three fantastic days here in Santo Domingo.&lt;/p&gt;
 &lt;p&gt;It was the first PyCaribbean conference: Python, palm trees, wonderful
 people, a meeting of languages: Spanish, python, English, Restructured
-Text, Markdown, with generous lashings of pandas, ipython and Jypyter
+Text, Markdown, with generous lashings of pandas, ipython and Jupyter
 notebooks.&lt;/p&gt;
 &lt;div class="section" id="santo-domingo"&gt;
 &lt;h2&gt;Santo Domingo&lt;/h2&gt;
@@ -43,7 +43,7 @@ campus.&lt;/p&gt;
 &lt;p&gt;On the Friday before the conference we walked over to the venue.  It
 is hot and humid here, so shorts were the order of the day.&lt;/p&gt;
 &lt;p&gt;When we got to the centre the security wouldn't let us in.
-Interpertter to the rescue: no shorts allowed, a policy for all
+Interpretter to the rescue: no shorts allowed, a policy for all
 government buildings.&lt;/p&gt;
 &lt;p&gt;I felt for the organisers, this is the sort of rule it is easy not to
 think about, fortunately most attendees had at least one pair of
@@ -75,13 +75,13 @@ we are and why things are how they are now.  It can also be a guide to
 the future.&lt;/p&gt;
 &lt;p&gt;Just ten days ago the world of science had been buzzing with the
 announcement of the LIGO experiments detection of gravitational waves
-from two black holes, each the mass of more than Suns colliding over 1
-billion light years away.&lt;/p&gt;
+from two black holes, each the mass of more than 30 Suns, colliding
+over 1 billion light years away.&lt;/p&gt;
 &lt;p&gt;What has since emerged is the extent to which python was involved in
 the incredible data analyis that has been able to detect a wrinkle in
-space time, from 1 billion light years away, less than the width of a
-proton.&lt;/p&gt;
-&lt;p&gt;The world have physics has finally moved on from Fortran to python.
+space time less than the width of a proton as it passed by the earth
+from a billion light years away.&lt;/p&gt;
+&lt;p&gt;The world of physics has finally moved on from Fortran to python.
 Brandon joked that physicists only change language once every 50
 years, so this is a significant transition.&lt;/p&gt;
 &lt;p&gt;He said the speed of the transition has caught many by surprise.  And
@@ -90,7 +90,7 @@ science, finance, weather and climate, geologists, signal processing,
 humanities and so much more.&lt;/p&gt;
 &lt;p&gt;Driving much of this are wonderful tools, in particular, Jupyter
 notebook, matplotlib, ipython and more.&lt;/p&gt;
-&lt;p&gt;In short, the tools have reached the point when regardless of your
+&lt;p&gt;In short, the tools have reached the point where regardless of your
 discipline you can quickly learn just enough to quickly investigate
 ideas.&lt;/p&gt;
 &lt;/div&gt;
@@ -99,10 +99,10 @@ ideas.&lt;/p&gt;
 &lt;p&gt;Allen Downey talked about thinking in python.&lt;/p&gt;
 &lt;p&gt;He talked about expressing thoughts in natural language, mathematics
 and computer code.&lt;/p&gt;
-&lt;p&gt;When we write computer code we are making mathematics something that
+&lt;p&gt;When we write computer code we are turning mathematics something that
 computers can run.&lt;/p&gt;
-&lt;p&gt;The language of mathematics is neither executable or easy to
-understand.&lt;/p&gt;
+&lt;p&gt;The language of mathematics is neither executable or easy for humans
+to understand.&lt;/p&gt;
 &lt;p&gt;Natural language is rich, but ambiguous and not executable.&lt;/p&gt;
 &lt;p&gt;Python has often been described as executable pseudo-code, and with
 good reason.&lt;/p&gt;
@@ -139,7 +139,8 @@ be amenable to parallel processing.&lt;/p&gt;
 (message passing interface) to write code to run on these massively
 parallel machines.&lt;/p&gt;
 &lt;p&gt;Paul just does this in his spare time, helping a friend with
-biological science problems related to DNA and RNA.&lt;/p&gt;
+biological science problems related to DNA and RNA, he just happens to
+have access to a supercomputer to test his code on.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="keynote-django-ladies"&gt;
 &lt;h2&gt;Keynote: Django Ladies&lt;/h2&gt;
@@ -151,7 +152,7 @@ training to build communities.&lt;/p&gt;
 &lt;p&gt;Django ladies have now run training across the globe.  Their tutorials
 have been read bay millions.&lt;/p&gt;
 &lt;p&gt;Ola recognised the challenges for women trying to enter a tech world
-dominated by men and provided tools to help them succeed.&lt;/p&gt;
+dominated by men and provided tips and guides to help them succeed.&lt;/p&gt;
 &lt;p&gt;Tech communities have long lacked diversity, PyCaribbean has added
 another dimension by helping foster community across the Caribbean.&lt;/p&gt;
 &lt;/div&gt;
@@ -161,11 +162,12 @@ another dimension by helping foster community across the Caribbean.&lt;/p&gt;
 documentation.&lt;/p&gt;
 &lt;p&gt;Eric created readthedocs and more recently writethedocs.&lt;/p&gt;
 &lt;p&gt;Documentation is fundamental to making your code accessible to
-others.&lt;/p&gt;
+others.  And in six months time, even it it is your own code, you will
+be glad that you wrote the docs.&lt;/p&gt;
 &lt;p&gt;Again, there was some history of the world of python documentation.&lt;/p&gt;
-&lt;p&gt;Integration of documentation generation into the test generation
-process has been a major driver of helping documentation stay in sync
-with code.&lt;/p&gt;
+&lt;p&gt;Integration of documentation generation into automated build processes
+has been a major driver in helping documentation stay in sync with
+code.&lt;/p&gt;
 &lt;p&gt;The Django project was mentioned as a project with a process that
 positively fosters documentation generation.&lt;/p&gt;
 &lt;p&gt;Eric mentioned some new developments, including new tools which are
@@ -182,7 +184,7 @@ documentation driven development and literate programming ideas.&lt;/p&gt;
 &lt;p&gt;Jose Elias gave a fascinating account of the world of virtual
 and augmented reality.&lt;/p&gt;
 &lt;p&gt;For the purposes of this talk, virtual reality was focussed on
-technology that presents a virtual worlds using headsets.&lt;/p&gt;
+technology that presents virtual worlds using headsets.&lt;/p&gt;
 &lt;p&gt;Jose gave a history of the subject.  Like many technology developments
 early enthusiam ran into technical issues and the subject was
 abandonned for a few years.&lt;/p&gt;

@@ -35,7 +35,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/bermuda.xml</loc>
-  <lastmod>2016-02-22T20:10:00Z</lastmod>
+  <lastmod>2016-02-22T20:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/blades.xml</loc>
@@ -51,7 +51,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/caribbean.xml</loc>
-  <lastmod>2016-02-22T20:10:00Z</lastmod>
+  <lastmod>2016-02-22T20:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/cat_bermuda-cricket-blades.xml</loc>
@@ -223,7 +223,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/python.xml</loc>
-  <lastmod>2016-02-22T20:10:00Z</lastmod>
+  <lastmod>2016-02-22T20:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/random.xml</loc>
@@ -363,10 +363,10 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/rss.xml</loc>
-  <lastmod>2016-02-22T20:10:00Z</lastmod>
+  <lastmod>2016-02-22T20:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/sitemap.xml</loc>
-  <lastmod>2016-02-22T20:10:00Z</lastmod>
+  <lastmod>2016-02-22T20:29:00Z</lastmod>
  </sitemap>
 </sitemapindex>
