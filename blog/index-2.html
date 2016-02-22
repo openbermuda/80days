@@ -355,7 +355,7 @@ than the new stuff.</p>
                 <div>
 <p>It is more than time that I get the project up and running on a host
 somewhere.</p>
-<p>I could just check the code out on <a class="reference external" href="../posts/https//koding.com">koding.com</a> and run the project
+<p>I could just check the code out on <a class="reference external" href="../posts/https/koding.com">koding.com</a> and run the project
 with django's build in server, but I feel I should run it under
 <em>nginx</em>.</p>
 <p>I could have chosen <em>apache</em>, but I keep hearing people mention
@@ -382,17 +382,17 @@ Secret value 'SECRET_KEY' is not set
 advice on how to go about keeping it secret.</p>
 <p>So looking at what the wonderful <a class="reference external" href="https://github.com/pydanny/cookiecutter-django">cookiecutter django</a> created I see
 the following incantation in <em>config/production.py</em>:</p>
-<pre class="code python"><a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-1"></a><span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
-<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-2"></a>
-<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-3"></a><span class="c"># SECRET KEY</span>
-<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-4"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
-<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-5"></a><span class="c"># END SECRET KEY</span>
+<pre class="code python"><a name="rest_code_5aea81e3ef8e4a73baea227131cf315f-1"></a><span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
+<a name="rest_code_5aea81e3ef8e4a73baea227131cf315f-2"></a>
+<a name="rest_code_5aea81e3ef8e4a73baea227131cf315f-3"></a><span class="c"># SECRET KEY</span>
+<a name="rest_code_5aea81e3ef8e4a73baea227131cf315f-4"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
+<a name="rest_code_5aea81e3ef8e4a73baea227131cf315f-5"></a><span class="c"># END SECRET KEY</span>
 </pre>
 <p>So what is this <em>configuration.values</em> thing?   Turns out it is coming
 from the <a class="reference external" href="http://django-configurations.readthedocs.org/">django configurations</a> application that the <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a>
 was kind enough to include.</p>
 <p>OK, so it helps you not have to do</p>
-<pre class="code python"><a name="rest_code_01d95bd354454da59abb8c77111b1782-1"></a><span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
+<pre class="code python"><a name="rest_code_6c3904c8e9284a4d83a1c44d55efd7f6-1"></a><span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
 </pre>
 <p>Now, that has to be a good thing :)</p>
 <p>So reading the docs I come to:</p>
@@ -710,7 +710,7 @@ now.</p>
 <h2>Hosting</h2>
 <p>The site is not available in the big bad world as yet, mostly due to
 the fact I have not decided where to host it as yet.</p>
-<p>Since I had a good experience with <a class="reference external" href="../posts/https//koding.com">koding.com</a> during the recent
+<p>Since I had a good experience with <a class="reference external" href="../posts/https/koding.com">koding.com</a> during the recent
 hackathon, that is probably what I will end up using.  The good news
 is that I know all the stuff I am using will only take about 30
 minutes to get up and running on that platform.</p>
@@ -855,12 +855,12 @@ will most likely not be the last distro related posting.</p>
             <div class="body">
                 <div>
 <p>Last weekend I took part in the <a class="reference external" href="../posts/worlds-first-global-hackathon.html">global hackathon</a> run by
-<a class="reference external" href="../posts/https//koding.com">koding.com</a> as part of Team Bermuda aka <em>Three</em> <a class="reference external" href="http://www.urbandictionary.com/define.php?term=aceboy">ace-boys</a> <em>and an</em>
+<a class="reference external" href="../posts/https/koding.com">koding.com</a> as part of Team Bermuda aka <em>Three</em> <a class="reference external" href="http://www.urbandictionary.com/define.php?term=aceboy">ace-boys</a> <em>and an</em>
 <a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl">ace-girl</a>.</p>
 <p>The other members of the team were:</p>
 <ul class="simple">
 <li>Nick Hoskins, the one who told us all about it</li>
-<li>Beckett Simmons, residing <a class="reference external" href="../posts/https//koding.com">koding.com</a> expert</li>
+<li>Beckett Simmons, residing <a class="reference external" href="../posts/https/koding.com">koding.com</a> expert</li>
 <li>Veronica Windus, working remotely from the frozen wastes of Canada</li>
 </ul>
 <p>The idea was to create a web based application in 48 hours.  There
@@ -920,7 +920,7 @@ about really.</p>
 some views allowing users to see which EULA's had which clauses and
 other such fun stuff.  One idea was to add a quiz, getting people to
 guess whose EULA had which clause, possibly using <cite>django quiz</cite>.</p>
-<p>For most of Saturday we pretty much ignored the <a class="reference external" href="../posts/https//koding.com">koding.com</a> virtual
+<p>For most of Saturday we pretty much ignored the <a class="reference external" href="../posts/https/koding.com">koding.com</a> virtual
 machine, we were having enough other problems.</p>
 <p>Actually, the <em>angular</em> stuff was going quite well.</p>
 <p>The django side was going a bit slower.  We were using <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a>
@@ -947,7 +947,7 @@ from his house, so the coffee shortage was averted).</p>
 <p>We decided to work until we were too tired, then get some sleep ready
 to code until 4am on Monday morning.</p>
 <p>It is all a bit of a blur now, but at some point we decided we should
-see if any of our stuff actually works on <a class="reference external" href="../posts/https//koding.com">koding.com</a>.</p>
+see if any of our stuff actually works on <a class="reference external" href="../posts/https/koding.com">koding.com</a>.</p>
 <p>I am sure the koding.com IDE is a joy to use, but now was not the time
 to learn it.  Fortunately, Beckett had given us the number one pro-tip
 for using koding.com:</p>
@@ -1001,7 +1001,7 @@ round.  You can even <a class="reference external" href="http://hackathon.koding
             <li class="next">
                 <a href="index-1.html" rel="next">Older posts</a>
             </li>
-        </ul></nav><script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer" role="contentinfo"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+        </ul></nav><script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p>
             

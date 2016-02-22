@@ -1,5 +1,298 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (python)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://openbermuda.github.io/80days/categories/python.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 03:40:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (python)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/categories/python.xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 20:10:18 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PyCaribbean</title><link>http://openbermuda.github.io/80days/posts/pycaribbean.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am just relaxing after three fantastic days here in Santo Domingo.&lt;/p&gt;
+&lt;p&gt;It was the first PyCaribbean conference: Python, palm trees, wonderful
+people, a meeting of languages: Spanish, python, English, Restructured
+Text, Markdown, with generous lashings of pandas, ipython and Jypyter
+notebooks.&lt;/p&gt;
+&lt;div class="section" id="santo-domingo"&gt;
+&lt;h2&gt;Santo Domingo&lt;/h2&gt;
+&lt;p&gt;Santo Domingo is a bustling city of craziness, motorbikes carrying
+three, cars going in all directions, horns and carnivals.&lt;/p&gt;
+&lt;p&gt;I speak little Spanish, but my wife is here to interpret, saving me
+from my failed attempts to communicate.  One waiter looked
+particularly perturbed.  Apparently, I had told him I love him in a
+failed attempt to say how good the food was.&lt;/p&gt;
+&lt;p&gt;People have been super friendly.  Mangling of their language is
+treated with smiles and help.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-in-santo-domingo"&gt;
+&lt;h2&gt;Python in Santo Domingo&lt;/h2&gt;
+&lt;p&gt;The conference organisers have done an amazing job building community
+here in DR.   The vast majority of the 200 or so attendees were local
+and actively using python.&lt;/p&gt;
+&lt;p&gt;Jorge Vargas talked about how he and others have worked to build up
+community over the last few years.&lt;/p&gt;
+&lt;p&gt;Some of the secrets:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;organising monthly meetups, with schedule planned out 3 months
+ahead.&lt;/li&gt;
+&lt;li&gt;co-ordinating with other tech groups: Ruby, Javascript, Linux,
+Django Ladies and much more.   Having a shared calendar to avoid
+collisions.&lt;/li&gt;
+&lt;li&gt;Multiple organisers for each thread to help avoid burn out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-venue"&gt;
+&lt;h2&gt;The venue&lt;/h2&gt;
+&lt;p&gt;The conference was held in the &lt;a class="reference external" href="http://www.uasd.edu.do/index.php/biblioteca"&gt;Biblioteca Pedro Mir&lt;/a&gt; on the
+University Autonoma de Santo Domingo.&lt;/p&gt;
+&lt;p&gt;We were staying at a hotel a 15 minute walk, mostly through the
+campus.&lt;/p&gt;
+&lt;div class="section" id="bermuda-shorts"&gt;
+&lt;h3&gt;Bermuda Shorts&lt;/h3&gt;
+&lt;p&gt;On the Friday before the conference we walked over to the venue.  It
+is hot and humid here, so shorts were the order of the day.&lt;/p&gt;
+&lt;p&gt;When we got to the centre the security wouldn't let us in.
+Interpertter to the rescue: no shorts allowed, a policy for all
+government buildings.&lt;/p&gt;
+&lt;p&gt;I felt for the organisers, this is the sort of rule it is easy not to
+think about, fortunately most attendees had at least one pair of
+jeans.&lt;/p&gt;
+&lt;p&gt;The Bermuda shorts had to wait for the evening dinner to make an
+appearance.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="opening-keynote-when-languages-collide"&gt;
+&lt;h2&gt;Opening Keynote: when languages collide&lt;/h2&gt;
+&lt;p&gt;Brandon Rhodes, PyCon 20176 chair, gave the opening keynote.&lt;/p&gt;
+&lt;p&gt;Brandon is always an entertaining speaker and this was no exception.&lt;/p&gt;
+&lt;p&gt;It was python's unofficial 25th birthday on 20th February, which just
+added to the excitement that Python had come to the Caribbean.&lt;/p&gt;
+&lt;p&gt;Brandon spoke of the weirdness that occurs when English meets Spanish,
+when the English ask, what is that called?  "Rio Grande" comes the
+response.  And from then on it is known as the tautological &lt;em&gt;Rio
+Grande River&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Brandon went through some of the history of the python language and
+how its design was shaped by other languages.&lt;/p&gt;
+&lt;p&gt;Python, like all modern computer languaes, or indeed languages in
+general, is a mash-up of ideas borrowed from other languages.  Indeed,
+computer languages borrow idioms from natural language all the time.&lt;/p&gt;
+&lt;p&gt;Much of the power and elegance of python comes not from the features
+it has adopted, but from those it has chosen not to implement.&lt;/p&gt;
+&lt;p&gt;History was a theme in many talks.  I find an understanding of the
+history can be very illuminating in understanding how we got to where
+we are and why things are how they are now.  It can also be a guide to
+the future.&lt;/p&gt;
+&lt;p&gt;Just ten days ago the world of science had been buzzing with the
+announcement of the LIGO experiments detection of gravitational waves
+from two black holes, each the mass of more than Suns colliding over 1
+billion light years away.&lt;/p&gt;
+&lt;p&gt;What has since emerged is the extent to which python was involved in
+the incredible data analyis that has been able to detect a wrinkle in
+space time, from 1 billion light years away, less than the width of a
+proton.&lt;/p&gt;
+&lt;p&gt;The world have physics has finally moved on from Fortran to python.
+Brandon joked that physicists only change language once every 50
+years, so this is a significant transition.&lt;/p&gt;
+&lt;p&gt;He said the speed of the transition has caught many by surprise.  And
+its not just astro-physics, but many other disciplines: biological
+science, finance, weather and climate, geologists, signal processing,
+humanities and so much more.&lt;/p&gt;
+&lt;p&gt;Driving much of this are wonderful tools, in particular, Jupyter
+notebook, matplotlib, ipython and more.&lt;/p&gt;
+&lt;p&gt;In short, the tools have reached the point when regardless of your
+discipline you can quickly learn just enough to quickly investigate
+ideas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-as-a-way-of-thinking"&gt;
+&lt;h2&gt;Python as a way of Thinking&lt;/h2&gt;
+&lt;p&gt;Allen Downey talked about thinking in python.&lt;/p&gt;
+&lt;p&gt;He talked about expressing thoughts in natural language, mathematics
+and computer code.&lt;/p&gt;
+&lt;p&gt;When we write computer code we are making mathematics something that
+computers can run.&lt;/p&gt;
+&lt;p&gt;The language of mathematics is neither executable or easy to
+understand.&lt;/p&gt;
+&lt;p&gt;Natural language is rich, but ambiguous and not executable.&lt;/p&gt;
+&lt;p&gt;Python has often been described as executable pseudo-code, and with
+good reason.&lt;/p&gt;
+&lt;p&gt;Allen showed how to move from the world of mathematics and build from
+the bottom up to a natural interface to your idea.&lt;/p&gt;
+&lt;p&gt;A highlight of this talk for me was his wonderful transalation of
+Bayes theorem into python.  I will watch out for the code appearing on
+github and post a link when it turns up.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="code-review-revision-and-technical-debt"&gt;
+&lt;h2&gt;Code Review, Revision and Technical Debt&lt;/h2&gt;
+&lt;p&gt;Geoff Gerrietts followed Allen's talk with a lot of good advice on the
+benefits of code review, dealing with technical debt and much, much
+more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="supercomputing-with-python"&gt;
+&lt;h2&gt;Supercomputing with python&lt;/h2&gt;
+&lt;p&gt;Paul Logston was another speaker who illustrated the subject with some
+history.&lt;/p&gt;
+&lt;p&gt;In his case, this was a brief history of super-computers since the
+first Cray-1 in 1976.&lt;/p&gt;
+&lt;p&gt;Comparisons in FLOPs (floating-point operations) are only part of the
+story, but do give a useful yardstick.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;1976 Cray-1: 160 mega-flops&lt;/li&gt;
+&lt;li&gt;1984 Cray-XMP, 4 cpu's, ~1 giga-flop&lt;/li&gt;
+&lt;li&gt;2013 Tihane, 34 peta-flops, 32,000 intel Xeons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, Tihane has roughly the power of 34 million Cray XMP's.  Note
+however, that much of this increase comes from scaling up the number
+of processors.  To take advantage of this power, your problem needs to
+be amenable to parallel processing.&lt;/p&gt;
+&lt;p&gt;Paul showed how to write simple code using python interfaces to MPI
+(message passing interface) to write code to run on these massively
+parallel machines.&lt;/p&gt;
+&lt;p&gt;Paul just does this in his spare time, helping a friend with
+biological science problems related to DNA and RNA.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="keynote-django-ladies"&gt;
+&lt;h2&gt;Keynote: Django Ladies&lt;/h2&gt;
+&lt;p&gt;Ola Sitarska told of her adventure with the django web framework and
+how the Django Ladies came into being.&lt;/p&gt;
+&lt;p&gt;The python world is full of tales like this, someone seeing a need,
+figuring out how to help others and creating tools, documentation and
+training to build communities.&lt;/p&gt;
+&lt;p&gt;Django ladies have now run training across the globe.  Their tutorials
+have been read bay millions.&lt;/p&gt;
+&lt;p&gt;Ola recognised the challenges for women trying to enter a tech world
+dominated by men and provided tools to help them succeed.&lt;/p&gt;
+&lt;p&gt;Tech communities have long lacked diversity, PyCaribbean has added
+another dimension by helping foster community across the Caribbean.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="documentation"&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+&lt;p&gt;The second and final day began with Eric Holscher's keynote on
+documentation.&lt;/p&gt;
+&lt;p&gt;Eric created readthedocs and more recently writethedocs.&lt;/p&gt;
+&lt;p&gt;Documentation is fundamental to making your code accessible to
+others.&lt;/p&gt;
+&lt;p&gt;Again, there was some history of the world of python documentation.&lt;/p&gt;
+&lt;p&gt;Integration of documentation generation into the test generation
+process has been a major driver of helping documentation stay in sync
+with code.&lt;/p&gt;
+&lt;p&gt;The Django project was mentioned as a project with a process that
+positively fosters documentation generation.&lt;/p&gt;
+&lt;p&gt;Eric mentioned some new developments, including new tools which are
+able to extract docstrings from code without having to import (and
+hence partially execute) that code.&lt;/p&gt;
+&lt;p&gt;Eric showed some photos of hundreds of documenation enthusiasts
+working together at readthedocs gatherings.  Who knew, 300 people
+giving up their time to work together on free software documentation.&lt;/p&gt;
+&lt;p&gt;I particularly enjoyed this talk as I have a keen interest in
+documentation driven development and literate programming ideas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="virtual-reality"&gt;
+&lt;h2&gt;Virtual Reality&lt;/h2&gt;
+&lt;p&gt;Jose Elias gave a fascinating account of the world of virtual
+and augmented reality.&lt;/p&gt;
+&lt;p&gt;For the purposes of this talk, virtual reality was focussed on
+technology that presents a virtual worlds using headsets.&lt;/p&gt;
+&lt;p&gt;Jose gave a history of the subject.  Like many technology developments
+early enthusiam ran into technical issues and the subject was
+abandonned for a few years.&lt;/p&gt;
+&lt;p&gt;As technology has caught up, we are reaching a new era of rapid
+development of VR technology.&lt;/p&gt;
+&lt;p&gt;Headsets are becoming:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;lightweight&lt;/li&gt;
+&lt;li&gt;low power&lt;/li&gt;
+&lt;li&gt;low latency, little lag as your head moves around&lt;/li&gt;
+&lt;li&gt;higher resolution&lt;/li&gt;
+&lt;li&gt;lower cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a lot of excitement in the tech world, with a belief that VR
+may prove to be as disruptive, if not more so, than smart phones.&lt;/p&gt;
+&lt;p&gt;Whilst much of the technology is proprietary there are also some
+significant open source tools, including python of course.&lt;/p&gt;
+&lt;p&gt;This technology can, and probably will, fundamentally change how
+humans interact with computers.&lt;/p&gt;
+&lt;p&gt;One video showed someone creating a virtual vase and placing it in a
+3-D printer which then created a real version of the vase.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="machine-learning-in-python"&gt;
+&lt;h2&gt;Machine learning in python&lt;/h2&gt;
+&lt;p&gt;Nick McClure gave some excellent advise on the challenges of working
+with machine learning and encorporating models into a production
+environment.&lt;/p&gt;
+&lt;p&gt;As this talk immediately preceded my own, I missed a lot and look
+forward to catching up when the video comes out.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="as-much-typing-as-you-want"&gt;
+&lt;h2&gt;As much typing as you want&lt;/h2&gt;
+&lt;p&gt;Andy Fundinger gave a clearly illustrated talk on how python
+properties can be used to coerce data to specific types.&lt;/p&gt;
+&lt;p&gt;He began with an overview of how types work in python and the typical
+ways pythonistas interact with types.  The most common approach is to
+just ignore them altogether, just go with the duck-typing.&lt;/p&gt;
+&lt;p&gt;One of the beauties of python is that it allows you to probe around in
+its internals.  Done carefully, this can be very powerful.&lt;/p&gt;
+&lt;p&gt;Andy did not use meta-classes for his tricks, but did raise the
+possibility, noting that &lt;em&gt;Traits&lt;/em&gt; use this approach.&lt;/p&gt;
+&lt;p&gt;It is something I tend to avoid as you are changing the &lt;em&gt;normal&lt;/em&gt;
+behaviour of python classes.  For instance,&lt;/p&gt;
+&lt;p&gt;Andy noted that the decision to take this route is best decided
+up-front for a specific framework, being expliicit about just what
+tricks are being used.&lt;/p&gt;
+&lt;p&gt;He also gave some helpful advice on how to do this on a minimally
+invasive way.&lt;/p&gt;
+&lt;p&gt;I came away with a new trick that may well prove very useful in some
+future projects.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="building-the-caribbean-python-community"&gt;
+&lt;h2&gt;Building the Caribbean Python Community&lt;/h2&gt;
+&lt;p&gt;I had an extended lunch break talking with others from Jamaica, Puerto
+Rico and of course the Dominican Republic about how to spread this
+community across the Caribbean.&lt;/p&gt;
+&lt;p&gt;As far as I am aware, I was the only attendee from Bermuda.  With only
+65,000 residents, it is challenging to get the critical mass to hold
+regular events.&lt;/p&gt;
+&lt;p&gt;Others are experiencing similar problems on their islands.&lt;/p&gt;
+&lt;p&gt;We discussed ways to work together and pool resources as well as
+virtual meet-ups and of course further conferences and gatherings.&lt;/p&gt;
+&lt;p&gt;There is excellent support from the wider Python community and a very
+promissing future for Python in the Caribbean.&lt;/p&gt;
+&lt;p&gt;There will undoubtedly be another PyCaribbean in 2017.&lt;/p&gt;
+&lt;p&gt;We are also starting to explore ideas for a PyData conference in
+Bermuda.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jacob-kaplan-moss-closing-keynote"&gt;
+&lt;h2&gt;Jacob Kaplan-Moss Closing Keynote&lt;/h2&gt;
+&lt;p&gt;Jacob gave the closing keynote extending the ideas from his PyCon 2015
+keynote in 2015.&lt;/p&gt;
+&lt;p&gt;He explored ideas about how people become experts.  He referred to
+research which has shown a lack of evidence of genetic
+pre-disposition.&lt;/p&gt;
+&lt;p&gt;He noted that in today's world what we generally need is not
+individual experts but rather expert teams.&lt;/p&gt;
+&lt;p&gt;Most of the problems we face require a multi-disciplinary approach.
+No one individual can hope to know everything and the collective
+knowledge and skills of any group is always greater than any
+individual.&lt;/p&gt;
+&lt;p&gt;The challenge is how to build expert teams.  Jacob identified some of
+the key factors that teams that learn quickly have over those that
+struggle.&lt;/p&gt;
+&lt;p&gt;Jacob used data from a research project analysing teams which had been
+put together to carry out non-invasive heart surgery.&lt;/p&gt;
+&lt;p&gt;Teams improved quickly when:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;the team members are kept the same initially&lt;/li&gt;
+&lt;li&gt;introduce new members slowly with mentoring from the existing
+members.&lt;/li&gt;
+&lt;li&gt;keep the process the same initially (as opposed to a less successful
+team where the lead liked to introduce something new each time).&lt;/li&gt;
+&lt;li&gt;have a team review each procedure&lt;/li&gt;
+&lt;li&gt;members are chosen based on their ability to work together well,
+rather than just going with who is interested or available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is another talk where I look forward to the video, there is much
+to digest.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="wrap-up-and-after-party"&gt;
+&lt;h2&gt;Wrap up and after party&lt;/h2&gt;
+&lt;p&gt;It is carnival time in Santo Domingo, the streets were full of people
+in exotic costumes for the carnival, each Sunday in February is party
+time.&lt;/p&gt;
+&lt;p&gt;A good time was had by all at the after party at Pasteur 8.&lt;/p&gt;
+&lt;p&gt;Two days of fun and learning with a wonderful group of people.&lt;/p&gt;
+&lt;p&gt;I am already looking forward to PyCaribbean 2017 wherever it may be
+held.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>caribbean</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/pycaribbean.html</guid><pubDate>Mon, 22 Feb 2016 15:00:00 GMT</pubDate></item><item><title>Guido's clock and the Raspberry Pi Sense Hat</title><link>http://openbermuda.github.io/80days/posts/guidos-clock-and-the-raspberry-pi-sense-hat.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Many years ago I was working a simple app to run on a Nokia Series 60
 phone.&lt;/p&gt;
 &lt;p&gt;It was actually before phone apps were really a thing, or even called
 apps.  Nokia had ported python to the Series 60 phones and had some

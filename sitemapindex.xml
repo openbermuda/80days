@@ -1,351 +1,372 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/2014.xml</loc>
-  <lastmod>2015-09-01</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/2015.xml</loc>
-  <lastmod>2015-09-01</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/67.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/80days.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/angular.xml</loc>
-  <lastmod>2015-09-07</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/art.xml</loc>
-  <lastmod>2015-07-13</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/awesome.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/bermuda.xml</loc>
-  <lastmod>2015-11-16</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/blades.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/bridges.xml</loc>
-  <lastmod>2015-09-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/bus.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://openbermuda.github.io/80days/categories/caribbean.xml</loc>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/cat_bermuda-cricket-blades.xml</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/census.xml</loc>
-  <lastmod>2015-09-07</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/chewstick.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/communication.xml</loc>
-  <lastmod>2016-01-23</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/cray-xmp.xml</loc>
-  <lastmod>2015-08-01</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/cray.xml</loc>
-  <lastmod>2015-08-01</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/dice.xml</loc>
-  <lastmod>2016-01-20</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/django.xml</loc>
-  <lastmod>2015-09-07</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/education.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/ferry.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/football.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/france.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/fred.xml</loc>
-  <lastmod>2015-09-01</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/free-software.xml</loc>
-  <lastmod>2015-11-16</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/fun.xml</loc>
-  <lastmod>2015-10-15</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/gardening.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/github.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/giving.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/hackathon.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/hill-climbing.xml</loc>
-  <lastmod>2015-09-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/hills.xml</loc>
-  <lastmod>2015-09-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/hurricane.xml</loc>
-  <lastmod>2015-10-02</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/information-security.xml</loc>
-  <lastmod>2016-01-20</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/javascript.xml</loc>
-  <lastmod>2015-09-07</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/joaquin.xml</loc>
-  <lastmod>2015-10-02</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/kindling.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/linux.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/mandela.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/mclock2.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/meetup.xml</loc>
-  <lastmod>2015-10-15</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/montreal.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/moonlight.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/mountains.xml</loc>
-  <lastmod>2015-09-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/music.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/net.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/open-source.xml</loc>
-  <lastmod>2015-11-16</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/ottawa.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/passwords.xml</loc>
-  <lastmod>2016-01-20</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/perspective.xml</loc>
-  <lastmod>2016-01-23</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/pi.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/pycaribbean.xml</loc>
-  <lastmod>2016-01-08</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/pycon.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/python.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/random.xml</loc>
-  <lastmod>2016-01-20</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/raspberry-pi.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/roundabouts.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/sense-hat.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/silverlight.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/spittal-pond.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/stack.xml</loc>
-  <lastmod>2016-01-23</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/stress.xml</loc>
-  <lastmod>2016-01-23</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/sufc-sens.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/sufc.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/swindon.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/take-a-minute.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/transit.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/weather.xml</loc>
-  <lastmod>2016-01-08</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Bermuda/rss.xml</loc>
-  <lastmod>2016-01-03</lastmod>
+  <lastmod>2016-02-22T20:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Blades/rss.xml</loc>
-  <lastmod>2016-01-03</lastmod>
+  <lastmod>2016-02-22T20:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Bridges/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/EasternCounties/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Fishnet/rss.xml</loc>
-  <lastmod>2016-01-08</lastmod>
+  <lastmod>2016-02-22T20:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Gates/rss.xml</loc>
-  <lastmod>2016-01-03</lastmod>
+  <lastmod>2016-02-22T20:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/GibbsHill/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/HackBermuda/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://openbermuda.github.io/80days/galleries/HurricaneAlex/rss.xml</loc>
+  <lastmod>2016-02-22T20:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://openbermuda.github.io/80days/galleries/Joaquin/rss.xml</loc>
+  <lastmod>2016-02-22T20:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Magic/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/PeakDistrict/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/RaspberryPi/rss.xml</loc>
-  <lastmod>2016-01-03</lastmod>
+  <lastmod>2016-02-22T20:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/SharonWilson/rss.xml</loc>
-  <lastmod>2016-01-03</lastmod>
+  <lastmod>2016-02-22T20:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Snowy/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:02:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/SpittalPond/rss.xml</loc>
-  <lastmod>2016-01-19</lastmod>
+  <lastmod>2016-02-22T20:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Springsteen/rss.xml</loc>
-  <lastmod>2016-01-03</lastmod>
+  <lastmod>2016-02-22T20:03:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://openbermuda.github.io/80days/galleries/pycaribbean/rss.xml</loc>
+  <lastmod>2016-02-22T20:04:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/rss.xml</loc>
-  <lastmod>2016-01-03</lastmod>
+  <lastmod>2016-02-22T20:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://openbermuda.github.io/80days/galleries/stub/rss.xml</loc>
+  <lastmod>2016-02-22T20:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/rss.xml</loc>
-  <lastmod>2016-01-23</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/sitemap.xml</loc>
-  <lastmod>2016-01-23</lastmod>
+  <lastmod>2016-02-22T20:10:00Z</lastmod>
  </sitemap>
 </sitemapindex>

@@ -1,88 +1,109 @@
 # Community Weather and Climate Risk
 
+   From Lamlam to Everest
+
+   A tale of adventure, through hills and dales,
+   from islands in the sea, to clouds in the sky,
+   to the peak of Everest and the universe
+   beyond.
+
+   Johnny Gill
+
+   swfiua@gmail.com
+
+   github.com/[swfiua|peakrisk|openbermuda]
+
 Bermuda/daniels_head.jpg
 
-# Everest and Lamlam
+# Everest
 
-# Mount Everest 5 minutes
+   Highest mountain on earth?
 
 PeakDistrict/summit.jpg
 
 PeakDistrict/ridge_walk.jpg
 
-GibbsHill/tree_down.jpg
+# Lamlam
 
+   Highest mountain on earth
 
-# Mount Lamlam 5 minutes
+GibbsHill/roof_damage.jpg
 
 HackBermuda/autumn_sunrise.jpg
 
+# A journey
+
+   From Lamlam to Everest
+
 PeakDistrict/road_now_or_then.jpg
-
-
-# Special 5 minutes
-## Bermuda
 
 HackBermuda/pinkandbluelimo.jpg
 
+# Hurricanes
+
+ Fay and Erika
+
+ Gonzalo and Joaquin
+
+ Alex
+
+HackBermuda/treedownfay.jpg
+
 HackBermuda/treedown.jpg
+
+HackBermuda/treeup.jpg
 
 HackBermuda/horseshoe.jpg
 
-HackBermuda/treedownfay.jpg
-HackBermuda/treeup.jpg
-
-
-
-## Weather
-# General 5 minutes
-
 Bermuda/green_shoots.jpg
 
+Joaquin/joaquin.png
 
-## World
-## Climate
+HurricaneAlex/alex_2016_track.png
 
 HackBermuda/snow.jpg
 Magic/winter_canoe.jpg
 
-### Hurricane Alex
-
 HackBermuda/fishing.jpg
 
-Joaquin/joaquin.png
+# Community
+
+  Raspberry Pi and Pies
+
+  Astro Pi
+
+  Weather
 
 SharonWilson/book_cover.jpg
 
-
-# Raspberry pi 5 minutes
-
 RaspberryPi/raspberry.jpg
-RaspberryPi/weather_pi.jpg
 
-HackBermuda/piday.jpg
+Fishnet/sense_hat_mclock.jpg
+
 HackBermuda/pi_day_pies.jpg
 
 PeakDistrict/old_renewable.jpg
 
-## Vista
-
 PeakDistrict/hope_valley.jpg
 
+# Putting it altogether
 
-## Bridges, hills, valleys and mountains
+  People
+
+  Gravity Waves
+
+  Python
+
 
 PeakDistrict/hills_and_bridges.jpg
 
 Bridges/any_bridge.png
 
-Bridges/change_any_bridge.png
-
 Bridges/oasis_bridge.png
 
-SharonWilson/father_and_daughter.jpg
+Bridges/change_any_bridge.png
 
-# Jupyter
+SharonWilson/father_and_daughter.jpg
 
 PeakDistrict/help_from_above.jpg
 
@@ -91,9 +112,6 @@ Snowy/coding.jpg
 PeakDistrict/swan.jpg
 
 HackBermuda/mandela.jpg
-
-
-# Choose your own adventure
 
 Bermuda/somerset_sunset.jpg
 

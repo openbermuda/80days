@@ -541,7 +541,7 @@ all these things too:</p>
 <li>authentication, user registration, preferably supporting third party
 openID management.  That is where <a class="reference external" href="http://django-allauth.readthedocs.org/">django-allauth</a> comes in.</li>
 <li>database migrations</li>
-<li>deployment to cloud.  I think I will use <a class="reference external" href="../posts/https//koding.com">koding.com</a>
+<li>deployment to cloud.  I think I will use <a class="reference external" href="../posts/https/koding.com">koding.com</a>
 </li>
 <li>code generation.  I wrote some simple code generators. I should be
 able to include these in a <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a> so my next project will
@@ -787,30 +787,30 @@ things like marking <em>for</em> loops and the like</li>
 <p>Now by an unhappy coincidence, <a class="reference external" href="https://angularjs.org/">angular.js</a> also uses {{ and }} to
 mark stuff for expansion.</p>
 <p>Happily, angular allows you to over-ride these markers, as follows:</p>
-<pre class="code javascript"><a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-1"></a><span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-2"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-3"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-4"></a><span class="p">});</span>
+<pre class="code javascript"><a name="rest_code_504f24ff53e445a2b92cf2253e660232-1"></a><span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_504f24ff53e445a2b92cf2253e660232-2"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+<a name="rest_code_504f24ff53e445a2b92cf2253e660232-3"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<a name="rest_code_504f24ff53e445a2b92cf2253e660232-4"></a><span class="p">});</span>
 </pre>
 <p>In fact, since I already had some code in my <em>app.js</em> I just added the
 extra config code, so my <em>app.js</em> now looks like this:</p>
-<pre class="code javascript"><a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-1"></a><span class="s1">'use strict'</span><span class="p">;</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-2"></a>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-3"></a><span class="c1">// Declare app level module which depends on views, and components</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-4"></a><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-5"></a>  <span class="s1">'ngRoute'</span><span class="p">,</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-6"></a>  <span class="s1">'myApp.view1'</span><span class="p">,</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-7"></a>  <span class="s1">'myApp.view2'</span><span class="p">,</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-8"></a>  <span class="s1">'myApp.version'</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-9"></a><span class="p">]).</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-10"></a><span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-11"></a>  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-12"></a><span class="p">}]).</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-13"></a>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-14"></a><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-15"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-16"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-17"></a><span class="p">});</span>
+<pre class="code javascript"><a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-1"></a><span class="s1">'use strict'</span><span class="p">;</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-2"></a>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-3"></a><span class="c1">// Declare app level module which depends on views, and components</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-4"></a><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-5"></a>  <span class="s1">'ngRoute'</span><span class="p">,</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-6"></a>  <span class="s1">'myApp.view1'</span><span class="p">,</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-7"></a>  <span class="s1">'myApp.view2'</span><span class="p">,</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-8"></a>  <span class="s1">'myApp.version'</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-9"></a><span class="p">]).</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-10"></a><span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-11"></a>  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-12"></a><span class="p">}]).</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-13"></a>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-14"></a><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-15"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-16"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-17"></a><span class="p">});</span>
 </pre>
 <p>So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
@@ -945,7 +945,7 @@ and White Wizards</a> it was appropriate that he should choose <a class="referen
             <li class="next">
                 <a href="index-2.html" rel="next">Older posts</a>
             </li>
-        </ul></nav><script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer" role="contentinfo"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+        </ul></nav><script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p>
             

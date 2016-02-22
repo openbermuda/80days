@@ -28,7 +28,7 @@ MathJax.Hub.Config({
 <meta property="og:url" content="http://openbermuda.github.io/80days/posts/angular-momentum.html">
 <meta property="og:description" content="Getting angular working in django">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2015-01-26T16:44:11+00:00">
+<meta property="article:published_time" content="2015-01-26T16:44:11Z">
 <meta property="article:tag" content="angular">
 <meta property="article:tag" content="django">
 <meta property="article:tag" content="javascript">
@@ -82,30 +82,30 @@ things like marking <em>for</em> loops and the like</li>
 <p>Now by an unhappy coincidence, <a class="reference external" href="https://angularjs.org/">angular.js</a> also uses {{ and }} to
 mark stuff for expansion.</p>
 <p>Happily, angular allows you to over-ride these markers, as follows:</p>
-<pre class="code javascript"><a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-1"></a><span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-2"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-3"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-4"></a><span class="p">});</span>
+<pre class="code javascript"><a name="rest_code_504f24ff53e445a2b92cf2253e660232-1"></a><span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_504f24ff53e445a2b92cf2253e660232-2"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+<a name="rest_code_504f24ff53e445a2b92cf2253e660232-3"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<a name="rest_code_504f24ff53e445a2b92cf2253e660232-4"></a><span class="p">});</span>
 </pre>
 <p>In fact, since I already had some code in my <em>app.js</em> I just added the
 extra config code, so my <em>app.js</em> now looks like this:</p>
-<pre class="code javascript"><a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-1"></a><span class="s1">'use strict'</span><span class="p">;</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-2"></a>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-3"></a><span class="c1">// Declare app level module which depends on views, and components</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-4"></a><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-5"></a>  <span class="s1">'ngRoute'</span><span class="p">,</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-6"></a>  <span class="s1">'myApp.view1'</span><span class="p">,</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-7"></a>  <span class="s1">'myApp.view2'</span><span class="p">,</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-8"></a>  <span class="s1">'myApp.version'</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-9"></a><span class="p">]).</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-10"></a><span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-11"></a>  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-12"></a><span class="p">}]).</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-13"></a>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-14"></a><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-15"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-16"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-17"></a><span class="p">});</span>
+<pre class="code javascript"><a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-1"></a><span class="s1">'use strict'</span><span class="p">;</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-2"></a>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-3"></a><span class="c1">// Declare app level module which depends on views, and components</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-4"></a><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-5"></a>  <span class="s1">'ngRoute'</span><span class="p">,</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-6"></a>  <span class="s1">'myApp.view1'</span><span class="p">,</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-7"></a>  <span class="s1">'myApp.view2'</span><span class="p">,</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-8"></a>  <span class="s1">'myApp.version'</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-9"></a><span class="p">]).</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-10"></a><span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-11"></a>  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-12"></a><span class="p">}]).</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-13"></a>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-14"></a><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-15"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-16"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<a name="rest_code_3ba7053d0c464c55bd6e90e3f7ab8280-17"></a><span class="p">});</span>
 </pre>
 <p>So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
@@ -142,7 +142,7 @@ the line for the file you want to diff.  More <a class="reference external" href
 </div>
 </div>
         </div>
-                <ul class="pager">
+                <ul class="pager hidden-print">
 <li class="previous">
                 <a href="i-met-bills-gates-and-got-the-t-shirt.html" rel="prev" title="I met Bill's Gates and got the t-shirt">Previous post</a>
             </li>
@@ -161,16 +161,16 @@ the line for the file you want to diff.  More <a class="reference external" href
         };
         (function() {
             var dsq = document.createElement('script'); dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-    </script><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
     </div>
-                    <footer id="footer" role="contentinfo"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+                    <footer id="footer"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p>
             
