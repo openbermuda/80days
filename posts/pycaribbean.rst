@@ -145,8 +145,8 @@ Allen Downey talked about thinking in python.
 He talked about expressing thoughts in natural language, mathematics
 and computer code.
 
-When we write computer code we are turning mathematics something that
-computers can run.
+When we write computer code we are turning mathematics into something
+that computers can run.
 
 The language of mathematics is neither executable or easy for humans
 to understand.
@@ -212,7 +212,7 @@ figuring out how to help others and creating tools, documentation and
 training to build communities.
 
 Django ladies have now run training across the globe.  Their tutorials
-have been read bay millions.
+have been read by hundreds of thousands.
 
 Ola recognised the challenges for women trying to enter a tech world
 dominated by men and provided tips and guides to help them succeed.

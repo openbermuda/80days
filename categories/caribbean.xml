@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (caribbean)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link href="http://openbermuda.github.io/80days/categories/caribbean.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 20:29:16 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PyCaribbean</title><link>http://openbermuda.github.io/80days/posts/pycaribbean.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am just relaxing after three fantastic days here in Santo Domingo.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (caribbean)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/categories/caribbean.xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 21:02:50 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PyCaribbean</title><link>http://openbermuda.github.io/80days/posts/pycaribbean.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am just relaxing after three fantastic days here in Santo Domingo.&lt;/p&gt;
 &lt;p&gt;It was the first PyCaribbean conference: Python, palm trees, wonderful
 people, a meeting of languages: Spanish, python, English, Restructured
 Text, Markdown, with generous lashings of pandas, ipython and Jupyter
@@ -99,8 +99,8 @@ ideas.&lt;/p&gt;
 &lt;p&gt;Allen Downey talked about thinking in python.&lt;/p&gt;
 &lt;p&gt;He talked about expressing thoughts in natural language, mathematics
 and computer code.&lt;/p&gt;
-&lt;p&gt;When we write computer code we are turning mathematics something that
-computers can run.&lt;/p&gt;
+&lt;p&gt;When we write computer code we are turning mathematics into something
+that computers can run.&lt;/p&gt;
 &lt;p&gt;The language of mathematics is neither executable or easy for humans
 to understand.&lt;/p&gt;
 &lt;p&gt;Natural language is rich, but ambiguous and not executable.&lt;/p&gt;
@@ -150,7 +150,7 @@ how the Django Ladies came into being.&lt;/p&gt;
 figuring out how to help others and creating tools, documentation and
 training to build communities.&lt;/p&gt;
 &lt;p&gt;Django ladies have now run training across the globe.  Their tutorials
-have been read bay millions.&lt;/p&gt;
+have been read by hundreds of thousands.&lt;/p&gt;
 &lt;p&gt;Ola recognised the challenges for women trying to enter a tech world
 dominated by men and provided tips and guides to help them succeed.&lt;/p&gt;
 &lt;p&gt;Tech communities have long lacked diversity, PyCaribbean has added
