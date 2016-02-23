@@ -12,7 +12,9 @@ Snowy/coding.jpg
 
 # Cats and snakes
 
-cat.png + snakes.png
+PeakDistrict/summit.jpg
+
+Snowy/coding.jpg + Snowy/coding.jpg
 
 # Cat Modelling
    
