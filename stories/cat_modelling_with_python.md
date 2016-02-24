@@ -1,4 +1,4 @@
-# Cat Modelling With Snakes
+# Cat Modelling With Python
 
    Johnny Gill
 
@@ -10,7 +10,7 @@
 
 Snowy/coding.jpg
 
-# Cats and snakes
+# Cats and Python
 
 PeakDistrict/summit.jpg
 
