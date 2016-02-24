@@ -28,6 +28,10 @@ developments in the python community.
 Using python in this environment was only possible due to some magical
 tools created within the community.
 
+### Reinsurance and natural catastrophes
+
+A quick introduction to the subject.
+
 ### Event driven development
 
 The insurance industry is full of inertia.  The main driver of change
@@ -121,11 +125,4 @@ Expert teams:
 The world is full of specialists with incredible skills and
 knowledge.  When specialists from different disciplines come together
 the creative sparks fly.
-
-
-
-
-
-
-
 
