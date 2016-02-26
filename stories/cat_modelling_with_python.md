@@ -30,9 +30,18 @@ PeakDistrict/summit.jpg
 
 Snowy/coding.jpg + Snowy/coding.jpg
 
+# Four Yorkshiremen
+
+  A trip down memory lane
+
+python linux git 
+
+redhat debian ubuntu ....
+
+
 # Supercomputers
 
-cray or sgi
+sgi or cray
 
   256 MB memory
   2 CPU ?MFLOPs
@@ -43,21 +52,48 @@ cray or sgi
 
 # Linux 
 
+Redhat 4.1 
+
+64MB memory
+intel pentium?
+
+<1GB disk
+
+C++ (oops!)
+
 # RedHat
+
+5.1 with Dell
 
 # Galois
 
+36GB Disk
+512MB RAM
+1 Xeon? cpu
+
 ## fermat, cantor, gauss
+
+2 x SGI speed
 
 # Tickle and Compass
 
+tickle and city_hall
+
 # Python and GPS
+
+python 2.x with added GPS
 
 # Event driven development
 
+Catastrophes change plans
+
 # Plotting for fun and profit
 
+Chaco to matplotlib
+
 # Matplotlib and the tale of the stacked bar chart
+
+
 
 # The year of the four hurricanes
 
