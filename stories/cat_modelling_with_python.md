@@ -10,15 +10,77 @@
 
 Snowy/coding.jpg
 
-# Cats and Python
+## cats and catastrophes
+
+Explain we are not talking about cats, but there will be cat pictures.
+
+Catastrophe and catastrophe theory.
+
+# A brief history of cat modelling
+
+## a personal history
+
+Will talk about the computers and languages being used.
+
+And naming conventions.
+
+# History and maths
 
 PeakDistrict/summit.jpg
 
 Snowy/coding.jpg + Snowy/coding.jpg
 
-# Cat Modelling
-   
-# BC - Before Computers
+# Supercomputers
+
+cray or sgi
+
+  256 MB memory
+  2 CPU ?MFLOPs
+  3GB disk
+  
+
+## SGI Indigo and Voyager/Challenger?
+
+# Linux 
+
+# RedHat
+
+# Galois
+
+## fermat, cantor, gauss
+
+# Tickle and Compass
+
+# Python and GPS
+
+# Event driven development
+
+# Plotting for fun and profit
+
+# Matplotlib and the tale of the stacked bar chart
+
+# The year of the four hurricanes
+
+# Claims 2
+
+# More matplotlib
+
+
+# Earthquakes in Christchurch
+
+## time to update the models
+
+# Black box models
+
+# The present
+
+# Cyber
+
+# Oasis
+
+# The future
+
+
 
 ## A brief history of cat modelling
 
