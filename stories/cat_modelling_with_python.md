@@ -78,7 +78,7 @@ C++ (oops!)
 
 # Tickle and Compass
 
-tickle and HackBermuda/cityhall.jpg
+Fishnet/guido.png and HackBermuda/cityhall.jpg
 
 # Python and GPS
 
@@ -94,7 +94,7 @@ Chaco to matplotlib
 
 # Matplotlib and the tale of the stacked bar chart
 
-
+Magic/stacked.png
 
 # The year of the four hurricanes
 
