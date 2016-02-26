@@ -6,7 +6,7 @@
 
    github.com/[swfiua|peakrisk|openbermuda]
 
-# A Cat
+# Snowy
 
 Snowy/coding.jpg
 
