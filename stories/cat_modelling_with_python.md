@@ -18,6 +18,7 @@ Catastrophe and catastrophe theory.
 
 # A brief history of cat modelling
 
+
 ## a personal history
 
 Will talk about the computers and languages being used.
@@ -77,7 +78,7 @@ C++ (oops!)
 
 # Tickle and Compass
 
-tickle and city_hall
+tickle and HackBermuda/cityhall.jpg
 
 # Python and GPS
 
@@ -112,20 +113,17 @@ Chaco to matplotlib
 
 # Cyber
 
+feedback loops and control
+
 # Oasis
 
 # The future
 
-
-=======
 # Cats and python
 
 PeakDistrict/summit.jpg
 
 Snowy/coding.jpg + Snowy/coding.jpg
-# Cat Modelling
-   
-# BC - Before Computers
 
 ## A brief history of cat modelling
 
