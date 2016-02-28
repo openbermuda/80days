@@ -35,7 +35,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/bermuda.xml</loc>
-  <lastmod>2016-02-22T21:02:00Z</lastmod>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/blades.xml</loc>
@@ -51,7 +51,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/caribbean.xml</loc>
-  <lastmod>2016-02-22T21:02:00Z</lastmod>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/cat_bermuda-cricket-blades.xml</loc>
@@ -211,7 +211,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/pi.xml</loc>
-  <lastmod>2016-02-22T20:10:00Z</lastmod>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/pycaribbean.xml</loc>
@@ -223,7 +223,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/python.xml</loc>
-  <lastmod>2016-02-22T21:02:00Z</lastmod>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/random.xml</loc>
@@ -311,7 +311,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/HackBermuda/rss.xml</loc>
-  <lastmod>2016-02-22T20:01:00Z</lastmod>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/HurricaneAlex/rss.xml</loc>
@@ -323,7 +323,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/Magic/rss.xml</loc>
-  <lastmod>2016-02-22T20:03:00Z</lastmod>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/PeakDistrict/rss.xml</loc>
@@ -358,15 +358,19 @@
   <lastmod>2016-02-22T20:00:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://openbermuda.github.io/80days/galleries/show/rss.xml</loc>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://openbermuda.github.io/80days/galleries/stub/rss.xml</loc>
   <lastmod>2016-02-22T20:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/rss.xml</loc>
-  <lastmod>2016-02-22T21:02:00Z</lastmod>
+  <lastmod>2016-02-28T00:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/sitemap.xml</loc>
-  <lastmod>2016-02-22T21:02:00Z</lastmod>
+  <lastmod>2016-02-28T00:53:00Z</lastmod>
  </sitemap>
 </sitemapindex>
