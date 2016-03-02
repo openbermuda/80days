@@ -117,11 +117,12 @@ class SlideShow:
                 if not image_file: continue
 
                 source = self.find_image(item)
+                
                 if source:
                     self.draw_image(image, item, source)
                 else:
-                    self.draw.text(
-                        (left, top), text, fill='white')
+                    # if no image, use text instead
+                    draw.text((left, top), text, fill='white')
                         
                       
             print()
