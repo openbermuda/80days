@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (bermuda)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link href="http://openbermuda.github.io/80days/categories/bermuda.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 28 Feb 2016 00:52:53 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pi Day in Bermuda, bring your shorts</title><link>http://openbermuda.github.io/80days/posts/pi-day-in-bermuda-bring-your-shorts.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;March 14th, or 3.14, is the first 3 digits of pi.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (bermuda)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/bermuda.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 04 Mar 2016 19:54:35 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pi Day in Bermuda, bring your shorts</title><link>http://openbermuda.github.io/80days/posts/pi-day-in-bermuda-bring-your-shorts.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;March 14th, or 3.14, is the first 3 digits of pi.&lt;/p&gt;
 &lt;p&gt;The next few digits are 15926535...&lt;/p&gt;
 &lt;p&gt;So around 2pm and 2am, all the digits align.  There are some ideas to
 do some fun things with raspberry pi's (and hopefully pies too).&lt;/p&gt;
@@ -747,7 +747,8 @@ to another Jupyter supported language is always an option.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-$$\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi$$$$Number \; -e^{i\pi}$$
+&lt;p&gt;\[\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi\]&lt;/p&gt;
+$$Number \; -e^{i\pi}$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1087,8 +1088,8 @@ better than it is found.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Around-the-world-in-80-days"&gt;Around the world in 80 days&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Around-the-world-in-80-days"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;This blog started as a blog for an idea to create an *Around the world
-in 80 days* idea, to run little competitions where people get miles
+&lt;h4 id="Around-the-world-in-80-days"&gt;Around the world in 80 days&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Around-the-world-in-80-days"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;This blog started as a blog for an idea to create an &lt;em&gt;Around the world
+in 80 days&lt;/em&gt; idea, to run little competitions where people get miles
 (or kilometers) for activities.  The idea is to see how far round the
 world you can get in 80 days, with fun twists along the way.
 One idea was to do an &lt;em&gt;Around Bermuda on Bermuda Bus and Ferry&lt;/em&gt;
@@ -1117,7 +1118,7 @@ October 2015, the date for the start of the Bermuda $\pi$.&lt;/p&gt;
 &lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# lets see what python says&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c1"&gt;# lets see what python says&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
 &lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
@@ -1184,8 +1185,8 @@ they turn up in mathematics they tend to be important.&lt;/p&gt;
 number by and leave it unchanged.&lt;/p&gt;
 &lt;p&gt;And there is 0.  The special number you can add to anything and leave it unchanged.&lt;/p&gt;
 &lt;p&gt;The equation is known as &lt;a href="https://en.wikipedia.org/wiki/Euler%27s_identity"&gt;Euler's identity&lt;/a&gt;:&lt;/p&gt;
-$$ e^{i\pi} + 1 = 0 $$&lt;p&gt;As this would be the first Bermuda $\pi$ it would:&lt;/p&gt;
-&lt;h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$"&gt;Bermuda $\pi$ Number 1 = $-e^{i\pi}$&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make it number one, every year.&lt;/p&gt;
+$$ e^{i\pi} + 1 = 0 $$&lt;p&gt;As this would be the first Bermuda $\pi$ it would be:&lt;/p&gt;
+&lt;h2 id="Bermuda-\(\pi\)-number-1-=-\(-e^{i\pi}\)"&gt;Bermuda \(\pi\) number 1 = \(-e^{i\pi}\)&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%5C(%5Cpi%5C)-number-1-=-%5C(-e%5E%7Bi%5Cpi%7D%5C)"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make it number one, every year.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;

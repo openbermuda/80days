@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html prefix="
-og: http://ogp.me/ns#
-article: http://ogp.me/ns/article#
-" lang="en">
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
+<base href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html">
 <meta name="description" content="ideas for Bermuda Pi">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>D Bermuda Pi | Around the world in 80 days</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 <link rel="canonical" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html">
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     tex2jax: {
@@ -22,7 +24,11 @@ MathJax.Hub.Config({
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
-</script><!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Johnny Gill">
+</script><!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+<meta name="description" itemprop="description" content="ideas for Bermuda Pi">
+<meta name="author" content="Johnny Gill">
+<link rel="prev" href="wheres-de-bus.html" title="Where's de bus" type="text/html">
+<link rel="next" href="future-proof-your-organisation-with-free-software.html" title="Future proof your organisation with free software" type="text/html">
 <meta property="og:site_name" content="Around the world in 80 days">
 <meta property="og:title" content="D Bermuda Pi">
 <meta property="og:url" content="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html">
@@ -36,40 +42,87 @@ MathJax.Hub.Config({
 <meta property="article:tag" content="raspberry pi">
 </head>
 <body>
-    <section class="social"><ul>
-<li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
-            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
-            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
-            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
-            <li><a href="https://twitter.com/swfiua" title="My Twitter"><i class="icon-twitter"></i></a></li>
-            <li><a href="https://github.com/swfiua" title="My Github"><i class="icon-github"></i></a></li>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
-        </ul></section><section class="page-content"><div class="content" rel="main">
-    <div class="post">
-        <h1 class="p-name entry-title" itemprop="headline name">D Bermuda Pi</h1>
+<!-- Menubar -->
 
-        <div class="meta">
-            <div class="authordate">
-                <time class="timeago" datetime="2015-06-22T21:12:40+00:00">2015-06-22 21:12</time>
-            
-                      |  
-        <a href="d-bermuda-pi.ipynb" id="sourcelink">Source</a>
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://openbermuda.github.io/80days/">
 
-            </div>
-                    <div itemprop="keywords" class="tags">
-        <ul>
-        Tags : 
-           <li><a class="tag p-category" href="../categories/bermuda.html" rel="tag">bermuda</a></li>
-           <li><a class="tag p-category" href="../categories/chewstick.html" rel="tag">chewstick</a></li>
-           <li><a class="tag p-category" href="../categories/education.html" rel="tag">education</a></li>
-           <li><a class="tag p-category" href="../categories/python.html" rel="tag">python</a></li>
-           <li><a class="tag p-category" href="../categories/raspberry-pi.html" rel="tag">raspberry pi</a></li>
-        </ul>
-</div>
-
+                <span id="blog-title">Around the world in 80 days</span>
+            </a>
         </div>
-        <div class="body">
-            <div tabindex="-1" id="notebook" class="border-box-sizing">
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../index.html">Home</a>
+                </li>
+<li>
+<a href="../archive.html">Archives</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS</a>
+                </li>
+<li>
+<a href="https://twitter.com/swfiua">My Twitter</a>
+                </li>
+<li>
+<a href="https://github.com/swfiua">My Github</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="d-bermuda-pi.ipynb" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">D Bermuda Pi</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                    Johnny Gill
+            </span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2015-06-22T21:12:40Z" itemprop="datePublished" title="2015-06-22 21:12">2015-06-22 21:12</time></a></p>
+                <p class="commentline">
+        
+    <a href="d-bermuda-pi.html#disqus_thread" data-disqus-identifier="cache/posts/d-bermuda-pi.html">Comments</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="d-bermuda-pi.ipynb" id="sourcelink">Source</a></p>
+
+                <meta name="description" itemprop="description" content="ideas for Bermuda Pi">
+</div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
 <div class="cell border-box-sizing text_cell rendered">
@@ -87,7 +140,8 @@ MathJax.Hub.Config({
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi$$$$Number \; -e^{i\pi}$$
+<p>\[\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi\]</p>
+$$Number \; -e^{i\pi}$$
 </div>
 </div>
 </div>
@@ -472,8 +526,8 @@ better than it is found.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Around-the-world-in-80-days">Around the world in 80 days<a class="anchor-link" href="d-bermuda-pi.html#Around-the-world-in-80-days">¶</a>
 </h4>
-<p>This blog started as a blog for an idea to create an *Around the world
-in 80 days* idea, to run little competitions where people get miles
+<p>This blog started as a blog for an idea to create an <em>Around the world
+in 80 days</em> idea, to run little competitions where people get miles
 (or kilometers) for activities.  The idea is to see how far round the
 world you can get in 80 days, with fun twists along the way.
 One idea was to do an <em>Around Bermuda on Bermuda Bus and Ferry</em>
@@ -502,7 +556,7 @@ October 2015, the date for the start of the Bermuda $\pi$.</p>
 <div class="prompt input_prompt">In [6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="c"># lets see what python says</span>
+<div class=" highlight hl-ipython3"><pre><span class="c1"># lets see what python says</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
 <span class="n">bermuda_pi_start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 
@@ -572,8 +626,8 @@ they turn up in mathematics they tend to be important.</p>
 number by and leave it unchanged.</p>
 <p>And there is 0.  The special number you can add to anything and leave it unchanged.</p>
 <p>The equation is known as <a href="https://en.wikipedia.org/wiki/Euler%27s_identity">Euler's identity</a>:</p>
-$$ e^{i\pi} + 1 = 0 $$<p>As this would be the first Bermuda $\pi$ it would:</p>
-<h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$">Bermuda $\pi$ Number 1 = $-e^{i\pi}$<a class="anchor-link" href="d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24">¶</a>
+$$ e^{i\pi} + 1 = 0 $$<p>As this would be the first Bermuda $\pi$ it would be:</p>
+<h2 id="Bermuda-\(\pi\)-number-1-=-\(-e^{i\pi}\)">Bermuda \(\pi\) number 1 = \(-e^{i\pi}\)<a class="anchor-link" href="d-bermuda-pi.html#Bermuda-%5C(%5Cpi%5C)-number-1-=-%5C(-e%5E%7Bi%5Cpi%7D%5C)">¶</a>
 </h2>
 <p>Let's make it number one, every year.</p>
 
@@ -583,16 +637,25 @@ $$ e^{i\pi} + 1 = 0 $$<p>As this would be the first Bermuda $\pi$ it would:</p>
     </div>
   </div>
 
-        </div>
-                <ul class="pager hidden-print">
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../categories/bermuda.html" rel="tag">bermuda</a></li>
+            <li><a class="tag p-category" href="../categories/chewstick.html" rel="tag">chewstick</a></li>
+            <li><a class="tag p-category" href="../categories/education.html" rel="tag">education</a></li>
+            <li><a class="tag p-category" href="../categories/python.html" rel="tag">python</a></li>
+            <li><a class="tag p-category" href="../categories/raspberry-pi.html" rel="tag">raspberry pi</a></li>
+        </ul>
+<ul class="pager hidden-print">
 <li class="previous">
                 <a href="wheres-de-bus.html" rel="prev" title="Where's de bus">Previous post</a>
             </li>
             <li class="next">
                 <a href="future-proof-your-organisation-with-free-software.html" rel="next" title="Future proof your organisation with free software">Next post</a>
             </li>
-        </ul>
-<div id="disqus_thread"></div>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="eightydays",
             disqus_url="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html",
@@ -611,17 +674,25 @@ $$ e^{i\pi} + 1 = 0 $$<p>As this would be the first Bermuda $\pi$ it would:</p>
     <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-    </div>
-                    <footer id="footer"><p>Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+        </section><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script><script>
+                renderMathInElement(document.body);
+            </script></article><script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2016         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-</p>
+
             
         </footer>
 </div>
-    </section><script src="../assets/js/all-nocdn.js" type="text/javascript"></script><script type="text/javascript">
-            $(function(){
-                $('.timeago').timeago();
-            });
-        </script>
+</div>
+
+
+            <script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
 </body>
 </html>
