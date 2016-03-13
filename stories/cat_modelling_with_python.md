@@ -18,6 +18,7 @@ Catastrophe and catastrophe theory.
 
 # A brief history of cat modelling
 
+tickkle.png and pearl.png
 
 ## a personal history
 
@@ -29,11 +30,13 @@ And naming conventions.
 
 PeakDistrict/summit.jpg
 
-Snowy/coding.jpg + Snowy/coding.jpg
+Snowy/coding.jpg + bermuda.png
 
 # Four Yorkshiremen
 
   A trip down memory lane
+
+Magic/old_school.jpg
 
 python linux git 
 
@@ -116,6 +119,8 @@ Magic/stacked.png
 feedback loops and control
 
 # Oasis
+
+Bridges/oasis_bridge.png
 
 # The future
 
