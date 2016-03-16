@@ -97,6 +97,8 @@ Catastrophes change plans
 
 Chaco to matplotlib
 
+kite.jpg
+
 # Matplotlib and the tale of the stacked bar chart
 
 Magic/stacked.png
