@@ -6,9 +6,9 @@
 
    github.com/[swfiua|peakrisk|openbermuda]
 
-# Snowy
+# Cat or Catastrophe
 
-Snowy/coding.jpg
+Snowy/cat_help.jpg treedownfay.jpg
 
 ## cats and catastrophes
 
@@ -18,7 +18,7 @@ Catastrophe and catastrophe theory.
 
 # A brief history of cat modelling
 
-tickkle.png and pearl.png
+pearly.png and moongate.png
 
 ## a personal history
 
@@ -28,9 +28,9 @@ And naming conventions.
 
 # History and maths
 
-PeakDistrict/summit.jpg
+berkeley_pi.jpg
 
-Snowy/coding.jpg + bermuda.png
+Snowy/coding.jpg + roof.png
 
 # Four Yorkshiremen
 
@@ -38,18 +38,21 @@ Snowy/coding.jpg + bermuda.png
 
 Magic/old_school.jpg
 
-python linux git 
+linux python git 
 
 redhat debian ubuntu ....
 
 
 # Supercomputers
 
-sgi or cray
+sgi or raspberry pi
 
-  256 MB memory
-  2 CPU ?MFLOPs
-  3GB disk
+sgi.png or sense_hat.png
+
+memory: 256MB 1GB
+
+flops: ?MFLOPs or ?GFLOPS
+disk:  3GB or 32GB
   
 
 ## SGI Indigo and Voyager/Challenger?
@@ -89,6 +92,8 @@ python 2.x with added GPS
 
 # Event driven development
 
+tree_down.jpg
+
 Catastrophes change plans
 
 # Plotting for fun and profit
@@ -99,20 +104,33 @@ Chaco to matplotlib
 
 Magic/stacked.png
 
+# Claims 2
+
 # The year of the four hurricanes
 
-# Claims 2
+joaquin.png gonzalo.png
+
+alex.png treeup.png
 
 # More matplotlib
 
-
 # Earthquakes in Christchurch
+
+packed.jpg take_me_with_you.jpg snowy_wilson.jpg
+
+Cats come in threes
 
 ## time to update the models
 
 # Black box models
 
+schrodinger.jpg = kiskadee.png
+
+moongate.png
+
 # The present
+
+solar.jpg
 
 # Cyber
 
@@ -120,15 +138,19 @@ feedback loops and control
 
 # Oasis
 
-Bridges/oasis_bridge.png
+any_bridge.png or Bridges/oasis_bridge.png
 
-# The future
+walk_on_water.jpg
 
-# Cats and python
+# Pandas and Jupyter
 
-PeakDistrict/summit.jpg
+panda.png and jupyter.png
 
-Snowy/coding.jpg + Snowy/coding.jpg
+magic_at_your_fingertips.png
+
+# Explore, Dream, Discover
+
+dream.png
 
 ## A brief history of cat modelling
 
