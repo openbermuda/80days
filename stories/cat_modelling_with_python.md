@@ -18,7 +18,9 @@ Catastrophe and catastrophe theory.
 
 # A brief history of cat modelling
 
-pearly.png and moongate.png
+.........perl and python  pearly.png 
+
+moongate.png TCL and Tk........
 
 ## a personal history
 
@@ -32,15 +34,11 @@ berkeley_pi.jpg
 
 Snowy/coding.jpg + roof.png
 
-# Four Yorkshiremen
+# Old School
 
-  A trip down memory lane
+Magic/old_school.jpg berkeley_pi.jpg
 
-Magic/old_school.jpg
-
-linux python git 
-
-redhat debian ubuntu ....
+## linux python git redhat debian ubuntu ....
 
 
 # Supercomputers
@@ -68,12 +66,9 @@ intel pentium?
 
 C++ (oops!)
 
-# RedHat
-
-5.1 with Dell
-
 # Galois
 
+RedHat 5.1 with Dell
 36GB Disk
 512MB RAM
 1 Xeon? cpu
@@ -89,6 +84,8 @@ Fishnet/guido.png and HackBermuda/cityhall.jpg
 # Python and GPS
 
 python 2.x with added GPS
+
+python.jpg + gps.jpg
 
 # Event driven development
 
@@ -106,6 +103,8 @@ Magic/stacked.png
 
 # Claims 2
 
+cat_with_hat.jpg
+
 # The year of the four hurricanes
 
 joaquin.png gonzalo.png
@@ -113,6 +112,8 @@ joaquin.png gonzalo.png
 alex.png treeup.png
 
 # More matplotlib
+
+
 
 # Earthquakes in Christchurch
 
@@ -130,9 +131,13 @@ moongate.png
 
 # The present
 
+winter_canoe.png and snow.jpg
+
 solar.jpg
 
 # Cyber
+
+tandem_solo.jpg
 
 feedback loops and control
 
@@ -146,7 +151,13 @@ walk_on_water.jpg
 
 panda.png and jupyter.png
 
-magic_at_your_fingertips.png
+magic_at_fingertips.png
+
+# John Hunter and Peter Taylor
+
+ripples.png
+
+Ripples in space time, shaping our future
 
 # Explore, Dream, Discover
 
