@@ -111,17 +111,18 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/index.html', 'Home', 'icon-home'),
-        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
-        ('/categories/index.html', 'Tags', 'icon-tags'),
-        ('/rss.xml', 'RSS', 'icon-rss'),
-        ('https://twitter.com/swfiua', 'My Twitter', 'icon-twitter'),
-        ('https://github.com/swfiua', 'My Github', 'icon-github'),
+        ('/index.html', 'Home'),
+        ('/archive.html', 'Archives'),
+        ('/categories/index.html', 'Tags'),
+        ('/rss.xml', 'RSS'),
+        ('https://twitter.com/swfiua', 'My Twitter'),
+        ('https://github.com/swfiua', 'My Github'),
     )
 }
 
 # Name of the theme to use.
-THEME = "zen-ipython"
+THEME = "bootstrap3"
+THEME_COLOR = '#5670d4'
 
 # Below this point, everything is optional
 
@@ -473,7 +474,7 @@ GITHUB_DEPLOY_BRANCH = 'gh-pages'
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
 INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
 # 'Read more...' for the RSS_FEED, if RSS_TEASERS is True (translatable)
-RSS_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
+FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
@@ -599,6 +600,8 @@ DEPLOY_DRAFTS = False
 
 # If you are using the compile-ipynb plugin, just add this one:
 MATHJAX_CONFIG = """
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     tex2jax: {
@@ -612,6 +615,25 @@ MathJax.Hub.Config({
 });
 </script>
 """
+
+KATEX_CONFIG = r"""
+<script type="text/javascript">
+    renderMathInElement(document.body, {delimiters: [
+    {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+    {left: "\\[", right: "\\]", display: true},
+    {left: "\\(", right: "\\)", display: false},
+    {left: "$latex ", right: "$", display: false}
+    ]})
+</script>
+"""
+
+# Want to use KaTeX instead of MathJax? While KaTeX is less featureful,
+# it's faster and the output looks better.
+# If you set USE_KATEX to True, you also need to add an extra CSS file
+# like this:
+EXTRA_HEAD_DATA = """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">"""
+USE_KATEX = True
+
 
 # Do you want to customize the nbconversion of your IPython notebook?
 # IPYNB_CONFIG = {}

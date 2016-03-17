@@ -6,24 +6,124 @@
 
    github.com/[swfiua|peakrisk|openbermuda]
 
-# A Cat
+# Snowy
 
 Snowy/coding.jpg
 
-# Cats and Python
+## cats and catastrophes
+
+Explain we are not talking about cats, but there will be cat pictures.
+
+Catastrophe and catastrophe theory.
+
+# A brief history of cat modelling
+
+
+## a personal history
+
+Will talk about the computers and languages being used.
+
+And naming conventions.
+
+# History and maths
 
 PeakDistrict/summit.jpg
 
 Snowy/coding.jpg + Snowy/coding.jpg
+
+# Four Yorkshiremen
+
+  A trip down memory lane
+
+python linux git 
+
+redhat debian ubuntu ....
+
+
+# Supercomputers
+
+sgi or cray
+
+  256 MB memory
+  2 CPU ?MFLOPs
+  3GB disk
+  
+
+## SGI Indigo and Voyager/Challenger?
+
+# Linux 
+
+Redhat 4.1 
+
+64MB memory
+intel pentium?
+
+<1GB disk
+
+C++ (oops!)
+
+# RedHat
+
+5.1 with Dell
+
+# Galois
+
+36GB Disk
+512MB RAM
+1 Xeon? cpu
+
+## fermat, cantor, gauss
+
+2 x SGI speed
+
+# Tickle and Compass
+
+Fishnet/guido.png and HackBermuda/cityhall.jpg
+
+# Python and GPS
+
+python 2.x with added GPS
+
+# Event driven development
+
+Catastrophes change plans
+
+# Plotting for fun and profit
+
+Chaco to matplotlib
+
+# Matplotlib and the tale of the stacked bar chart
+
+Magic/stacked.png
+
+# The year of the four hurricanes
+
+# Claims 2
+
+# More matplotlib
+
+
+# Earthquakes in Christchurch
+
+## time to update the models
+
+# Black box models
+
+# The present
+
+# Cyber
+
+feedback loops and control
+
+# Oasis
+
+# The future
 
 # Cats and python
 
 PeakDistrict/summit.jpg
 
 Snowy/coding.jpg + Snowy/coding.jpg
-# Cat Modelling
-   
-# BC - Before Computers
 
 ## A brief history of cat modelling
 
