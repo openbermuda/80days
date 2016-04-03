@@ -115,7 +115,7 @@ alex.png treeup.png
 
 # More matplotlib
 
-
+pi_wind_tracks.png + hackathon_bermuda.jpg
 
 # Earthquakes in Christchurch
 
@@ -136,6 +136,10 @@ moongate.png
 winter_canoe.png and snow.jpg
 
 solar.jpg
+
+# Heating up
+
+world_heat.png
 
 # Cyber
 
@@ -164,6 +168,10 @@ Ripples in space time, shaping our future
 # Explore, Dream, Discover
 
 dream.png
+
+# Sunshine
+
+sunset.jpg
 
 ## A brief history of cat modelling
 
