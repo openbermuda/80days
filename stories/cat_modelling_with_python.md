@@ -36,7 +36,7 @@ Snowy/coding.jpg + roof.png
 
 # Old School
 
-Magic/old_school.jpg berkeley_pi.jpg
+Magic/old_school.jpg old_school_jazz.jpg
 
 ## linux python git redhat debian ubuntu ....
 
@@ -113,9 +113,11 @@ joaquin.png gonzalo.png
 
 alex.png treeup.png
 
-# More matplotlib
+# The Town of Pi
 
 pi_wind_tracks.png + hackathon_bermuda.jpg
+
+Melton Mowbray Pi
 
 # Earthquakes in Christchurch
 
@@ -158,6 +160,10 @@ walk_on_water.jpg
 panda.png and jupyter.png
 
 magic_at_fingertips.png
+
+# Karma Pi
+
+karmapi.png
 
 # John Hunter and Peter Taylor
 
