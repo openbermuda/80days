@@ -36,7 +36,7 @@ Snowy/coding.jpg + roof.png
 
 # Old School
 
-Magic/old_school.jpg old_school_jazz.jpg
+Magic/old_school.jpg old_school_jazz2.jpg
 
 ## linux python git redhat debian ubuntu ....
 
@@ -161,15 +161,19 @@ panda.png and jupyter.png
 
 magic_at_fingertips.png
 
-# Karma Pi
+# Karma Cat
 
-karmapi.png
+sooty.png
 
 # John Hunter and Peter Taylor
 
 ripples.png
 
 Ripples in space time, shaping our future
+
+# Everest
+
+summit.jpg
 
 # Explore, Dream, Discover
 
