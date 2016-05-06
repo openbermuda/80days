@@ -43,15 +43,10 @@ Magic/old_school.jpg old_school_jazz2.jpg
 
 # Supercomputers
 
-sgi or raspberry pi
+sense_hat.png
 
-sgi.png or sense_hat.png
+sgi.png or raspberry_stats.png
 
-memory: 256MB 1GB
-
-flops: ?MFLOPs or ?GFLOPS
-disk:  3GB or 32GB
-  
 
 ## SGI Indigo and Voyager/Challenger?
 
@@ -72,6 +67,8 @@ RedHat 5.1 with Dell
 36GB Disk
 512MB RAM
 1 Xeon? cpu
+
+fish.jpg + nash.jpg
 
 ## fermat, cantor, gauss
 
@@ -157,7 +154,7 @@ walk_on_water.jpg
 
 # Pandas and Jupyter
 
-panda.png and jupyter.png
+Magic/panda.jpg and jupyter.png
 
 magic_at_fingertips.png
 
